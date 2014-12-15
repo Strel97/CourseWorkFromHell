@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_controller_8cpp" kind="file">
+    <compoundname>Controller.cpp</compoundname>
+    <includes refid="_controller_8h" local="yes">Controller.h</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">new</includes>
+    <includes local="no">exception</includes>
+    <incdepgraph>
+      <node id="509">
+        <label>cassert</label>
+      </node>
+      <node id="503">
+        <label>Controller.cpp</label>
+        <link refid="Controller.cpp"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="511" relation="include">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>string</label>
+      </node>
+      <node id="504">
+        <label>Controller.h</label>
+        <link refid="_controller_8h"/>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+      </node>
+      <node id="511">
+        <label>exception</label>
+      </node>
+      <node id="507">
+        <label>RapidXml/rapidxml.hpp</label>
+      </node>
+      <node id="505">
+        <label>vector</label>
+      </node>
+      <node id="510">
+        <label>new</label>
+      </node>
+      <node id="508">
+        <label>cstdlib</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_controller_8h" kindref="compound">Controller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>Controller&lt;CType&gt;::Controller()</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>void<sp/>Controller&lt;CType&gt;::add(CType<sp/>node)</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/>_container.push_back(<sp/>node<sp/>);</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>void<sp/>Controller&lt;CType&gt;::del(int<sp/>id)</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/>if<sp/>(validateID(id))</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_container.erase(_container.begin()<sp/>+<sp/>id);</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>void<sp/>Controller&lt;CType&gt;::del(CType<sp/>node)</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/>for<sp/>(typename<sp/>vector&lt;CType&gt;::iterator<sp/>iter<sp/>=<sp/>_container.begin();<sp/>iter<sp/>!=<sp/>_container.end();<sp/>iter++)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(*iter<sp/>==<sp/>node)</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_container.erase(iter);</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>vector&lt;CType&gt;<sp/>Controller&lt;CType&gt;::getContainer()</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>_container;</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment">template<sp/>&lt;class<sp/>CType&gt;<sp/>bool<sp/>Controller&lt;CType&gt;::validateID(int<sp/>id)</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>(id<sp/>&gt;=<sp/>0)<sp/>&amp;&amp;<sp/>(id<sp/>&lt;<sp/>_container.size());</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.cpp"/>
+  </compounddef>
+</doxygen>

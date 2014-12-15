@@ -1,0 +1,581 @@
+\hypertarget{class_data_base}{\section{Data\-Base Class Reference}
+\label{class_data_base}\index{Data\-Base@{Data\-Base}}
+}
+
+
+The \hyperlink{class_data_base}{Data\-Base} class Imitates the work of \hyperlink{class_data_base}{Data\-Base}.  
+
+
+
+
+{\ttfamily \#include $<$Data\-Base.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_data_base_a0b3291241e49d9b9634b3de61678a477}{Data\-Base} (void)
+\item 
+\hyperlink{class_data_base_adf40fe9249bbce059d5f2cd2258e7d6f}{$\sim$\-Data\-Base} (void)
+\item 
+void \hyperlink{class_data_base_adb4b3e45b6999bd0dffda26a11beb4f9}{add\-Player} (\hyperlink{class_player}{Player})
+\begin{DoxyCompactList}\small\item\em add\-Player Adds new \hyperlink{class_player}{Player} to database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a9a11414e2bdb19b83e4c809a8d7d9ea2}{del\-Player} (int id)
+\begin{DoxyCompactList}\small\item\em del\-Player Deletes existing \hyperlink{class_player}{Player} from database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a1a4731ade06cc1a3db9d8fdc922bb2de}{edit\-Player} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit\-Player Changes information about \hyperlink{class_player}{Player} in D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{class_data_base_a03fed8ac60602990cf664a909a264a2a}{get\-Player} (int id)
+\begin{DoxyCompactList}\small\item\em get\-Player Searches and returns player from D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{class_data_base_ac96812e42a636dbed6f67e1dd5929583}{get\-Player} (string name)
+\begin{DoxyCompactList}\small\item\em get\-Player Searches and returns player from D\-B \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_player}{Player} $>$ \hyperlink{class_data_base_a75ff20bfd5026b449a100eb921d4782f}{get\-All\-Players} ()
+\begin{DoxyCompactList}\small\item\em get\-All\-Players Returns all players from D\-B \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a9ec33a7d1b80f0a2ac1ea4bc1cae0250}{add\-Game} (\hyperlink{class_game}{Game})
+\begin{DoxyCompactList}\small\item\em add\-Game Adds new \hyperlink{class_game}{Game} to database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_ab8c99e8127da0e91f9c781df34354e95}{del\-Game} (int)
+\begin{DoxyCompactList}\small\item\em del\-Game Deletes existing \hyperlink{class_game}{Game} from database by specified id \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a34bfc02d1b00880b4e0e8649a72ced65}{edit\-Game} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit\-Game Changes information about \hyperlink{class_game}{Game} in D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_data_base_aa8d315a9be22cdb1307bdcc9b7a2f582}{get\-Game} (int id)
+\begin{DoxyCompactList}\small\item\em get\-Game Searches and returns game from D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_data_base_ad2a82229b013ff5a9c8c601c1dc31644}{get\-Game\-By\-Date} (string date)
+\begin{DoxyCompactList}\small\item\em get\-Game\-By\-Date Searches and returns game from D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_data_base_aded9581d3a3a49f2bcef9b85d47df91a}{get\-Game\-By\-Opponent} (string opponent)
+\begin{DoxyCompactList}\small\item\em get\-Game\-By\-Opponent Searches and returns game from D\-B \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_game}{Game} $>$ \hyperlink{class_data_base_aefef256aaad12ee1be50641880fe02f3}{get\-All\-Games} ()
+\begin{DoxyCompactList}\small\item\em get\-All\-Games Returns the list of all games from db \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_af298db6d84a93e352aa9915dfbaefd4a}{sort\-Games\-By\-Date} ()
+\begin{DoxyCompactList}\small\item\em sort\-Games\-By\-Date Sortes games by date in db \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a7ded6aadeece170243c9c65cc976704e}{sort\-Games\-By\-Result} ()
+\begin{DoxyCompactList}\small\item\em sort\-Games\-By\-Result Sortes game by result in db \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_ab647a42c48cbaaa71446c4c6359c2594}{add\-Stadium} (\hyperlink{class_stadium}{Stadium})
+\begin{DoxyCompactList}\small\item\em add\-Stadium Adds new \hyperlink{class_stadium}{Stadium} to database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a169759f8c5addb82ce8fbf5c33cfe4ac}{del\-Stadium} (int id)
+\begin{DoxyCompactList}\small\item\em del\-Stadium Deletes existing \hyperlink{class_stadium}{Stadium} from database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_ab245fb2247cf98e0fccfaf90d4f1e665}{edit\-Stadium} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit\-Stadium Changes information about \hyperlink{class_stadium}{Stadium} in D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_stadium}{Stadium} $\ast$ \hyperlink{class_data_base_ac74f70e78835fe65bc511996cdec1271}{get\-Stadium} (int id)
+\begin{DoxyCompactList}\small\item\em get\-Stadium Searches and returns stadium from D\-B \end{DoxyCompactList}\item 
+\hyperlink{class_stadium}{Stadium} $\ast$ \hyperlink{class_data_base_a6b9befc23eec89afb2358edba78f8d5b}{get\-Stadium} (string name)
+\begin{DoxyCompactList}\small\item\em get\-Stadium Searches and returns stadium from D\-B \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_stadium}{Stadium} $>$ \hyperlink{class_data_base_abbe9017e9a0b50e670e6a34114d34eaa}{get\-All\-Stadiums} ()
+\begin{DoxyCompactList}\small\item\em get\-All\-Stadiums Returns the list of all stadiums from db \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_a334b5c4d7bb70a95a1c21e2370c492fa}{save\-To\-File} ()
+\begin{DoxyCompactList}\small\item\em save\-To\-File Serializes the whole database \end{DoxyCompactList}\item 
+void \hyperlink{class_data_base_aa3daa078a985299d3a9ecbee1bdc9f2d}{load\-From\-File} ()
+\begin{DoxyCompactList}\small\item\em load\-From\-File Deserializes database \end{DoxyCompactList}\item 
+string \hyperlink{class_data_base_a159f1697e0970519da41ef52051c3194}{get\-D\-B\-File\-Name} ()
+\begin{DoxyCompactList}\small\item\em get\-D\-B\-File\-Name Returns database name \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_data_base}{Data\-Base} class Imitates the work of \hyperlink{class_data_base}{Data\-Base}. 
+
+This class contains methods for players, teams, stadiums and games managing 
+
+Definition at line 28 of file Data\-Base.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_data_base_a0b3291241e49d9b9634b3de61678a477}{\index{Data\-Base@{Data\-Base}!Data\-Base@{Data\-Base}}
+\index{Data\-Base@{Data\-Base}!DataBase@{Data\-Base}}
+\subsubsection[{Data\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Base\-::\-Data\-Base (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a0b3291241e49d9b9634b3de61678a477}
+
+
+Definition at line 4 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_adf40fe9249bbce059d5f2cd2258e7d6f}{\index{Data\-Base@{Data\-Base}!$\sim$\-Data\-Base@{$\sim$\-Data\-Base}}
+\index{$\sim$\-Data\-Base@{$\sim$\-Data\-Base}!DataBase@{Data\-Base}}
+\subsubsection[{$\sim$\-Data\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Base\-::$\sim$\-Data\-Base (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_adf40fe9249bbce059d5f2cd2258e7d6f}
+
+
+Definition at line 9 of file Data\-Base.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_data_base_a9ec33a7d1b80f0a2ac1ea4bc1cae0250}{\index{Data\-Base@{Data\-Base}!add\-Game@{add\-Game}}
+\index{add\-Game@{add\-Game}!DataBase@{Data\-Base}}
+\subsubsection[{add\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::add\-Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Game}}]{game}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a9ec33a7d1b80f0a2ac1ea4bc1cae0250}
+
+
+add\-Game Adds new \hyperlink{class_game}{Game} to database 
+
+
+
+Definition at line 46 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_adb4b3e45b6999bd0dffda26a11beb4f9}{\index{Data\-Base@{Data\-Base}!add\-Player@{add\-Player}}
+\index{add\-Player@{add\-Player}!DataBase@{Data\-Base}}
+\subsubsection[{add\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::add\-Player (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_adb4b3e45b6999bd0dffda26a11beb4f9}
+
+
+add\-Player Adds new \hyperlink{class_player}{Player} to database 
+
+
+
+Definition at line 14 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ab647a42c48cbaaa71446c4c6359c2594}{\index{Data\-Base@{Data\-Base}!add\-Stadium@{add\-Stadium}}
+\index{add\-Stadium@{add\-Stadium}!DataBase@{Data\-Base}}
+\subsubsection[{add\-Stadium}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::add\-Stadium (
+\begin{DoxyParamCaption}
+\item[{{\bf Stadium}}]{stadium}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ab647a42c48cbaaa71446c4c6359c2594}
+
+
+add\-Stadium Adds new \hyperlink{class_stadium}{Stadium} to database 
+
+
+
+Definition at line 107 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ab8c99e8127da0e91f9c781df34354e95}{\index{Data\-Base@{Data\-Base}!del\-Game@{del\-Game}}
+\index{del\-Game@{del\-Game}!DataBase@{Data\-Base}}
+\subsubsection[{del\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::del\-Game (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ab8c99e8127da0e91f9c781df34354e95}
+
+
+del\-Game Deletes existing \hyperlink{class_game}{Game} from database by specified id 
+
+
+
+Definition at line 66 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a9a11414e2bdb19b83e4c809a8d7d9ea2}{\index{Data\-Base@{Data\-Base}!del\-Player@{del\-Player}}
+\index{del\-Player@{del\-Player}!DataBase@{Data\-Base}}
+\subsubsection[{del\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::del\-Player (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a9a11414e2bdb19b83e4c809a8d7d9ea2}
+
+
+del\-Player Deletes existing \hyperlink{class_player}{Player} from database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of player in D\-B \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 19 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a169759f8c5addb82ce8fbf5c33cfe4ac}{\index{Data\-Base@{Data\-Base}!del\-Stadium@{del\-Stadium}}
+\index{del\-Stadium@{del\-Stadium}!DataBase@{Data\-Base}}
+\subsubsection[{del\-Stadium}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::del\-Stadium (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a169759f8c5addb82ce8fbf5c33cfe4ac}
+
+
+del\-Stadium Deletes existing \hyperlink{class_stadium}{Stadium} from database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of stadium to delete \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 112 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a34bfc02d1b00880b4e0e8649a72ced65}{\index{Data\-Base@{Data\-Base}!edit\-Game@{edit\-Game}}
+\index{edit\-Game@{edit\-Game}!DataBase@{Data\-Base}}
+\subsubsection[{edit\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::edit\-Game (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a34bfc02d1b00880b4e0e8649a72ced65}
+
+
+edit\-Game Changes information about \hyperlink{class_game}{Game} in D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of game in D\-B \\
+\hline
+{\em field} & Field to change \\
+\hline
+{\em value} & New value of field \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a1a4731ade06cc1a3db9d8fdc922bb2de}{\index{Data\-Base@{Data\-Base}!edit\-Player@{edit\-Player}}
+\index{edit\-Player@{edit\-Player}!DataBase@{Data\-Base}}
+\subsubsection[{edit\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::edit\-Player (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a1a4731ade06cc1a3db9d8fdc922bb2de}
+
+
+edit\-Player Changes information about \hyperlink{class_player}{Player} in D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of player in D\-B \\
+\hline
+{\em field} & Field to change \\
+\hline
+{\em value} & New value of field \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ab245fb2247cf98e0fccfaf90d4f1e665}{\index{Data\-Base@{Data\-Base}!edit\-Stadium@{edit\-Stadium}}
+\index{edit\-Stadium@{edit\-Stadium}!DataBase@{Data\-Base}}
+\subsubsection[{edit\-Stadium}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::edit\-Stadium (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ab245fb2247cf98e0fccfaf90d4f1e665}
+
+
+edit\-Stadium Changes information about \hyperlink{class_stadium}{Stadium} in D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of stadium in D\-B \\
+\hline
+{\em field} & Field to change \\
+\hline
+{\em value} & New value of field \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 117 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_aefef256aaad12ee1be50641880fe02f3}{\index{Data\-Base@{Data\-Base}!get\-All\-Games@{get\-All\-Games}}
+\index{get\-All\-Games@{get\-All\-Games}!DataBase@{Data\-Base}}
+\subsubsection[{get\-All\-Games}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Game} $>$ Data\-Base\-::get\-All\-Games (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_aefef256aaad12ee1be50641880fe02f3}
+
+
+get\-All\-Games Returns the list of all games from db 
+
+\begin{DoxyReturn}{Returns}
+List of all games 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a75ff20bfd5026b449a100eb921d4782f}{\index{Data\-Base@{Data\-Base}!get\-All\-Players@{get\-All\-Players}}
+\index{get\-All\-Players@{get\-All\-Players}!DataBase@{Data\-Base}}
+\subsubsection[{get\-All\-Players}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Player} $>$ Data\-Base\-::get\-All\-Players (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a75ff20bfd5026b449a100eb921d4782f}
+
+
+get\-All\-Players Returns all players from D\-B 
+
+\begin{DoxyReturn}{Returns}
+Players list 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_abbe9017e9a0b50e670e6a34114d34eaa}{\index{Data\-Base@{Data\-Base}!get\-All\-Stadiums@{get\-All\-Stadiums}}
+\index{get\-All\-Stadiums@{get\-All\-Stadiums}!DataBase@{Data\-Base}}
+\subsubsection[{get\-All\-Stadiums}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Stadium} $>$ Data\-Base\-::get\-All\-Stadiums (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_abbe9017e9a0b50e670e6a34114d34eaa}
+
+
+get\-All\-Stadiums Returns the list of all stadiums from db 
+
+\begin{DoxyReturn}{Returns}
+List of all stadiums 
+\end{DoxyReturn}
+
+
+Definition at line 132 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a159f1697e0970519da41ef52051c3194}{\index{Data\-Base@{Data\-Base}!get\-D\-B\-File\-Name@{get\-D\-B\-File\-Name}}
+\index{get\-D\-B\-File\-Name@{get\-D\-B\-File\-Name}!DataBase@{Data\-Base}}
+\subsubsection[{get\-D\-B\-File\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Data\-Base\-::get\-D\-B\-File\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a159f1697e0970519da41ef52051c3194}
+
+
+get\-D\-B\-File\-Name Returns database name 
+
+\begin{DoxyReturn}{Returns}
+D\-B name 
+\end{DoxyReturn}
+
+
+Definition at line 185 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_aa8d315a9be22cdb1307bdcc9b7a2f582}{\index{Data\-Base@{Data\-Base}!get\-Game@{get\-Game}}
+\index{get\-Game@{get\-Game}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Game}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Data\-Base\-::get\-Game (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_aa8d315a9be22cdb1307bdcc9b7a2f582}
+
+
+get\-Game Searches and returns game from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of game in D\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_game}{Game} object
+\end{DoxyReturn}
+It searches game by specified id in D\-B 
+
+Definition at line 76 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ad2a82229b013ff5a9c8c601c1dc31644}{\index{Data\-Base@{Data\-Base}!get\-Game\-By\-Date@{get\-Game\-By\-Date}}
+\index{get\-Game\-By\-Date@{get\-Game\-By\-Date}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Game\-By\-Date}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Data\-Base\-::get\-Game\-By\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{date}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ad2a82229b013ff5a9c8c601c1dc31644}
+
+
+get\-Game\-By\-Date Searches and returns game from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & Date of game \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_game}{Game} object
+\end{DoxyReturn}
+It searches game by specified date in D\-B 
+
+Definition at line 81 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_aded9581d3a3a49f2bcef9b85d47df91a}{\index{Data\-Base@{Data\-Base}!get\-Game\-By\-Opponent@{get\-Game\-By\-Opponent}}
+\index{get\-Game\-By\-Opponent@{get\-Game\-By\-Opponent}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Game\-By\-Opponent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Data\-Base\-::get\-Game\-By\-Opponent (
+\begin{DoxyParamCaption}
+\item[{string}]{opponent}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_aded9581d3a3a49f2bcef9b85d47df91a}
+
+
+get\-Game\-By\-Opponent Searches and returns game from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em opponent} & Opponent team name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_game}{Game} object
+\end{DoxyReturn}
+It searches game by specified opponent teamname in D\-B 
+
+Definition at line 86 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a03fed8ac60602990cf664a909a264a2a}{\index{Data\-Base@{Data\-Base}!get\-Player@{get\-Player}}
+\index{get\-Player@{get\-Player}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player} $\ast$ Data\-Base\-::get\-Player (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a03fed8ac60602990cf664a909a264a2a}
+
+
+get\-Player Searches and returns player from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of player in D\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_player}{Player} object
+\end{DoxyReturn}
+It searches player by specified id in D\-B 
+
+Definition at line 29 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ac96812e42a636dbed6f67e1dd5929583}{\index{Data\-Base@{Data\-Base}!get\-Player@{get\-Player}}
+\index{get\-Player@{get\-Player}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player} $\ast$ Data\-Base\-::get\-Player (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ac96812e42a636dbed6f67e1dd5929583}
+
+
+get\-Player Searches and returns player from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of player in D\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_player}{Player} object
+\end{DoxyReturn}
+It searches player by specified name in D\-B 
+
+Definition at line 34 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_ac74f70e78835fe65bc511996cdec1271}{\index{Data\-Base@{Data\-Base}!get\-Stadium@{get\-Stadium}}
+\index{get\-Stadium@{get\-Stadium}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Stadium}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stadium} $\ast$ Data\-Base\-::get\-Stadium (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_ac74f70e78835fe65bc511996cdec1271}
+
+
+get\-Stadium Searches and returns stadium from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of stadium in D\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_stadium}{Stadium} object
+\end{DoxyReturn}
+It searches stadium by specified id in D\-B 
+
+Definition at line 122 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a6b9befc23eec89afb2358edba78f8d5b}{\index{Data\-Base@{Data\-Base}!get\-Stadium@{get\-Stadium}}
+\index{get\-Stadium@{get\-Stadium}!DataBase@{Data\-Base}}
+\subsubsection[{get\-Stadium}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stadium} $\ast$ Data\-Base\-::get\-Stadium (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a6b9befc23eec89afb2358edba78f8d5b}
+
+
+get\-Stadium Searches and returns stadium from D\-B 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of stadium \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \hyperlink{class_stadium}{Stadium} object
+\end{DoxyReturn}
+It searches stadium by specified name in D\-B 
+
+Definition at line 127 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_aa3daa078a985299d3a9ecbee1bdc9f2d}{\index{Data\-Base@{Data\-Base}!load\-From\-File@{load\-From\-File}}
+\index{load\-From\-File@{load\-From\-File}!DataBase@{Data\-Base}}
+\subsubsection[{load\-From\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::load\-From\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_aa3daa078a985299d3a9ecbee1bdc9f2d}
+
+
+load\-From\-File Deserializes database 
+
+
+
+Definition at line 162 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a334b5c4d7bb70a95a1c21e2370c492fa}{\index{Data\-Base@{Data\-Base}!save\-To\-File@{save\-To\-File}}
+\index{save\-To\-File@{save\-To\-File}!DataBase@{Data\-Base}}
+\subsubsection[{save\-To\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::save\-To\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a334b5c4d7bb70a95a1c21e2370c492fa}
+
+
+save\-To\-File Serializes the whole database 
+
+
+
+Definition at line 138 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_af298db6d84a93e352aa9915dfbaefd4a}{\index{Data\-Base@{Data\-Base}!sort\-Games\-By\-Date@{sort\-Games\-By\-Date}}
+\index{sort\-Games\-By\-Date@{sort\-Games\-By\-Date}!DataBase@{Data\-Base}}
+\subsubsection[{sort\-Games\-By\-Date}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::sort\-Games\-By\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_af298db6d84a93e352aa9915dfbaefd4a}
+
+
+sort\-Games\-By\-Date Sortes games by date in db 
+
+
+
+Definition at line 96 of file Data\-Base.\-cpp.
+
+\hypertarget{class_data_base_a7ded6aadeece170243c9c65cc976704e}{\index{Data\-Base@{Data\-Base}!sort\-Games\-By\-Result@{sort\-Games\-By\-Result}}
+\index{sort\-Games\-By\-Result@{sort\-Games\-By\-Result}!DataBase@{Data\-Base}}
+\subsubsection[{sort\-Games\-By\-Result}]{\setlength{\rightskip}{0pt plus 5cm}void Data\-Base\-::sort\-Games\-By\-Result (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_data_base_a7ded6aadeece170243c9c65cc976704e}
+
+
+sort\-Games\-By\-Result Sortes game by result in db 
+
+
+
+Definition at line 101 of file Data\-Base.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_data_base_8h}{Data\-Base.\-h}\item 
+\hyperlink{_data_base_8cpp}{Data\-Base.\-cpp}\end{DoxyCompactItemize}

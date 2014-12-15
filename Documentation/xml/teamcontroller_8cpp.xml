@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="teamcontroller_8cpp" kind="file">
+    <compoundname>teamcontroller.cpp</compoundname>
+    <includes refid="teamcontroller_8h" local="yes">teamcontroller.h</includes>
+    <incdepgraph>
+      <node id="981">
+        <label>iomanip</label>
+      </node>
+      <node id="973">
+        <label>teamcontroller.h</label>
+        <link refid="teamcontroller_8h"/>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>string</label>
+      </node>
+      <node id="972">
+        <label>teamcontroller.cpp</label>
+        <link refid="teamcontroller.cpp"/>
+        <childnode refid="973" relation="include">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>RapidXml/rapidxml.hpp</label>
+      </node>
+      <node id="976">
+        <label>QRegExp</label>
+      </node>
+      <node id="974">
+        <label>vector</label>
+      </node>
+      <node id="982">
+        <label>functions.h</label>
+        <link refid="functions_8h"/>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>team.h</label>
+        <link refid="team_8h"/>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+      </node>
+      <node id="977">
+        <label>QString</label>
+      </node>
+      <node id="978">
+        <label>iostream</label>
+      </node>
+      <node id="980">
+        <label>player.h</label>
+        <link refid="player_8h"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="teamcontroller_8h" kindref="compound">teamcontroller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_team_controller_1a858742170e99738e931c5526d1c45770" refkind="member"><highlight class="normal"><ref refid="class_team_controller_1a858742170e99738e931c5526d1c45770" kindref="member">TeamController::TeamController</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_team_controller_1a876baf80fccce8bda8ad90069682ed6e" refkind="member"><highlight class="normal"><ref refid="class_team" kindref="compound">Team</ref>*<sp/><ref refid="class_team_controller_1a876baf80fccce8bda8ad90069682ed6e" kindref="member">TeamController::findByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>_teams.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_teams[i].getName()<sp/>==<sp/>name)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;_teams[i];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">xml_node*<sp/>TeamController::serialize(xml_document*<sp/>doc)</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>xml_node*<sp/>teams_node<sp/>=<sp/>doc-&gt;allocate_node(node_element,<sp/>&quot;teams&quot;);</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/>teams_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;size&quot;,<sp/>itoa(<sp/>_container.size()<sp/>)));</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/>for<sp/>(vector&lt;team&gt;::iterator<sp/>iter<sp/>=<sp/>_container.begin();<sp/>iter<sp/>!=<sp/>_container.end();<sp/>iter++)</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xml_node&lt;&gt;*<sp/>team_node<sp/>=<sp/>doc-&gt;allocate_node(node_element,<sp/>&quot;team&quot;);</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;name&quot;,<sp/>iter-&gt;_name));</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;surname&quot;,<sp/>iter-&gt;_surname));</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;birthday&quot;,<sp/>iter-&gt;_birthday));</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;status&quot;,<sp/>iter-&gt;_status));</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;health&quot;,<sp/>iter-&gt;_health));</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team_node-&gt;append_attribute(doc-&gt;allocate_attribute(&quot;salary&quot;,<sp/>itoa(<sp/>iter-&gt;_salary<sp/>)));</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>teams_node-&gt;append_node(team_node);</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>teams_node;</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"></highlight></codeline>
+<codeline lineno="39"><highlight class="comment">void<sp/>TeamController::deserialize(xml_node*<sp/>teams_node)</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/>for<sp/>(xml_node&lt;&gt;*<sp/>team_node<sp/>=<sp/>teams_node-&gt;first_node(&quot;team&quot;);<sp/>team_node;<sp/>team_node<sp/>=<sp/>team_node-&gt;next_sibling())</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team<sp/>team;</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"></highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.setName(<sp/>team_node-&gt;first_attribute(&quot;name&quot;)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.setSurname(<sp/>team_node-&gt;first_attribute(&quot;surname&quot;)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.setBirthday(<sp/>team_node-&gt;first_attribute(&quot;birthday&quot;)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.setStatus(<sp/>team_node-&gt;first_attribute(&quot;status&quot;)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.sethealth(<sp/>team_node-&gt;first_attribute(&quot;health&quot;)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>team.setSalary(<sp/>atoi(team_node-&gt;first_attribute(&quot;salary&quot;)-&gt;value())<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_container.push_back(team);</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.cpp"/>
+  </compounddef>
+</doxygen>

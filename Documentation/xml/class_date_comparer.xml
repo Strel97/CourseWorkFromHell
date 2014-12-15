@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_date_comparer" kind="class" prot="public">
+    <compoundname>DateComparer</compoundname>
+    <includes refid="game_8h" local="no">game.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_date_comparer_1a9470e86015617d818f2c1d2fed75fd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateComparer::operator()</definition>
+        <argsstring>(const Game &amp;a, const Game &amp;b)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const <ref refid="class_game" kindref="compound">Game</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_game" kindref="compound">Game</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="201" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="201" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_date_comparer" kindref="compound">DateComparer</ref> class Compares two <ref refid="class_game" kindref="compound">Game</ref> objects on the grounds of their dates. </para>    </briefdescription>
+    <detaileddescription>
+<para>Is used in sorting of <ref refid="class_game" kindref="compound">Game</ref> objects by date </para>    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="199" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="198" bodyend="211"/>
+    <listofallmembers>
+      <member refid="class_date_comparer_1a9470e86015617d818f2c1d2fed75fd85" prot="public" virt="non-virtual"><scope>DateComparer</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

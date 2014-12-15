@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_controller" kind="class" prot="public">
+    <compoundname>PlayerController</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller&lt; Player &gt;</basecompoundref>
+    <includes refid="_player_controller_8h" local="no">PlayerController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_controller_1aa31049f0ac0ef1a38b1334b01e3217a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlayerController::edit</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>edit</name>
+        <reimplements refid="class_controller_1ae0a60f517aa957a9b40787385e2f574d">edit</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>edit Edits the content of object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of object in collection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Each controller class implements this method and realizes it because each class has it&apos;s own fields and allowable values for them </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="16" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.cpp" bodystart="4" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a6fddbc651a2a7fba34dea0e5a609444b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player * PlayerController::searchById</definition>
+        <argsstring>(int)</argsstring>
+        <name>searchById</name>
+        <param>
+          <type>int</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="18" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.cpp" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a06a3cea40d352a4f8f4ec71b2dc04469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player * PlayerController::searchByName</definition>
+        <argsstring>(string)</argsstring>
+        <name>searchByName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="19" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.cpp" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1acce83d1acdc1eec82210954e4d7a5322" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>xml_node *</type>
+        <definition>xml_node * PlayerController::serialize</definition>
+        <argsstring>(xml_document&lt;&gt; *doc)</argsstring>
+        <name>serialize</name>
+        <reimplements refid="class_controller_1ad64a54b0dae9862661873423e4623d12">serialize</reimplements>
+        <param>
+          <type>xml_document&lt;&gt; *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>serialize Creates the xml_node object for further serialization </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to xml document </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>xml_node, the content of collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="21" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.cpp" bodystart="44" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a93cec52c22ee44ed3ac8c9c8bbd96b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlayerController::deserialize</definition>
+        <argsstring>(xml_node&lt;&gt; *)</argsstring>
+        <name>deserialize</name>
+        <reimplements refid="class_controller_1a5a640056935508649724441454e0d996">deserialize</reimplements>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+        </param>
+        <briefdescription>
+<para>deserialize Pass information from xml file and creates objects on the base of this information </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="22" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.cpp" bodystart="66" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>Controller&lt; Player &gt;</label>
+        <link refid="class_controller"/>
+      </node>
+      <node id="58">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="62">
+        <label>vector&lt; Player &gt;</label>
+      </node>
+      <node id="61">
+        <label>Controller&lt; Player &gt;</label>
+        <link refid="class_controller"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>_container</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" line="13" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/PlayerController.h" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>_container</name></member>
+      <member refid="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>add</name></member>
+      <member refid="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>Controller</name></member>
+      <member refid="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>del</name></member>
+      <member refid="class_controller_1a60bee27ade39edf02479ca34ee6823ae" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>del</name></member>
+      <member refid="class_player_controller_1a93cec52c22ee44ed3ac8c9c8bbd96b02" prot="public" virt="virtual"><scope>PlayerController</scope><name>deserialize</name></member>
+      <member refid="class_player_controller_1aa31049f0ac0ef1a38b1334b01e3217a0" prot="public" virt="virtual"><scope>PlayerController</scope><name>edit</name></member>
+      <member refid="class_controller_1a92fe74ba878f98ed1fc8272771680e90" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>getContainer</name></member>
+      <member refid="class_player_controller_1a6fddbc651a2a7fba34dea0e5a609444b" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>searchById</name></member>
+      <member refid="class_player_controller_1a06a3cea40d352a4f8f4ec71b2dc04469" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>searchByName</name></member>
+      <member refid="class_player_controller_1acce83d1acdc1eec82210954e4d7a5322" prot="public" virt="virtual"><scope>PlayerController</scope><name>serialize</name></member>
+      <member refid="class_controller_1a102169af91cac5b2ebaec9c357580058" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>validateID</name></member>
+      <member refid="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" prot="public" virt="virtual"><scope>PlayerController</scope><name>~Controller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

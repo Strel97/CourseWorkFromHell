@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stadium_controller" kind="class" prot="public">
+    <compoundname>StadiumController</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller&lt; Stadium &gt;</basecompoundref>
+    <includes refid="_stadium_controller_8h" local="no">StadiumController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stadium_controller_1a17fe39afd3d93dbbdaf1cef027cdefaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StadiumController::StadiumController</definition>
+        <argsstring>(void)</argsstring>
+        <name>StadiumController</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="14" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1a204dca10d15a0c911c7bbcce9aa648e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StadiumController::~StadiumController</definition>
+        <argsstring>(void)</argsstring>
+        <name>~StadiumController</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="15" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1a73c220035ff25a16e3662a0266784218" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StadiumController::edit</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>edit</name>
+        <reimplements refid="class_controller_1ae0a60f517aa957a9b40787385e2f574d">edit</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>edit Edits the content of object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of object in collection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Each controller class implements this method and realizes it because each class has it&apos;s own fields and allowable values for them </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="17" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="18" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1a04c54a2b7396d3ef5667185a2f86edc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stadium" kindref="compound">Stadium</ref> *</type>
+        <definition>Stadium * StadiumController::searchById</definition>
+        <argsstring>(int)</argsstring>
+        <name>searchById</name>
+        <param>
+          <type>int</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="19" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1a1ef48e991575e837fd761d2eef0ce4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stadium" kindref="compound">Stadium</ref> *</type>
+        <definition>Stadium * StadiumController::searchByName</definition>
+        <argsstring>(string)</argsstring>
+        <name>searchByName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="20" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1a066f81b9560c8a7d92784ab85dd7a3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>xml_node *</type>
+        <definition>xml_node * StadiumController::serialize</definition>
+        <argsstring>(xml_document&lt;&gt; *doc)</argsstring>
+        <name>serialize</name>
+        <reimplements refid="class_controller_1ad64a54b0dae9862661873423e4623d12">serialize</reimplements>
+        <param>
+          <type>xml_document&lt;&gt; *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>serialize Creates the xml_node object for further serialization </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to xml document </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>xml_node, the content of collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="22" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="52" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_controller_1af7e2ff3d41780e203e1bda88fdcd070a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StadiumController::deserialize</definition>
+        <argsstring>(xml_node&lt;&gt; *)</argsstring>
+        <name>deserialize</name>
+        <reimplements refid="class_controller_1a5a640056935508649724441454e0d996">deserialize</reimplements>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+        </param>
+        <briefdescription>
+<para>deserialize Pass information from xml file and creates objects on the base of this information </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="23" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.cpp" bodystart="71" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>StadiumController</label>
+        <link refid="class_stadium_controller"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Controller&lt; Stadium &gt;</label>
+        <link refid="class_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>StadiumController</label>
+        <link refid="class_stadium_controller"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>vector&lt; Stadium &gt;</label>
+      </node>
+      <node id="70">
+        <label>Controller&lt; Stadium &gt;</label>
+        <link refid="class_controller"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_container</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" line="12" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/StadiumController.h" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" prot="protected" virt="non-virtual"><scope>StadiumController</scope><name>_container</name></member>
+      <member refid="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>add</name></member>
+      <member refid="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>Controller</name></member>
+      <member refid="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>del</name></member>
+      <member refid="class_controller_1a60bee27ade39edf02479ca34ee6823ae" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>del</name></member>
+      <member refid="class_stadium_controller_1af7e2ff3d41780e203e1bda88fdcd070a" prot="public" virt="virtual"><scope>StadiumController</scope><name>deserialize</name></member>
+      <member refid="class_stadium_controller_1a73c220035ff25a16e3662a0266784218" prot="public" virt="virtual"><scope>StadiumController</scope><name>edit</name></member>
+      <member refid="class_controller_1a92fe74ba878f98ed1fc8272771680e90" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>getContainer</name></member>
+      <member refid="class_stadium_controller_1a04c54a2b7396d3ef5667185a2f86edc6" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>searchById</name></member>
+      <member refid="class_stadium_controller_1a1ef48e991575e837fd761d2eef0ce4a3" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>searchByName</name></member>
+      <member refid="class_stadium_controller_1a066f81b9560c8a7d92784ab85dd7a3b0" prot="public" virt="virtual"><scope>StadiumController</scope><name>serialize</name></member>
+      <member refid="class_stadium_controller_1a17fe39afd3d93dbbdaf1cef027cdefaa" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>StadiumController</name></member>
+      <member refid="class_controller_1a102169af91cac5b2ebaec9c357580058" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>validateID</name></member>
+      <member refid="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" prot="public" virt="virtual"><scope>StadiumController</scope><name>~Controller</name></member>
+      <member refid="class_stadium_controller_1a204dca10d15a0c911c7bbcce9aa648e1" prot="public" virt="non-virtual"><scope>StadiumController</scope><name>~StadiumController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

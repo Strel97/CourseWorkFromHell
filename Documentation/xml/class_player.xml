@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player" kind="class" prot="public">
+    <compoundname>Player</compoundname>
+    <includes refid="player_8h" local="no">player.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_1a0623ce55975b1d747dd0b8f1413bdba6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Player::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+<para>_name The name of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="190" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1acbe845c2bbabe03c153592324e1a98db" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Player::_surname</definition>
+        <argsstring></argsstring>
+        <name>_surname</name>
+        <briefdescription>
+<para>_surname The surname of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="195" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ad155205a1e5da3c3e940517373884ce4" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Player::_birthday</definition>
+        <argsstring></argsstring>
+        <name>_birthday</name>
+        <briefdescription>
+<para>_birthday The birthday of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="200" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1a86ba453a27bc9ccd97cde84cbbb8096a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Player::_status</definition>
+        <argsstring></argsstring>
+        <name>_status</name>
+        <briefdescription>
+<para>_status The status of <ref refid="class_player" kindref="compound">Player</ref> in team </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="205" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1a5a04f4a7f534d8adc69f06cdb478ee2c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Player::_health</definition>
+        <argsstring></argsstring>
+        <name>_health</name>
+        <briefdescription>
+<para>_health The status of health of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="210" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ac68af0fc91e2d3caa7b2eff7fdea9543" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player::_salary</definition>
+        <argsstring></argsstring>
+        <name>_salary</name>
+        <briefdescription>
+<para>_salary The salary of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="215" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Player::Player</definition>
+        <argsstring>()</argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="23" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1aee48abd7fb6209cb806608881770b7f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Player::Player</definition>
+        <argsstring>(string name, string surname, string birthday, string status, string health, int salary)</argsstring>
+        <name>Player</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>birthday</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>health</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>salary</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref> Creates new instance of <ref refid="class_player" kindref="compound">Player</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>surname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s surname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>birthday</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s birthday </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>status</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s status </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>health</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s health </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>salary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref>&apos;s salary </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="34" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1af9a6045fa96f736664c4eab4caa5e8e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Player::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>getName Returns the name of player </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Name of <ref refid="class_player" kindref="compound">Player</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="41" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a00efbc816b6584e40040cb2ba8388b0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Player::getSurname</definition>
+        <argsstring>()</argsstring>
+        <name>getSurname</name>
+        <briefdescription>
+<para>getSurname Returns the surname of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The surname of <ref refid="class_player" kindref="compound">Player</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="47" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ae3a352e2609c68d5edb8d73ef9e8392f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Player::getBirthday</definition>
+        <argsstring>()</argsstring>
+        <name>getBirthday</name>
+        <briefdescription>
+<para>getBirthday Returns the birthday of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The birthday of <ref refid="class_player" kindref="compound">Player</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="53" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a1226da7129b2cd61c5529d630cf38df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Player::getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <briefdescription>
+<para>getStatus Returns the status of <ref refid="class_player" kindref="compound">Player</ref> in team (ATTACK, DEFENCE, GOALKEEPER) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The status of <ref refid="class_player" kindref="compound">Player</ref> in team </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="59" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a279a88a14ea16ec00142ca5340d36ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Player::getHealth</definition>
+        <argsstring>()</argsstring>
+        <name>getHealth</name>
+        <briefdescription>
+<para>getHealth Returns the status of health of <ref refid="class_player" kindref="compound">Player</ref> (SICK, HEALTHY) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The status of health of <ref refid="class_player" kindref="compound">Player</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="65" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a4da3eb8caa9d3bf29ab0e7107247ad35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Player::getSalary</definition>
+        <argsstring>()</argsstring>
+        <name>getSalary</name>
+        <briefdescription>
+<para>getSalary Returns the salary of <ref refid="class_player" kindref="compound">Player</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The salary of <ref refid="class_player" kindref="compound">Player</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="71" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a8eaf43a2f2236b21d0101270ecca1483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setName</definition>
+        <argsstring>(string)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>setName Changes the player&apos;s name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="77" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a11039442924e73772e1e6e8e92b974a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setSurname</definition>
+        <argsstring>(string)</argsstring>
+        <name>setSurname</name>
+        <param>
+          <type>string</type>
+          <defname>surname</defname>
+        </param>
+        <briefdescription>
+<para>setSurname Changes the player&apos;s surname </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="82" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ac7136dd8416f8c52a5ea7ce7b9d3b30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setBirthday</definition>
+        <argsstring>(string)</argsstring>
+        <name>setBirthday</name>
+        <param>
+          <type>string</type>
+          <defname>birthday</defname>
+        </param>
+        <briefdescription>
+<para>setBirthday Changes the player&apos;s birthday </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="87" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a08cf2edf8cfd3bbeefd1befb397e6920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setStatus</definition>
+        <argsstring>(string)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>string</type>
+          <defname>status</defname>
+        </param>
+        <briefdescription>
+<para>setStatus Changes the player&apos;s status in team </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="92" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1af052e51778a8d555094613b6d9fffa5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setHealth</definition>
+        <argsstring>(string)</argsstring>
+        <name>setHealth</name>
+        <param>
+          <type>string</type>
+          <defname>health</defname>
+        </param>
+        <briefdescription>
+<para>setHealth Changes the player&apos;s status of health </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="97" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a2f48d324e01aada508e7d0c55918bd64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::setSalary</definition>
+        <argsstring>(int)</argsstring>
+        <name>setSalary</name>
+        <param>
+          <type>int</type>
+          <defname>salary</defname>
+        </param>
+        <briefdescription>
+<para>setSalary Changes the player&apos;s salary </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="102" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_1abb1456b5bc804f27f80506ab3eced9cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateName</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>validateName Validates name </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the name meets the following conditions</para></simplesect>
+First character of name must be captilized and other must be in lower case. Name must contain only letters. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="112" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateSurname</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateSurname</name>
+        <param>
+          <type>string</type>
+          <defname>surname</defname>
+        </param>
+        <briefdescription>
+<para>validateSurname Validates surname </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the surname meets the following conditions</para></simplesect>
+First character of surname must be captilized and other must be in lower case. Surname must contain only letters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="121" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateBirthday</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateBirthday</name>
+        <param>
+          <type>string</type>
+          <defname>birthday</defname>
+        </param>
+        <briefdescription>
+<para>validateBirthday Validates birthday </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the birthday meets the following conditions</para></simplesect>
+Birthday string must satisfy the foolowing mask: XX.XX.XXXX where {day}.{month}.{year} For example: 12.12.1212 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="131" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1af26b9a23c75cee78b8e06a516a4d0720" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateStatus</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateStatus</name>
+        <param>
+          <type>string</type>
+          <defname>status</defname>
+        </param>
+        <briefdescription>
+<para>validateStatus Validates status of player </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the status meets the following conditions</para></simplesect>
+Status must be one of the following strings: ATTACK, DEFENCE or GOALKEEPER </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="139" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a04be7b253085529222ed5616772319f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateHealth</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateHealth</name>
+        <param>
+          <type>string</type>
+          <defname>health</defname>
+        </param>
+        <briefdescription>
+<para>validateHealth Validates status of health of player </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the status of health meets the following conditions</para></simplesect>
+Health must be one of the following strings: SICK or HEALTHY </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="147" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateSalary</definition>
+        <argsstring>(int)</argsstring>
+        <name>validateSalary</name>
+        <param>
+          <type>int</type>
+          <defname>salary</defname>
+        </param>
+        <briefdescription>
+<para>validateSalary Validates salary value of player </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the salary meets the following conditions</para></simplesect>
+Salary value must be greater than zero and less than 10000 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="155" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ae71449232dae50d1eb03ea40a6e0d5c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Player::validateModification</definition>
+        <argsstring>(string field, string value)</argsstring>
+        <name>validateModification</name>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>validateModification Validates the field modification parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether this modification meets the following conditions</para></simplesect>
+Field must be one of the following strings: NAME, SURNAME, BIRTHDAY, STATUS, HEALTH, SALARY Value must satisfy the conditions of value of corresponding field. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="166" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="135" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_player_1ad2250e213bec03e64b277c2dda362daa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Player, Player)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <defname>p1</defname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <defname>p2</defname>
+        </param>
+        <briefdescription>
+<para>operator == Compares two <ref refid="class_player" kindref="compound">Player</ref> objects </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether two objects are equal</para></simplesect>
+Two <ref refid="class_player" kindref="compound">Player</ref> objects are equal if they have the same name, surname, birthday, status, health and salary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="176" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="156" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_player_1a79571356003607b80edc6440c851e503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Player &amp;player)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+<para>operator &lt;&lt; Outputs the information about object to stream </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output stream </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object for outputting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Output stream </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="184" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="172" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_player" kindref="compound">Player</ref> class Describes the player. </para>    </briefdescription>
+    <detaileddescription>
+<para>It contains information about player as a person(name, surname, birthday) and his characteristics as a football player(status, health, salary) </para>    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" line="21" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.h" bodystart="20" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_player_1ad155205a1e5da3c3e940517373884ce4" prot="private" virt="non-virtual"><scope>Player</scope><name>_birthday</name></member>
+      <member refid="class_player_1a5a04f4a7f534d8adc69f06cdb478ee2c" prot="private" virt="non-virtual"><scope>Player</scope><name>_health</name></member>
+      <member refid="class_player_1a0623ce55975b1d747dd0b8f1413bdba6" prot="private" virt="non-virtual"><scope>Player</scope><name>_name</name></member>
+      <member refid="class_player_1ac68af0fc91e2d3caa7b2eff7fdea9543" prot="private" virt="non-virtual"><scope>Player</scope><name>_salary</name></member>
+      <member refid="class_player_1a86ba453a27bc9ccd97cde84cbbb8096a" prot="private" virt="non-virtual"><scope>Player</scope><name>_status</name></member>
+      <member refid="class_player_1acbe845c2bbabe03c153592324e1a98db" prot="private" virt="non-virtual"><scope>Player</scope><name>_surname</name></member>
+      <member refid="class_player_1ae3a352e2609c68d5edb8d73ef9e8392f" prot="public" virt="non-virtual"><scope>Player</scope><name>getBirthday</name></member>
+      <member refid="class_player_1a279a88a14ea16ec00142ca5340d36ae5" prot="public" virt="non-virtual"><scope>Player</scope><name>getHealth</name></member>
+      <member refid="class_player_1af9a6045fa96f736664c4eab4caa5e8e5" prot="public" virt="non-virtual"><scope>Player</scope><name>getName</name></member>
+      <member refid="class_player_1a4da3eb8caa9d3bf29ab0e7107247ad35" prot="public" virt="non-virtual"><scope>Player</scope><name>getSalary</name></member>
+      <member refid="class_player_1a1226da7129b2cd61c5529d630cf38df8" prot="public" virt="non-virtual"><scope>Player</scope><name>getStatus</name></member>
+      <member refid="class_player_1a00efbc816b6584e40040cb2ba8388b0b" prot="public" virt="non-virtual"><scope>Player</scope><name>getSurname</name></member>
+      <member refid="class_player_1a79571356003607b80edc6440c851e503" prot="public" virt="non-virtual"><scope>Player</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_player_1ad2250e213bec03e64b277c2dda362daa" prot="public" virt="non-virtual"><scope>Player</scope><name>operator==</name></member>
+      <member refid="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" prot="public" virt="non-virtual"><scope>Player</scope><name>Player</name></member>
+      <member refid="class_player_1aee48abd7fb6209cb806608881770b7f8" prot="public" virt="non-virtual"><scope>Player</scope><name>Player</name></member>
+      <member refid="class_player_1ac7136dd8416f8c52a5ea7ce7b9d3b30b" prot="public" virt="non-virtual"><scope>Player</scope><name>setBirthday</name></member>
+      <member refid="class_player_1af052e51778a8d555094613b6d9fffa5a" prot="public" virt="non-virtual"><scope>Player</scope><name>setHealth</name></member>
+      <member refid="class_player_1a8eaf43a2f2236b21d0101270ecca1483" prot="public" virt="non-virtual"><scope>Player</scope><name>setName</name></member>
+      <member refid="class_player_1a2f48d324e01aada508e7d0c55918bd64" prot="public" virt="non-virtual"><scope>Player</scope><name>setSalary</name></member>
+      <member refid="class_player_1a08cf2edf8cfd3bbeefd1befb397e6920" prot="public" virt="non-virtual"><scope>Player</scope><name>setStatus</name></member>
+      <member refid="class_player_1a11039442924e73772e1e6e8e92b974a5" prot="public" virt="non-virtual"><scope>Player</scope><name>setSurname</name></member>
+      <member refid="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" prot="public" virt="non-virtual"><scope>Player</scope><name>validateBirthday</name></member>
+      <member refid="class_player_1a04be7b253085529222ed5616772319f5" prot="public" virt="non-virtual"><scope>Player</scope><name>validateHealth</name></member>
+      <member refid="class_player_1ae71449232dae50d1eb03ea40a6e0d5c3" prot="public" virt="non-virtual"><scope>Player</scope><name>validateModification</name></member>
+      <member refid="class_player_1abb1456b5bc804f27f80506ab3eced9cc" prot="public" virt="non-virtual"><scope>Player</scope><name>validateName</name></member>
+      <member refid="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" prot="public" virt="non-virtual"><scope>Player</scope><name>validateSalary</name></member>
+      <member refid="class_player_1af26b9a23c75cee78b8e06a516a4d0720" prot="public" virt="non-virtual"><scope>Player</scope><name>validateStatus</name></member>
+      <member refid="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" prot="public" virt="non-virtual"><scope>Player</scope><name>validateSurname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

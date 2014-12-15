@@ -1,0 +1,514 @@
+\hypertarget{class_player}{\section{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+}
+
+
+The \hyperlink{class_player}{Player} class Describes the player.  
+
+
+
+
+{\ttfamily \#include $<$player.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}{Player} ()
+\item 
+\hyperlink{class_player_aee48abd7fb6209cb806608881770b7f8}{Player} (string name, string surname, string birthday, string status, string health, int salary)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_player}{Player} Creates new instance of \hyperlink{class_player}{Player} object. \end{DoxyCompactList}\item 
+string \hyperlink{class_player_af9a6045fa96f736664c4eab4caa5e8e5}{get\-Name} ()
+\begin{DoxyCompactList}\small\item\em get\-Name Returns the name of player \end{DoxyCompactList}\item 
+string \hyperlink{class_player_a00efbc816b6584e40040cb2ba8388b0b}{get\-Surname} ()
+\begin{DoxyCompactList}\small\item\em get\-Surname Returns the surname of \hyperlink{class_player}{Player} \end{DoxyCompactList}\item 
+string \hyperlink{class_player_ae3a352e2609c68d5edb8d73ef9e8392f}{get\-Birthday} ()
+\begin{DoxyCompactList}\small\item\em get\-Birthday Returns the birthday of \hyperlink{class_player}{Player} \end{DoxyCompactList}\item 
+string \hyperlink{class_player_a1226da7129b2cd61c5529d630cf38df8}{get\-Status} ()
+\begin{DoxyCompactList}\small\item\em get\-Status Returns the status of \hyperlink{class_player}{Player} in team (A\-T\-T\-A\-C\-K, D\-E\-F\-E\-N\-C\-E, G\-O\-A\-L\-K\-E\-E\-P\-E\-R) \end{DoxyCompactList}\item 
+string \hyperlink{class_player_a279a88a14ea16ec00142ca5340d36ae5}{get\-Health} ()
+\begin{DoxyCompactList}\small\item\em get\-Health Returns the status of health of \hyperlink{class_player}{Player} (S\-I\-C\-K, H\-E\-A\-L\-T\-H\-Y) \end{DoxyCompactList}\item 
+int \hyperlink{class_player_a4da3eb8caa9d3bf29ab0e7107247ad35}{get\-Salary} ()
+\begin{DoxyCompactList}\small\item\em get\-Salary Returns the salary of \hyperlink{class_player}{Player} \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a8eaf43a2f2236b21d0101270ecca1483}{set\-Name} (string)
+\begin{DoxyCompactList}\small\item\em set\-Name Changes the player's name \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a11039442924e73772e1e6e8e92b974a5}{set\-Surname} (string)
+\begin{DoxyCompactList}\small\item\em set\-Surname Changes the player's surname \end{DoxyCompactList}\item 
+void \hyperlink{class_player_ac7136dd8416f8c52a5ea7ce7b9d3b30b}{set\-Birthday} (string)
+\begin{DoxyCompactList}\small\item\em set\-Birthday Changes the player's birthday \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a08cf2edf8cfd3bbeefd1befb397e6920}{set\-Status} (string)
+\begin{DoxyCompactList}\small\item\em set\-Status Changes the player's status in team \end{DoxyCompactList}\item 
+void \hyperlink{class_player_af052e51778a8d555094613b6d9fffa5a}{set\-Health} (string)
+\begin{DoxyCompactList}\small\item\em set\-Health Changes the player's status of health \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a2f48d324e01aada508e7d0c55918bd64}{set\-Salary} (int)
+\begin{DoxyCompactList}\small\item\em set\-Salary Changes the player's salary \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_player_abb1456b5bc804f27f80506ab3eced9cc}{validate\-Name} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Name Validates name \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_a24d1dcb787aed938a56c2576f0dc8d54}{validate\-Surname} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Surname Validates surname \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_aaf2f62f9d3d1f2bece5258ae6c8dd1c6}{validate\-Birthday} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Birthday Validates birthday \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_af26b9a23c75cee78b8e06a516a4d0720}{validate\-Status} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Status Validates status of player \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_a04be7b253085529222ed5616772319f5}{validate\-Health} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Health Validates status of health of player \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_aa3bd122182accc2ca31eb7e01ec0cd7c}{validate\-Salary} (int)
+\begin{DoxyCompactList}\small\item\em validate\-Salary Validates salary value of player \end{DoxyCompactList}\item 
+static bool \hyperlink{class_player_ae71449232dae50d1eb03ea40a6e0d5c3}{validate\-Modification} (string field, string value)
+\begin{DoxyCompactList}\small\item\em validate\-Modification Validates the field modification parameters \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_player_ad2250e213bec03e64b277c2dda362daa}{operator==} (\hyperlink{class_player}{Player}, \hyperlink{class_player}{Player})
+\begin{DoxyCompactList}\small\item\em operator == Compares two \hyperlink{class_player}{Player} objects \end{DoxyCompactList}\item 
+ostream \& \hyperlink{class_player_a79571356003607b80edc6440c851e503}{operator$<$$<$} (ostream \&os, const \hyperlink{class_player}{Player} \&player)
+\begin{DoxyCompactList}\small\item\em operator $<$$<$ Outputs the information about object to stream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_player}{Player} class Describes the player. 
+
+It contains information about player as a person(name, surname, birthday) and his characteristics as a football player(status, health, salary) 
+
+Definition at line 20 of file player.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}{\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\subsubsection[{Player}]{\setlength{\rightskip}{0pt plus 5cm}Player\-::\-Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}
+
+
+Definition at line 10 of file player.\-cpp.
+
+\hypertarget{class_player_aee48abd7fb6209cb806608881770b7f8}{\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\subsubsection[{Player}]{\setlength{\rightskip}{0pt plus 5cm}Player\-::\-Player (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{surname, }
+\item[{string}]{birthday, }
+\item[{string}]{status, }
+\item[{string}]{health, }
+\item[{int}]{salary}
+\end{DoxyParamCaption}
+)}}\label{class_player_aee48abd7fb6209cb806608881770b7f8}
+
+
+\hyperlink{class_player}{Player} Creates new instance of \hyperlink{class_player}{Player} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \hyperlink{class_player}{Player}'s name \\
+\hline
+{\em surname} & \hyperlink{class_player}{Player}'s surname \\
+\hline
+{\em birthday} & \hyperlink{class_player}{Player}'s birthday \\
+\hline
+{\em status} & \hyperlink{class_player}{Player}'s status \\
+\hline
+{\em health} & \hyperlink{class_player}{Player}'s health \\
+\hline
+{\em salary} & \hyperlink{class_player}{Player}'s salary \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file player.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_player_ae3a352e2609c68d5edb8d73ef9e8392f}{\index{Player@{Player}!get\-Birthday@{get\-Birthday}}
+\index{get\-Birthday@{get\-Birthday}!Player@{Player}}
+\subsubsection[{get\-Birthday}]{\setlength{\rightskip}{0pt plus 5cm}string Player\-::get\-Birthday (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_ae3a352e2609c68d5edb8d73ef9e8392f}
+
+
+get\-Birthday Returns the birthday of \hyperlink{class_player}{Player} 
+
+\begin{DoxyReturn}{Returns}
+The birthday of \hyperlink{class_player}{Player} 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file player.\-cpp.
+
+\hypertarget{class_player_a279a88a14ea16ec00142ca5340d36ae5}{\index{Player@{Player}!get\-Health@{get\-Health}}
+\index{get\-Health@{get\-Health}!Player@{Player}}
+\subsubsection[{get\-Health}]{\setlength{\rightskip}{0pt plus 5cm}string Player\-::get\-Health (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_a279a88a14ea16ec00142ca5340d36ae5}
+
+
+get\-Health Returns the status of health of \hyperlink{class_player}{Player} (S\-I\-C\-K, H\-E\-A\-L\-T\-H\-Y) 
+
+\begin{DoxyReturn}{Returns}
+The status of health of \hyperlink{class_player}{Player} 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file player.\-cpp.
+
+\hypertarget{class_player_af9a6045fa96f736664c4eab4caa5e8e5}{\index{Player@{Player}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!Player@{Player}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Player\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_af9a6045fa96f736664c4eab4caa5e8e5}
+
+
+get\-Name Returns the name of player 
+
+\begin{DoxyReturn}{Returns}
+Name of \hyperlink{class_player}{Player} 
+\end{DoxyReturn}
+
+
+Definition at line 34 of file player.\-cpp.
+
+\hypertarget{class_player_a4da3eb8caa9d3bf29ab0e7107247ad35}{\index{Player@{Player}!get\-Salary@{get\-Salary}}
+\index{get\-Salary@{get\-Salary}!Player@{Player}}
+\subsubsection[{get\-Salary}]{\setlength{\rightskip}{0pt plus 5cm}int Player\-::get\-Salary (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_a4da3eb8caa9d3bf29ab0e7107247ad35}
+
+
+get\-Salary Returns the salary of \hyperlink{class_player}{Player} 
+
+\begin{DoxyReturn}{Returns}
+The salary of \hyperlink{class_player}{Player} 
+\end{DoxyReturn}
+
+
+Definition at line 59 of file player.\-cpp.
+
+\hypertarget{class_player_a1226da7129b2cd61c5529d630cf38df8}{\index{Player@{Player}!get\-Status@{get\-Status}}
+\index{get\-Status@{get\-Status}!Player@{Player}}
+\subsubsection[{get\-Status}]{\setlength{\rightskip}{0pt plus 5cm}string Player\-::get\-Status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_a1226da7129b2cd61c5529d630cf38df8}
+
+
+get\-Status Returns the status of \hyperlink{class_player}{Player} in team (A\-T\-T\-A\-C\-K, D\-E\-F\-E\-N\-C\-E, G\-O\-A\-L\-K\-E\-E\-P\-E\-R) 
+
+\begin{DoxyReturn}{Returns}
+The status of \hyperlink{class_player}{Player} in team 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file player.\-cpp.
+
+\hypertarget{class_player_a00efbc816b6584e40040cb2ba8388b0b}{\index{Player@{Player}!get\-Surname@{get\-Surname}}
+\index{get\-Surname@{get\-Surname}!Player@{Player}}
+\subsubsection[{get\-Surname}]{\setlength{\rightskip}{0pt plus 5cm}string Player\-::get\-Surname (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_player_a00efbc816b6584e40040cb2ba8388b0b}
+
+
+get\-Surname Returns the surname of \hyperlink{class_player}{Player} 
+
+\begin{DoxyReturn}{Returns}
+The surname of \hyperlink{class_player}{Player} 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file player.\-cpp.
+
+\hypertarget{class_player_ac7136dd8416f8c52a5ea7ce7b9d3b30b}{\index{Player@{Player}!set\-Birthday@{set\-Birthday}}
+\index{set\-Birthday@{set\-Birthday}!Player@{Player}}
+\subsubsection[{set\-Birthday}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Birthday (
+\begin{DoxyParamCaption}
+\item[{string}]{birthday}
+\end{DoxyParamCaption}
+)}}\label{class_player_ac7136dd8416f8c52a5ea7ce7b9d3b30b}
+
+
+set\-Birthday Changes the player's birthday 
+
+
+
+Definition at line 82 of file player.\-cpp.
+
+\hypertarget{class_player_af052e51778a8d555094613b6d9fffa5a}{\index{Player@{Player}!set\-Health@{set\-Health}}
+\index{set\-Health@{set\-Health}!Player@{Player}}
+\subsubsection[{set\-Health}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Health (
+\begin{DoxyParamCaption}
+\item[{string}]{health}
+\end{DoxyParamCaption}
+)}}\label{class_player_af052e51778a8d555094613b6d9fffa5a}
+
+
+set\-Health Changes the player's status of health 
+
+
+
+Definition at line 92 of file player.\-cpp.
+
+\hypertarget{class_player_a8eaf43a2f2236b21d0101270ecca1483}{\index{Player@{Player}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!Player@{Player}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_player_a8eaf43a2f2236b21d0101270ecca1483}
+
+
+set\-Name Changes the player's name 
+
+
+
+Definition at line 72 of file player.\-cpp.
+
+\hypertarget{class_player_a2f48d324e01aada508e7d0c55918bd64}{\index{Player@{Player}!set\-Salary@{set\-Salary}}
+\index{set\-Salary@{set\-Salary}!Player@{Player}}
+\subsubsection[{set\-Salary}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Salary (
+\begin{DoxyParamCaption}
+\item[{int}]{salary}
+\end{DoxyParamCaption}
+)}}\label{class_player_a2f48d324e01aada508e7d0c55918bd64}
+
+
+set\-Salary Changes the player's salary 
+
+
+
+Definition at line 97 of file player.\-cpp.
+
+\hypertarget{class_player_a08cf2edf8cfd3bbeefd1befb397e6920}{\index{Player@{Player}!set\-Status@{set\-Status}}
+\index{set\-Status@{set\-Status}!Player@{Player}}
+\subsubsection[{set\-Status}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Status (
+\begin{DoxyParamCaption}
+\item[{string}]{status}
+\end{DoxyParamCaption}
+)}}\label{class_player_a08cf2edf8cfd3bbeefd1befb397e6920}
+
+
+set\-Status Changes the player's status in team 
+
+
+
+Definition at line 87 of file player.\-cpp.
+
+\hypertarget{class_player_a11039442924e73772e1e6e8e92b974a5}{\index{Player@{Player}!set\-Surname@{set\-Surname}}
+\index{set\-Surname@{set\-Surname}!Player@{Player}}
+\subsubsection[{set\-Surname}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-::set\-Surname (
+\begin{DoxyParamCaption}
+\item[{string}]{surname}
+\end{DoxyParamCaption}
+)}}\label{class_player_a11039442924e73772e1e6e8e92b974a5}
+
+
+set\-Surname Changes the player's surname 
+
+
+
+Definition at line 77 of file player.\-cpp.
+
+\hypertarget{class_player_aaf2f62f9d3d1f2bece5258ae6c8dd1c6}{\index{Player@{Player}!validate\-Birthday@{validate\-Birthday}}
+\index{validate\-Birthday@{validate\-Birthday}!Player@{Player}}
+\subsubsection[{validate\-Birthday}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Birthday (
+\begin{DoxyParamCaption}
+\item[{string}]{birthday}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_aaf2f62f9d3d1f2bece5258ae6c8dd1c6}
+
+
+validate\-Birthday Validates birthday 
+
+\begin{DoxyReturn}{Returns}
+Whether the birthday meets the following conditions
+\end{DoxyReturn}
+Birthday string must satisfy the foolowing mask\-: X\-X.\-X\-X.\-X\-X\-X\-X where \{day\}.\{month\}.\{year\} For example\-: 12.\-12.\-1212 
+
+Definition at line 115 of file player.\-cpp.
+
+\hypertarget{class_player_a04be7b253085529222ed5616772319f5}{\index{Player@{Player}!validate\-Health@{validate\-Health}}
+\index{validate\-Health@{validate\-Health}!Player@{Player}}
+\subsubsection[{validate\-Health}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Health (
+\begin{DoxyParamCaption}
+\item[{string}]{health}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_a04be7b253085529222ed5616772319f5}
+
+
+validate\-Health Validates status of health of player 
+
+\begin{DoxyReturn}{Returns}
+Whether the status of health meets the following conditions
+\end{DoxyReturn}
+Health must be one of the following strings\-: S\-I\-C\-K or H\-E\-A\-L\-T\-H\-Y 
+
+Definition at line 125 of file player.\-cpp.
+
+\hypertarget{class_player_ae71449232dae50d1eb03ea40a6e0d5c3}{\index{Player@{Player}!validate\-Modification@{validate\-Modification}}
+\index{validate\-Modification@{validate\-Modification}!Player@{Player}}
+\subsubsection[{validate\-Modification}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Modification (
+\begin{DoxyParamCaption}
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_ae71449232dae50d1eb03ea40a6e0d5c3}
+
+
+validate\-Modification Validates the field modification parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & The name of field \\
+\hline
+{\em value} & The new value of field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether this modification meets the following conditions
+\end{DoxyReturn}
+Field must be one of the following strings\-: N\-A\-M\-E, S\-U\-R\-N\-A\-M\-E, B\-I\-R\-T\-H\-D\-A\-Y, S\-T\-A\-T\-U\-S, H\-E\-A\-L\-T\-H, S\-A\-L\-A\-R\-Y Value must satisfy the conditions of value of corresponding field. 
+
+Definition at line 135 of file player.\-cpp.
+
+\hypertarget{class_player_abb1456b5bc804f27f80506ab3eced9cc}{\index{Player@{Player}!validate\-Name@{validate\-Name}}
+\index{validate\-Name@{validate\-Name}!Player@{Player}}
+\subsubsection[{validate\-Name}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_abb1456b5bc804f27f80506ab3eced9cc}
+
+
+validate\-Name Validates name 
+
+\begin{DoxyReturn}{Returns}
+Whether the name meets the following conditions
+\end{DoxyReturn}
+First character of name must be captilized and other must be in lower case. Name must contain only letters. 
+
+Definition at line 105 of file player.\-cpp.
+
+\hypertarget{class_player_aa3bd122182accc2ca31eb7e01ec0cd7c}{\index{Player@{Player}!validate\-Salary@{validate\-Salary}}
+\index{validate\-Salary@{validate\-Salary}!Player@{Player}}
+\subsubsection[{validate\-Salary}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Salary (
+\begin{DoxyParamCaption}
+\item[{int}]{salary}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_aa3bd122182accc2ca31eb7e01ec0cd7c}
+
+
+validate\-Salary Validates salary value of player 
+
+\begin{DoxyReturn}{Returns}
+Whether the salary meets the following conditions
+\end{DoxyReturn}
+Salary value must be greater than zero and less than 10000 
+
+Definition at line 130 of file player.\-cpp.
+
+\hypertarget{class_player_af26b9a23c75cee78b8e06a516a4d0720}{\index{Player@{Player}!validate\-Status@{validate\-Status}}
+\index{validate\-Status@{validate\-Status}!Player@{Player}}
+\subsubsection[{validate\-Status}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Status (
+\begin{DoxyParamCaption}
+\item[{string}]{status}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_af26b9a23c75cee78b8e06a516a4d0720}
+
+
+validate\-Status Validates status of player 
+
+\begin{DoxyReturn}{Returns}
+Whether the status meets the following conditions
+\end{DoxyReturn}
+Status must be one of the following strings\-: A\-T\-T\-A\-C\-K, D\-E\-F\-E\-N\-C\-E or G\-O\-A\-L\-K\-E\-E\-P\-E\-R 
+
+Definition at line 120 of file player.\-cpp.
+
+\hypertarget{class_player_a24d1dcb787aed938a56c2576f0dc8d54}{\index{Player@{Player}!validate\-Surname@{validate\-Surname}}
+\index{validate\-Surname@{validate\-Surname}!Player@{Player}}
+\subsubsection[{validate\-Surname}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-::validate\-Surname (
+\begin{DoxyParamCaption}
+\item[{string}]{surname}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_player_a24d1dcb787aed938a56c2576f0dc8d54}
+
+
+validate\-Surname Validates surname 
+
+\begin{DoxyReturn}{Returns}
+Whether the surname meets the following conditions
+\end{DoxyReturn}
+First character of surname must be captilized and other must be in lower case. Surname must contain only letters 
+
+Definition at line 110 of file player.\-cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_player_a79571356003607b80edc6440c851e503}{\index{Player@{Player}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Player@{Player}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Player} \&}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_player_a79571356003607b80edc6440c851e503}
+
+
+operator $<$$<$ Outputs the information about object to stream 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream \\
+\hline
+{\em player} & Object for outputting \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Output stream 
+\end{DoxyReturn}
+
+
+Definition at line 172 of file player.\-cpp.
+
+\hypertarget{class_player_ad2250e213bec03e64b277c2dda362daa}{\index{Player@{Player}!operator==@{operator==}}
+\index{operator==@{operator==}!Player@{Player}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{p1, }
+\item[{{\bf Player}}]{p2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_player_ad2250e213bec03e64b277c2dda362daa}
+
+
+operator == Compares two \hyperlink{class_player}{Player} objects 
+
+\begin{DoxyReturn}{Returns}
+Whether two objects are equal
+\end{DoxyReturn}
+Two \hyperlink{class_player}{Player} objects are equal if they have the same name, surname, birthday, status, health and salary 
+
+Definition at line 156 of file player.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{player_8h}{player.\-h}\item 
+\hyperlink{player_8cpp}{player.\-cpp}\end{DoxyCompactItemize}

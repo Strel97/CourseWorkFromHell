@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_stadium" kind="class" prot="public">
+    <compoundname>Stadium</compoundname>
+    <includes refid="stadium_8h" local="no">stadium.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stadium_1a9bdf557f8fea81cdaf4f487e7f311b46" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Stadium::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+<para>_name The name of stadium </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="131" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stadium_1a21eff86fdacf8e87a13742afe81f885b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stadium::_places</definition>
+        <argsstring></argsstring>
+        <name>_places</name>
+        <briefdescription>
+<para>_places The capacity of stadium </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="136" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stadium_1a714b328a0ca68d5ef0490baded9da1ee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stadium::_ticket_price</definition>
+        <argsstring></argsstring>
+        <name>_ticket_price</name>
+        <briefdescription>
+<para>_ticket_price The price for one ticket </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="141" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stadium_1a8010b88e0d78da9f5cff761067f1b0ed" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_game" kindref="compound">Game</ref> &gt;</type>
+        <definition>vector&lt;Game&gt; Stadium::_games</definition>
+        <argsstring></argsstring>
+        <name>_games</name>
+        <briefdescription>
+<para>_games The list of games to be played on this stadium </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="146" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stadium_1a590fc521914438820bf5ab2f27d2d749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Stadium::Stadium</definition>
+        <argsstring>()</argsstring>
+        <name>Stadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="25" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a12f75b0989850194b734304a2fab3ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Stadium::Stadium</definition>
+        <argsstring>(string name, int places, int ticket_price)</argsstring>
+        <name>Stadium</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>places</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ticket_price</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="26" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a5bcaff3a212c824de82c4985f1495b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stadium::setName</definition>
+        <argsstring>(string)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>setName Changes the stadium&apos;s name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="31" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a01331957387926db3554e72ea87366b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stadium::setPlaces</definition>
+        <argsstring>(int)</argsstring>
+        <name>setPlaces</name>
+        <param>
+          <type>int</type>
+          <defname>places</defname>
+        </param>
+        <briefdescription>
+<para>setPlaces Changes the capacity of stadium </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="36" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a32da99b03478f37d0ab983c2934e68d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stadium::setTicketPrice</definition>
+        <argsstring>(int)</argsstring>
+        <name>setTicketPrice</name>
+        <param>
+          <type>int</type>
+          <defname>ticket_price</defname>
+        </param>
+        <briefdescription>
+<para>setTicketPrice Changes the price for one ticket </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="41" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a1fc6559711c96b45e5c6e03cda5e5806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Stadium::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>getName Returns the name of stadium </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The name of stadium </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="48" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1aeaa0d2bb9cb57190582a670110b5409c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Stadium::getPlaces</definition>
+        <argsstring>()</argsstring>
+        <name>getPlaces</name>
+        <briefdescription>
+<para>getPlaces Returns the capacity of stadium </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The capacity of stadium </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="54" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a79956c14de1980a685000cae1fc4ae6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Stadium::getTicketPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getTicketPrice</name>
+        <briefdescription>
+<para>getTicketPrice Returns the price for one ticket </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The price for one ticket </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="60" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a1d50650f511946c37c5595de7596ad1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stadium::addGame</definition>
+        <argsstring>(Game)</argsstring>
+        <name>addGame</name>
+        <param>
+          <type><ref refid="class_game" kindref="compound">Game</ref></type>
+          <defname>game</defname>
+        </param>
+        <briefdescription>
+<para>addGame Adds game to the list of games </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="66" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a7509d7bae6f4adf095801198d1860913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stadium::delGame</definition>
+        <argsstring>(Game)</argsstring>
+        <name>delGame</name>
+        <param>
+          <type><ref refid="class_game" kindref="compound">Game</ref></type>
+          <defname>game</defname>
+        </param>
+        <briefdescription>
+<para>delGame Deletes game from the list of games </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="71" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_stadium_1a54f137ce795722af818e63f5aa10ee1b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Stadium::validateName</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>validateName Validates name </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the name meets the following conditions</para></simplesect>
+First character of name must be captilized and other must be in lower case. Name must contain only letters. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="81" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a7599de7fb2e47a9033843b3daf021b3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Stadium::validatePlaces</definition>
+        <argsstring>(int)</argsstring>
+        <name>validatePlaces</name>
+        <param>
+          <type>int</type>
+          <defname>places</defname>
+        </param>
+        <briefdescription>
+<para>validatePlaces Validates capacity of stadium </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the capacity meets the following conditions</para></simplesect>
+Capacity must be greater than zero </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="89" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1a838f88701c34b79d69f32ca56ad187f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Stadium::validateTicketPrice</definition>
+        <argsstring>(int)</argsstring>
+        <name>validateTicketPrice</name>
+        <param>
+          <type>int</type>
+          <defname>ticket_price</defname>
+        </param>
+        <briefdescription>
+<para>validateTicketPrice Validates ticket price </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the ticket price meets the following conditions</para></simplesect>
+Ticket price must be greater than zero </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="97" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stadium_1aff6aa9a03327fc1b663e6c54984fe6bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Stadium::validateModification</definition>
+        <argsstring>(string field, string value)</argsstring>
+        <name>validateModification</name>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>validateModification Validates the field modification parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether this modification meets the following conditions</para></simplesect>
+Field must be one of the following strings: NAME, PLACES, TICKET_PRICE Value must satisfy the conditions of value of corresponding field. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="108" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="62" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_stadium_1a4ebb6407c6202c2c67b4a518614eaff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Stadium, Stadium)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_stadium" kindref="compound">Stadium</ref></type>
+          <defname>p1</defname>
+        </param>
+        <param>
+          <type><ref refid="class_stadium" kindref="compound">Stadium</ref></type>
+          <defname>p2</defname>
+        </param>
+        <briefdescription>
+<para>operator == Compares two <ref refid="class_stadium" kindref="compound">Stadium</ref> objects </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether two objects are equal</para></simplesect>
+Two <ref refid="class_stadium" kindref="compound">Stadium</ref> objects are equal if they have the same name, capacity and pric for one ticket </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="117" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_stadium_1a6950907c6c5d1a74cedc504c427e5b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Stadium &amp;stadium)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_stadium" kindref="compound">Stadium</ref> &amp;</type>
+          <declname>stadium</declname>
+        </param>
+        <briefdescription>
+<para>operator &lt;&lt; Outputs the information about object to stream </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output stream </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object for outputting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Output stream </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="125" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.cpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_stadium" kindref="compound">Stadium</ref> class Describes the stadium. </para>    </briefdescription>
+    <detaileddescription>
+<para>It contains information about capacity of stadium, price for one ticket and the list of games to be played here </para>    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" line="23" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/stadium.h" bodystart="22" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_stadium_1a8010b88e0d78da9f5cff761067f1b0ed" prot="private" virt="non-virtual"><scope>Stadium</scope><name>_games</name></member>
+      <member refid="class_stadium_1a9bdf557f8fea81cdaf4f487e7f311b46" prot="private" virt="non-virtual"><scope>Stadium</scope><name>_name</name></member>
+      <member refid="class_stadium_1a21eff86fdacf8e87a13742afe81f885b" prot="private" virt="non-virtual"><scope>Stadium</scope><name>_places</name></member>
+      <member refid="class_stadium_1a714b328a0ca68d5ef0490baded9da1ee" prot="private" virt="non-virtual"><scope>Stadium</scope><name>_ticket_price</name></member>
+      <member refid="class_stadium_1a1d50650f511946c37c5595de7596ad1a" prot="public" virt="non-virtual"><scope>Stadium</scope><name>addGame</name></member>
+      <member refid="class_stadium_1a7509d7bae6f4adf095801198d1860913" prot="public" virt="non-virtual"><scope>Stadium</scope><name>delGame</name></member>
+      <member refid="class_stadium_1a1fc6559711c96b45e5c6e03cda5e5806" prot="public" virt="non-virtual"><scope>Stadium</scope><name>getName</name></member>
+      <member refid="class_stadium_1aeaa0d2bb9cb57190582a670110b5409c" prot="public" virt="non-virtual"><scope>Stadium</scope><name>getPlaces</name></member>
+      <member refid="class_stadium_1a79956c14de1980a685000cae1fc4ae6a" prot="public" virt="non-virtual"><scope>Stadium</scope><name>getTicketPrice</name></member>
+      <member refid="class_stadium_1a6950907c6c5d1a74cedc504c427e5b3f" prot="public" virt="non-virtual"><scope>Stadium</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_stadium_1a4ebb6407c6202c2c67b4a518614eaff7" prot="public" virt="non-virtual"><scope>Stadium</scope><name>operator==</name></member>
+      <member refid="class_stadium_1a5bcaff3a212c824de82c4985f1495b6a" prot="public" virt="non-virtual"><scope>Stadium</scope><name>setName</name></member>
+      <member refid="class_stadium_1a01331957387926db3554e72ea87366b5" prot="public" virt="non-virtual"><scope>Stadium</scope><name>setPlaces</name></member>
+      <member refid="class_stadium_1a32da99b03478f37d0ab983c2934e68d8" prot="public" virt="non-virtual"><scope>Stadium</scope><name>setTicketPrice</name></member>
+      <member refid="class_stadium_1a590fc521914438820bf5ab2f27d2d749" prot="public" virt="non-virtual"><scope>Stadium</scope><name>Stadium</name></member>
+      <member refid="class_stadium_1a12f75b0989850194b734304a2fab3ccf" prot="public" virt="non-virtual"><scope>Stadium</scope><name>Stadium</name></member>
+      <member refid="class_stadium_1aff6aa9a03327fc1b663e6c54984fe6bd" prot="public" virt="non-virtual"><scope>Stadium</scope><name>validateModification</name></member>
+      <member refid="class_stadium_1a54f137ce795722af818e63f5aa10ee1b" prot="public" virt="non-virtual"><scope>Stadium</scope><name>validateName</name></member>
+      <member refid="class_stadium_1a7599de7fb2e47a9033843b3daf021b3b" prot="public" virt="non-virtual"><scope>Stadium</scope><name>validatePlaces</name></member>
+      <member refid="class_stadium_1a838f88701c34b79d69f32ca56ad187f6" prot="public" virt="non-virtual"><scope>Stadium</scope><name>validateTicketPrice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_game_controller_8cpp" kind="file">
+    <compoundname>GameController.cpp</compoundname>
+    <includes refid="_game_controller_8h" local="yes">GameController.h</includes>
+    <incdepgraph>
+      <node id="688">
+        <label>iomanip</label>
+      </node>
+      <node id="690">
+        <label>teamcontroller.h</label>
+        <link refid="teamcontroller_8h"/>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>string</label>
+      </node>
+      <node id="679">
+        <label>GameController.h</label>
+        <link refid="_game_controller_8h"/>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="681" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+      </node>
+      <node id="692">
+        <label>Controller.h</label>
+        <link refid="_controller_8h"/>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>GameController.cpp</label>
+        <link refid="GameController.cpp"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>RapidXml/rapidxml.hpp</label>
+      </node>
+      <node id="682">
+        <label>QRegExp</label>
+      </node>
+      <node id="680">
+        <label>vector</label>
+      </node>
+      <node id="689">
+        <label>functions.h</label>
+        <link refid="functions_8h"/>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="680" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>team.h</label>
+        <link refid="team_8h"/>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="687" relation="include">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>QString</label>
+      </node>
+      <node id="681">
+        <label>game.h</label>
+        <link refid="game_8h"/>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="686">
+        <label>iostream</label>
+      </node>
+      <node id="687">
+        <label>player.h</label>
+        <link refid="player_8h"/>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_game_controller_8h" kindref="compound">GameController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_game_controller_1a7d72ff3f639acb68578e20fee3649b42" refkind="member"><highlight class="normal"><ref refid="class_game_controller_1a7d72ff3f639acb68578e20fee3649b42" kindref="member">GameController::GameController</ref>()</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Just<sp/>for<sp/>test!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(<sp/><ref refid="class_game" kindref="compound">Game</ref>(</highlight><highlight class="stringliteral">&quot;Terra&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Incognita&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;12.12.1212&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Place&quot;</highlight><highlight class="normal">,<sp/>12)<sp/>);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(<sp/><ref refid="class_game" kindref="compound">Game</ref>(</highlight><highlight class="stringliteral">&quot;Terra&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Gut&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;12.12.1222&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Place&quot;</highlight><highlight class="normal">,<sp/>12)<sp/>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(<sp/><ref refid="class_game" kindref="compound">Game</ref>(</highlight><highlight class="stringliteral">&quot;Terra&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Buddy&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;12.12.3212&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Gewq&quot;</highlight><highlight class="normal">,<sp/>12)<sp/>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(<sp/><ref refid="class_game" kindref="compound">Game</ref>(</highlight><highlight class="stringliteral">&quot;Buddy&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Incognita&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;12.12.3222&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Place&quot;</highlight><highlight class="normal">,<sp/>12)<sp/>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(<sp/><ref refid="class_game" kindref="compound">Game</ref>(</highlight><highlight class="stringliteral">&quot;Gut&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Incognita&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;12.12.0212&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Gqwe&quot;</highlight><highlight class="normal">,<sp/>12)<sp/>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06" kindref="member">GameController::edit</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>field,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_controller_1a102169af91cac5b2ebaec9c357580058" kindref="member">validateID</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game" kindref="compound">Game</ref><sp/>game<sp/>=<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[id];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;TEAM&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1ad10459ff803e165bc47f1f64cbf36d3e" kindref="member">getTeam</ref>().<ref refid="class_team_1a840a65b79f7d718965831611e72b6ac2" kindref="member">setName</ref>(value);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;OPPONENT&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a4c2f082a0293189f8d6b2431dc77dbd3" kindref="member">getOpponent</ref>().<ref refid="class_team_1a840a65b79f7d718965831611e72b6ac2" kindref="member">setName</ref>(value);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;DATE&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a69878d05e15dbd4c7f630a1e22c7cefe" kindref="member">setDate</ref>(value);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PLACE&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1ab68d186027e5196b47cf1c7074b95fc0" kindref="member">setPlace</ref>(value);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;VIEWERS&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a0f9a397e0d33e01f4f38d53b836bce93" kindref="member">setViewers</ref>(stoi(value));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RESULT&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1adc319059775c5ec5c44bd67030586e63" kindref="member">setResult</ref>(stoi(value));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[id]<sp/>=<sp/>game;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_game_controller_1a47969d486d0f3e1a3a46db09653be507" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_controller_1a47969d486d0f3e1a3a46db09653be507" kindref="member">GameController::sortByDate</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>sort(<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.begin(),<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.end(),<sp/><ref refid="class_date_comparer" kindref="compound">DateComparer</ref>());</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_game_controller_1a6db50feecfb3f8244fd549027f52b6a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_controller_1a6db50feecfb3f8244fd549027f52b6a1" kindref="member">GameController::sortByResult</ref>()</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>sort(<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.begin(),<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.end(),<sp/><ref refid="class_result_comparer" kindref="compound">ResultComparer</ref>());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_game_controller_1a285063010bded38aa3e2b4d7be9d914a" refkind="member"><highlight class="normal"><ref refid="class_game" kindref="compound">Game</ref>*<sp/><ref refid="class_game_controller_1a285063010bded38aa3e2b4d7be9d914a" kindref="member">GameController::searchById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_controller_1a102169af91cac5b2ebaec9c357580058" kindref="member">validateID</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[id];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="class_game_controller_1a271685999fb6548823b147eedda38345" refkind="member"><highlight class="normal"><ref refid="class_game" kindref="compound">Game</ref>*<sp/><ref refid="class_game_controller_1a271685999fb6548823b147eedda38345" kindref="member">GameController::searchByDate</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>date)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[i].getDate()<sp/>==<sp/>date)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[i];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_game_controller_1ab6d352fa9f3a4ba5b9e72698e7919441" refkind="member"><highlight class="normal"><ref refid="class_game" kindref="compound">Game</ref>*<sp/><ref refid="class_game_controller_1ab6d352fa9f3a4ba5b9e72698e7919441" kindref="member">GameController::searchByOpponent</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>opponent)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[i].getOpponent().getName()<sp/>==<sp/>opponent)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[i];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="class_game_controller_1af7cf01ef8ae8c809a72400ee250f0e2f" refkind="member"><highlight class="normal"><ref refid="class_game" kindref="compound">Game</ref><sp/><ref refid="class_game_controller_1af7cf01ef8ae8c809a72400ee250f0e2f" kindref="member">GameController::getGameById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_controller_1a102169af91cac5b2ebaec9c357580058" kindref="member">validateID</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>[id];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_game" kindref="compound">Game</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda" refkind="member"><highlight class="normal">xml_node&lt;&gt;*<sp/><ref refid="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda" kindref="member">GameController::serialize</ref>(xml_document&lt;&gt;*<sp/>doc)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>xml_node&lt;&gt;*<sp/>games_node<sp/>=<sp/>doc-&gt;allocate_node(node_element,<sp/></highlight><highlight class="stringliteral">&quot;games&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>games_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;size&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" kindref="member">Functions::itoa</ref>(<ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.size())<sp/>));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(vector&lt;Game&gt;::iterator<sp/>iter<sp/>=<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.begin();<sp/>iter<sp/>!=<sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.end();<sp/>iter++)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xml_node&lt;&gt;*<sp/>game_node<sp/>=<sp/>doc-&gt;allocate_node(node_element,<sp/></highlight><highlight class="stringliteral">&quot;game&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;team&quot;</highlight><highlight class="normal">,<sp/>iter-&gt;getTeam().getName().c_str()<sp/>));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;opponent&quot;</highlight><highlight class="normal">,<sp/>iter-&gt;getOpponent().getName().c_str()<sp/>));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;date&quot;</highlight><highlight class="normal">,<sp/>iter-&gt;getDate().c_str()<sp/>));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;place&quot;</highlight><highlight class="normal">,<sp/>iter-&gt;getPlace().c_str()<sp/>));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;viewers&quot;</highlight><highlight class="normal">,<sp/><sp/><ref refid="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" kindref="member">Functions::itoa</ref>(iter-&gt;getViewers())<sp/>));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game_node-&gt;append_attribute(doc-&gt;allocate_attribute(</highlight><highlight class="stringliteral">&quot;result&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" kindref="member">Functions::itoa</ref>(iter-&gt;getResult())<sp/>));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>games_node-&gt;append_node(game_node);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>games_node;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="class_game_controller_1a5182b219041e94233912a3395c6c039d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_controller_1a5182b219041e94233912a3395c6c039d" kindref="member">GameController::deserialize</ref>(xml_node&lt;&gt;*<sp/>games_node)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.clear();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(xml_node&lt;&gt;*<sp/>game_node<sp/>=<sp/>games_node-&gt;first_node(</highlight><highlight class="stringliteral">&quot;game&quot;</highlight><highlight class="normal">);<sp/>game_node;<sp/>game_node<sp/>=<sp/>game_node-&gt;next_sibling())</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game" kindref="compound">Game</ref><sp/>game;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a85b937fc817b0cbbc09ee0d50c1c88d6" kindref="member">setTeam</ref>(<sp/><ref refid="class_team" kindref="compound">Team</ref>(game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;team&quot;</highlight><highlight class="normal">)-&gt;value())<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1afce9509cf97e6770a01b371dba1b6bc0" kindref="member">setOpponent</ref>(<sp/><ref refid="class_team" kindref="compound">Team</ref>(game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;opponent&quot;</highlight><highlight class="normal">)-&gt;value())<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a69878d05e15dbd4c7f630a1e22c7cefe" kindref="member">setDate</ref>(<sp/>game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;date&quot;</highlight><highlight class="normal">)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1ab68d186027e5196b47cf1c7074b95fc0" kindref="member">setPlace</ref>(<sp/>game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;place&quot;</highlight><highlight class="normal">)-&gt;value()<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1a0f9a397e0d33e01f4f38d53b836bce93" kindref="member">setViewers</ref>(<sp/>atoi(game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;viewers&quot;</highlight><highlight class="normal">)-&gt;value())<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>game.<ref refid="class_game_1adc319059775c5ec5c44bd67030586e63" kindref="member">setResult</ref>(<sp/>atoi(game_node-&gt;first_attribute(</highlight><highlight class="stringliteral">&quot;result&quot;</highlight><highlight class="normal">)-&gt;value())<sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kindref="member">_container</ref>.push_back(game);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp"/>
+  </compounddef>
+</doxygen>

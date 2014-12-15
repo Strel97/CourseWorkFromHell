@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_team_controller" kind="class" prot="public">
+    <compoundname>TeamController</compoundname>
+    <includes refid="teamcontroller_8h" local="no">teamcontroller.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_team_controller_1a9f3c356d1dba6afff2b8fa23a1f561eb" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_team" kindref="compound">Team</ref> &gt;</type>
+        <definition>vector&lt;Team&gt; TeamController::_teams</definition>
+        <argsstring></argsstring>
+        <name>_teams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="27" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_team_controller_1a858742170e99738e931c5526d1c45770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TeamController::TeamController</definition>
+        <argsstring>()</argsstring>
+        <name>TeamController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="19" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_team_controller_1a876baf80fccce8bda8ad90069682ed6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_team" kindref="compound">Team</ref> *</type>
+        <definition>Team * TeamController::findByName</definition>
+        <argsstring>(string)</argsstring>
+        <name>findByName</name>
+        <param>
+          <type>string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="21" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.cpp" bodystart="8" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_team_controller_1a82edb12c919e759adc5b6d96b19d34ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>xml_node *</type>
+        <definition>xml_node* TeamController::serialize</definition>
+        <argsstring>(xml_document&lt;&gt; *doc)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>xml_document&lt;&gt; *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_team_controller_1a2d9851a9ce4d48f6c6255f6d20c5c4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TeamController::deserialize</definition>
+        <argsstring>(xml_node&lt;&gt; *)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" line="17" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/teamcontroller.h" bodystart="16" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_team_controller_1a9f3c356d1dba6afff2b8fa23a1f561eb" prot="private" virt="non-virtual"><scope>TeamController</scope><name>_teams</name></member>
+      <member refid="class_team_controller_1a2d9851a9ce4d48f6c6255f6d20c5c4a6" prot="public" virt="non-virtual"><scope>TeamController</scope><name>deserialize</name></member>
+      <member refid="class_team_controller_1a876baf80fccce8bda8ad90069682ed6e" prot="public" virt="non-virtual"><scope>TeamController</scope><name>findByName</name></member>
+      <member refid="class_team_controller_1a82edb12c919e759adc5b6d96b19d34ba" prot="public" virt="non-virtual"><scope>TeamController</scope><name>serialize</name></member>
+      <member refid="class_team_controller_1a858742170e99738e931c5526d1c45770" prot="public" virt="non-virtual"><scope>TeamController</scope><name>TeamController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

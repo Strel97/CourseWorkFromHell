@@ -1,0 +1,54 @@
+\hypertarget{game_8h}{\section{game.\-h File Reference}
+\label{game_8h}\index{game.\-h@{game.\-h}}
+}
+{\ttfamily \#include $<$Q\-Reg\-Exp$>$}\\*
+{\ttfamily \#include $<$Q\-String$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include \char`\"{}team.\-h\char`\"{}}\\*
+Include dependency graph for game.\-h\-:
+This graph shows which files directly or indirectly include this file\-:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_game}{Game}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{class_game}{Game} class Describes football game. \end{DoxyCompactList}\item 
+class \hyperlink{class_date_comparer}{Date\-Comparer}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{class_date_comparer}{Date\-Comparer} class Compares two \hyperlink{class_game}{Game} objects on the grounds of their dates. \end{DoxyCompactList}\item 
+class \hyperlink{class_result_comparer}{Result\-Comparer}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{class_result_comparer}{Result\-Comparer} class Compares the result of \hyperlink{class_game}{Game} objects by their results. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532f}{Game\-Results} \{ \hyperlink{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa843dff91ff0b0e5b98a110a512b2f531}{W\-I\-N}, 
+\hyperlink{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fafa6a17124aaf95b93c339c823454df22}{D\-E\-F\-E\-A\-T}, 
+\hyperlink{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa61f3c57b6943c85413975507aede78cd}{D\-R\-A\-W}, 
+\hyperlink{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa7061410bee1b8852bafdc73f132b782d}{N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D}
+ \}
+\begin{DoxyCompactList}\small\item\em The Game\-Results enum Contains possible variants of game result. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532f}{\index{game.\-h@{game.\-h}!Game\-Results@{Game\-Results}}
+\index{Game\-Results@{Game\-Results}!game.h@{game.\-h}}
+\subsubsection[{Game\-Results}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Game\-Results}}}\label{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532f}
+
+
+The Game\-Results enum Contains possible variants of game result. 
+
+W\-I\-N -\/ First team wins D\-E\-F\-E\-A\-T -\/ Opponent team wins D\-R\-A\-W -\/ Nobody wins N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D -\/ The game wasn't played \begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{W\-I\-N@{W\-I\-N}!game.\-h@{game.\-h}}\index{game.\-h@{game.\-h}!W\-I\-N@{W\-I\-N}}\item[{\em 
+\hypertarget{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa843dff91ff0b0e5b98a110a512b2f531}{W\-I\-N}\label{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa843dff91ff0b0e5b98a110a512b2f531}
+}]\index{D\-E\-F\-E\-A\-T@{D\-E\-F\-E\-A\-T}!game.\-h@{game.\-h}}\index{game.\-h@{game.\-h}!D\-E\-F\-E\-A\-T@{D\-E\-F\-E\-A\-T}}\item[{\em 
+\hypertarget{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fafa6a17124aaf95b93c339c823454df22}{D\-E\-F\-E\-A\-T}\label{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fafa6a17124aaf95b93c339c823454df22}
+}]\index{D\-R\-A\-W@{D\-R\-A\-W}!game.\-h@{game.\-h}}\index{game.\-h@{game.\-h}!D\-R\-A\-W@{D\-R\-A\-W}}\item[{\em 
+\hypertarget{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa61f3c57b6943c85413975507aede78cd}{D\-R\-A\-W}\label{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa61f3c57b6943c85413975507aede78cd}
+}]\index{N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D@{N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D}!game.\-h@{game.\-h}}\index{game.\-h@{game.\-h}!N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D@{N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D}}\item[{\em 
+\hypertarget{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa7061410bee1b8852bafdc73f132b782d}{N\-O\-T\-\_\-\-P\-L\-A\-Y\-E\-D}\label{game_8h_aa7bd90ce8f7f8fff95fd8fa4c90c532fa7061410bee1b8852bafdc73f132b782d}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 22 of file game.\-h.
+

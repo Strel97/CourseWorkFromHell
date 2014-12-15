@@ -1,0 +1,170 @@
+\hypertarget{class_stadium_controller}{\section{Stadium\-Controller Class Reference}
+\label{class_stadium_controller}\index{Stadium\-Controller@{Stadium\-Controller}}
+}
+
+
+{\ttfamily \#include $<$Stadium\-Controller.\-h$>$}
+
+
+
+Inheritance diagram for Stadium\-Controller\-:
+
+
+Collaboration diagram for Stadium\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_stadium_controller_a17fe39afd3d93dbbdaf1cef027cdefaa}{Stadium\-Controller} (void)
+\item 
+\hyperlink{class_stadium_controller_a204dca10d15a0c911c7bbcce9aa648e1}{$\sim$\-Stadium\-Controller} (void)
+\item 
+void \hyperlink{class_stadium_controller_a73c220035ff25a16e3662a0266784218}{edit} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit Edits the content of object \end{DoxyCompactList}\item 
+\hyperlink{class_stadium}{Stadium} $\ast$ \hyperlink{class_stadium_controller_a04c54a2b7396d3ef5667185a2f86edc6}{search\-By\-Id} (int)
+\item 
+\hyperlink{class_stadium}{Stadium} $\ast$ \hyperlink{class_stadium_controller_a1ef48e991575e837fd761d2eef0ce4a3}{search\-By\-Name} (string)
+\item 
+xml\-\_\-node $\ast$ \hyperlink{class_stadium_controller_a066f81b9560c8a7d92784ab85dd7a3b0}{serialize} (xml\-\_\-document$<$$>$ $\ast$doc)
+\begin{DoxyCompactList}\small\item\em serialize Creates the xml\-\_\-node object for further serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_stadium_controller_af7e2ff3d41780e203e1bda88fdcd070a}{deserialize} (xml\-\_\-node$<$$>$ $\ast$)
+\begin{DoxyCompactList}\small\item\em deserialize Pass information from xml file and creates objects on the base of this information \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file Stadium\-Controller.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_stadium_controller_a17fe39afd3d93dbbdaf1cef027cdefaa}{\index{Stadium\-Controller@{Stadium\-Controller}!Stadium\-Controller@{Stadium\-Controller}}
+\index{Stadium\-Controller@{Stadium\-Controller}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{Stadium\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}Stadium\-Controller\-::\-Stadium\-Controller (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_controller_a17fe39afd3d93dbbdaf1cef027cdefaa}
+
+
+Definition at line 4 of file Stadium\-Controller.\-cpp.
+
+\hypertarget{class_stadium_controller_a204dca10d15a0c911c7bbcce9aa648e1}{\index{Stadium\-Controller@{Stadium\-Controller}!$\sim$\-Stadium\-Controller@{$\sim$\-Stadium\-Controller}}
+\index{$\sim$\-Stadium\-Controller@{$\sim$\-Stadium\-Controller}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{$\sim$\-Stadium\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}Stadium\-Controller\-::$\sim$\-Stadium\-Controller (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_controller_a204dca10d15a0c911c7bbcce9aa648e1}
+
+
+Definition at line 14 of file Stadium\-Controller.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_stadium_controller_af7e2ff3d41780e203e1bda88fdcd070a}{\index{Stadium\-Controller@{Stadium\-Controller}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-Controller\-::deserialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-node$<$$>$ $\ast$}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_stadium_controller_af7e2ff3d41780e203e1bda88fdcd070a}
+
+
+deserialize Pass information from xml file and creates objects on the base of this information 
+
+
+
+Implements \hyperlink{class_controller_a5a640056935508649724441454e0d996}{Controller$<$ Stadium $>$}.
+
+
+
+Definition at line 71 of file Stadium\-Controller.\-cpp.
+
+\hypertarget{class_stadium_controller_a73c220035ff25a16e3662a0266784218}{\index{Stadium\-Controller@{Stadium\-Controller}!edit@{edit}}
+\index{edit@{edit}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{edit}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-Controller\-::edit (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_stadium_controller_a73c220035ff25a16e3662a0266784218}
+
+
+edit Edits the content of object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of object in collection \\
+\hline
+{\em field} & Field to modify \\
+\hline
+{\em value} & New value of field\\
+\hline
+\end{DoxyParams}
+Each controller class implements this method and realizes it because each class has it's own fields and allowable values for them 
+
+Implements \hyperlink{class_controller_ae0a60f517aa957a9b40787385e2f574d}{Controller$<$ Stadium $>$}.
+
+
+
+Definition at line 18 of file Stadium\-Controller.\-cpp.
+
+\hypertarget{class_stadium_controller_a04c54a2b7396d3ef5667185a2f86edc6}{\index{Stadium\-Controller@{Stadium\-Controller}!search\-By\-Id@{search\-By\-Id}}
+\index{search\-By\-Id@{search\-By\-Id}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{search\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stadium} $\ast$ Stadium\-Controller\-::search\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_controller_a04c54a2b7396d3ef5667185a2f86edc6}
+
+
+Definition at line 35 of file Stadium\-Controller.\-cpp.
+
+\hypertarget{class_stadium_controller_a1ef48e991575e837fd761d2eef0ce4a3}{\index{Stadium\-Controller@{Stadium\-Controller}!search\-By\-Name@{search\-By\-Name}}
+\index{search\-By\-Name@{search\-By\-Name}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{search\-By\-Name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stadium} $\ast$ Stadium\-Controller\-::search\-By\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_controller_a1ef48e991575e837fd761d2eef0ce4a3}
+
+
+Definition at line 43 of file Stadium\-Controller.\-cpp.
+
+\hypertarget{class_stadium_controller_a066f81b9560c8a7d92784ab85dd7a3b0}{\index{Stadium\-Controller@{Stadium\-Controller}!serialize@{serialize}}
+\index{serialize@{serialize}!StadiumController@{Stadium\-Controller}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}xml\-\_\-node $\ast$ Stadium\-Controller\-::serialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-document$<$$>$ $\ast$}]{doc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_stadium_controller_a066f81b9560c8a7d92784ab85dd7a3b0}
+
+
+serialize Creates the xml\-\_\-node object for further serialization 
+
+
+\begin{DoxyParams}{Parameters}
+{\em doc} & Reference to xml document \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+xml\-\_\-node, the content of collection 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_controller_ad64a54b0dae9862661873423e4623d12}{Controller$<$ Stadium $>$}.
+
+
+
+Definition at line 52 of file Stadium\-Controller.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_stadium_controller_8h}{Stadium\-Controller.\-h}\item 
+\hyperlink{_stadium_controller_8cpp}{Stadium\-Controller.\-cpp}\end{DoxyCompactItemize}

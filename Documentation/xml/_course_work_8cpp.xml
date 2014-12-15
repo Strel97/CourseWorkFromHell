@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_course_work_8cpp" kind="file">
+    <compoundname>CourseWork.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="menu_8h" local="yes">menu.h</includes>
+    <includes local="yes">/home/strel/GitHub/CourseWorkFromHell/CourseWork/RapidXml/rapidxml.hpp</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">ostream</includes>
+    <includes local="no">iterator</includes>
+    <incdepgraph>
+      <node id="537">
+        <label>iomanip</label>
+      </node>
+      <node id="551">
+        <label>teamcontroller.h</label>
+        <link refid="teamcontroller_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+      </node>
+      <node id="558">
+        <label>iterator</label>
+      </node>
+      <node id="546">
+        <label>stadium.h</label>
+        <link refid="stadium_8h"/>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+      </node>
+      <node id="532">
+        <label>stdafx.h</label>
+      </node>
+      <node id="533">
+        <label>menu.h</label>
+        <link refid="menu_8h"/>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="537" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+      </node>
+      <node id="538">
+        <label>DataBase.h</label>
+        <link refid="_data_base_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="539" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+        <childnode refid="550" relation="include">
+        </childnode>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="554" relation="include">
+        </childnode>
+      </node>
+      <node id="547">
+        <label>PlayerController.h</label>
+        <link refid="_player_controller_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>stdexcept</label>
+      </node>
+      <node id="536">
+        <label>string</label>
+      </node>
+      <node id="550">
+        <label>GameController.h</label>
+        <link refid="_game_controller_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="551" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>Controller.h</label>
+        <link refid="_controller_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+      </node>
+      <node id="539">
+        <label>fstream</label>
+      </node>
+      <node id="557">
+        <label>ostream</label>
+      </node>
+      <node id="552">
+        <label>StadiumController.h</label>
+        <link refid="_stadium_controller_8h"/>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>RapidXml/rapidxml.hpp</label>
+      </node>
+      <node id="541">
+        <label>QRegExp</label>
+      </node>
+      <node id="531">
+        <label>CourseWork.cpp</label>
+        <link refid="CourseWork.cpp"/>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="539" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="557" relation="include">
+        </childnode>
+        <childnode refid="558" relation="include">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>vector</label>
+      </node>
+      <node id="543">
+        <label>functions.h</label>
+        <link refid="functions_8h"/>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>team.h</label>
+        <link refid="team_8h"/>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+      </node>
+      <node id="542">
+        <label>QString</label>
+      </node>
+      <node id="544">
+        <label>game.h</label>
+        <link refid="game_8h"/>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+      </node>
+      <node id="554">
+        <label>RapidXml/rapidxml_print.hpp</label>
+      </node>
+      <node id="534">
+        <label>iostream</label>
+      </node>
+      <node id="540">
+        <label>player.h</label>
+        <link refid="player_8h"/>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="537" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>/home/strel/GitHub/CourseWorkFromHell/CourseWork/RapidXml/rapidxml.hpp</label>
+      </node>
+      <node id="553">
+        <label>RapidXml/rapidxml_utils.hpp</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_course_work_8cpp_1a353674c5af92be7fb389265cde4e5e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _tmain</definition>
+        <argsstring>(int argc, _TCHAR *argv[])</argsstring>
+        <name>_tmain</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>_TCHAR *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/CourseWork.cpp" line="8" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/CourseWork.cpp" bodystart="8" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>CourseWork.cpp<sp/>:<sp/>Defines<sp/>the<sp/>entry<sp/>point<sp/>for<sp/>the<sp/>console<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="menu_8h" kindref="compound">menu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_course_work_8cpp_1a353674c5af92be7fb389265cde4e5e03" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_course_work_8cpp_1a353674c5af92be7fb389265cde4e5e03" kindref="member">_tmain</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/>_TCHAR*<sp/>argv[])</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_menu" kindref="compound">Menu</ref>*<sp/>menu<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_menu" kindref="compound">Menu</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>menu-&gt;<ref refid="class_menu_1ae1ec62e738dda7faaaec850bd0b58ffe" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/CourseWork.cpp"/>
+  </compounddef>
+</doxygen>

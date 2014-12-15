@@ -1,0 +1,286 @@
+\hypertarget{class_team}{\section{Team Class Reference}
+\label{class_team}\index{Team@{Team}}
+}
+
+
+The \hyperlink{class_team}{Team} class Describes the footbal team.  
+
+
+
+
+{\ttfamily \#include $<$team.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_team_aada295895b747960576b69d8c87a54ba}{Team} ()
+\item 
+\hyperlink{class_team_a6209508aa24d5a1266fb95ce5e5e2651}{Team} (string)
+\item 
+\hyperlink{class_team_abb6230026200657d6fff9df436835729}{Team} (string, vector$<$ \hyperlink{class_player}{Player} $>$)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_team}{Team} Creates team with the name specified in parameter and with players, specified in parameter. \end{DoxyCompactList}\item 
+string \hyperlink{class_team_ab21736a411213da36d08210e570ecbeb}{get\-Name} ()
+\begin{DoxyCompactList}\small\item\em get\-Name Returns the name of team \end{DoxyCompactList}\item 
+void \hyperlink{class_team_a840a65b79f7d718965831611e72b6ac2}{set\-Name} (string)
+\begin{DoxyCompactList}\small\item\em set\-Name Changes the name of team \end{DoxyCompactList}\item 
+void \hyperlink{class_team_a59c401173c3bd78e4ce802e0c56c9066}{add\-Player} (\hyperlink{class_player}{Player})
+\begin{DoxyCompactList}\small\item\em add\-Player Adds player to team \end{DoxyCompactList}\item 
+void \hyperlink{class_team_ae7e10897ad329c6884b427d4405b85b0}{del\-Player} (\hyperlink{class_player}{Player})
+\begin{DoxyCompactList}\small\item\em del\-Player Deletes player from team \end{DoxyCompactList}\item 
+bool \hyperlink{class_team_a0692cba8304a16a9e7130199d98dc20e}{is\-Full} ()
+\begin{DoxyCompactList}\small\item\em is\-Full Determines whether the team is full \end{DoxyCompactList}\item 
+bool \hyperlink{class_team_a20b76437be05fcbe17b921cdc9972327}{is\-Empty} ()
+\begin{DoxyCompactList}\small\item\em is\-Empty Determines whether the team is empty \end{DoxyCompactList}\item 
+void \hyperlink{class_team_adb9b80fa6c6f6c0eed5f7500523d7860}{to\-\_\-console} ()
+\begin{DoxyCompactList}\small\item\em to\-\_\-console Outputs the information about team to console \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_team_a61e1d0f6f00634835b02168deb404ddd}{validate\-Name} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Name Validates name \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_team_a9eee662144e38bf78a062e006c8c3ceb}{operator==} (\hyperlink{class_team}{Team}, \hyperlink{class_team}{Team})
+\begin{DoxyCompactList}\small\item\em operator == Compares two \hyperlink{class_team}{Team} objects \end{DoxyCompactList}\item 
+ostream \& \hyperlink{class_team_a751cb895290fed5451f5af01114ca269}{operator$<$$<$} (ostream \&os, const \hyperlink{class_team}{Team} \&team)
+\begin{DoxyCompactList}\small\item\em operator $<$$<$ Outputs the information about object to stream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_team}{Team} class Describes the footbal team. 
+
+It has 11 players and name of team. This class contains functions for player management 
+
+Definition at line 25 of file team.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_team_aada295895b747960576b69d8c87a54ba}{\index{Team@{Team}!Team@{Team}}
+\index{Team@{Team}!Team@{Team}}
+\subsubsection[{Team}]{\setlength{\rightskip}{0pt plus 5cm}Team\-::\-Team (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_team_aada295895b747960576b69d8c87a54ba}
+
+
+Definition at line 9 of file team.\-cpp.
+
+\hypertarget{class_team_a6209508aa24d5a1266fb95ce5e5e2651}{\index{Team@{Team}!Team@{Team}}
+\index{Team@{Team}!Team@{Team}}
+\subsubsection[{Team}]{\setlength{\rightskip}{0pt plus 5cm}Team\-::\-Team (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_team_a6209508aa24d5a1266fb95ce5e5e2651}
+Creates empty team with the name, specified in parameter 
+
+Definition at line 14 of file team.\-cpp.
+
+\hypertarget{class_team_abb6230026200657d6fff9df436835729}{\index{Team@{Team}!Team@{Team}}
+\index{Team@{Team}!Team@{Team}}
+\subsubsection[{Team}]{\setlength{\rightskip}{0pt plus 5cm}Team\-::\-Team (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{vector$<$ {\bf Player} $>$}]{team}
+\end{DoxyParamCaption}
+)}}\label{class_team_abb6230026200657d6fff9df436835729}
+
+
+\hyperlink{class_team}{Team} Creates team with the name specified in parameter and with players, specified in parameter. 
+
+
+
+Definition at line 20 of file team.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_team_a59c401173c3bd78e4ce802e0c56c9066}{\index{Team@{Team}!add\-Player@{add\-Player}}
+\index{add\-Player@{add\-Player}!Team@{Team}}
+\subsubsection[{add\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Team\-::add\-Player (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_team_a59c401173c3bd78e4ce802e0c56c9066}
+
+
+add\-Player Adds player to team 
+
+
+
+Definition at line 42 of file team.\-cpp.
+
+\hypertarget{class_team_ae7e10897ad329c6884b427d4405b85b0}{\index{Team@{Team}!del\-Player@{del\-Player}}
+\index{del\-Player@{del\-Player}!Team@{Team}}
+\subsubsection[{del\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Team\-::del\-Player (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_team_ae7e10897ad329c6884b427d4405b85b0}
+
+
+del\-Player Deletes player from team 
+
+
+
+Definition at line 48 of file team.\-cpp.
+
+\hypertarget{class_team_ab21736a411213da36d08210e570ecbeb}{\index{Team@{Team}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!Team@{Team}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Team\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_team_ab21736a411213da36d08210e570ecbeb}
+
+
+get\-Name Returns the name of team 
+
+\begin{DoxyReturn}{Returns}
+The name of team 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file team.\-cpp.
+
+\hypertarget{class_team_a20b76437be05fcbe17b921cdc9972327}{\index{Team@{Team}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Team@{Team}}
+\subsubsection[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}bool Team\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_team_a20b76437be05fcbe17b921cdc9972327}
+
+
+is\-Empty Determines whether the team is empty 
+
+\begin{DoxyReturn}{Returns}
+Whether the team is empty
+\end{DoxyReturn}
+\hyperlink{class_team}{Team} is empty, if it has no players 
+
+Definition at line 63 of file team.\-cpp.
+
+\hypertarget{class_team_a0692cba8304a16a9e7130199d98dc20e}{\index{Team@{Team}!is\-Full@{is\-Full}}
+\index{is\-Full@{is\-Full}!Team@{Team}}
+\subsubsection[{is\-Full}]{\setlength{\rightskip}{0pt plus 5cm}bool Team\-::is\-Full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_team_a0692cba8304a16a9e7130199d98dc20e}
+
+
+is\-Full Determines whether the team is full 
+
+\begin{DoxyReturn}{Returns}
+Whether the team is full
+\end{DoxyReturn}
+\hyperlink{class_team}{Team} is full, if it has 11 players 
+
+Definition at line 58 of file team.\-cpp.
+
+\hypertarget{class_team_a840a65b79f7d718965831611e72b6ac2}{\index{Team@{Team}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!Team@{Team}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Team\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_team_a840a65b79f7d718965831611e72b6ac2}
+
+
+set\-Name Changes the name of team 
+
+
+
+Definition at line 34 of file team.\-cpp.
+
+\hypertarget{class_team_adb9b80fa6c6f6c0eed5f7500523d7860}{\index{Team@{Team}!to\-\_\-console@{to\-\_\-console}}
+\index{to\-\_\-console@{to\-\_\-console}!Team@{Team}}
+\subsubsection[{to\-\_\-console}]{\setlength{\rightskip}{0pt plus 5cm}void Team\-::to\-\_\-console (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_team_adb9b80fa6c6f6c0eed5f7500523d7860}
+
+
+to\-\_\-console Outputs the information about team to console 
+
+
+
+Definition at line 73 of file team.\-cpp.
+
+\hypertarget{class_team_a61e1d0f6f00634835b02168deb404ddd}{\index{Team@{Team}!validate\-Name@{validate\-Name}}
+\index{validate\-Name@{validate\-Name}!Team@{Team}}
+\subsubsection[{validate\-Name}]{\setlength{\rightskip}{0pt plus 5cm}bool Team\-::validate\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_team_a61e1d0f6f00634835b02168deb404ddd}
+
+
+validate\-Name Validates name 
+
+\begin{DoxyReturn}{Returns}
+Whether the name meets the following conditions
+\end{DoxyReturn}
+First character of name must be captilized and other must be in lower case. Name must contain only letters. 
+
+Definition at line 68 of file team.\-cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_team_a751cb895290fed5451f5af01114ca269}{\index{Team@{Team}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Team@{Team}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Team} \&}]{team}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_team_a751cb895290fed5451f5af01114ca269}
+
+
+operator $<$$<$ Outputs the information about object to stream 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream \\
+\hline
+{\em player} & Object for outputting \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Output stream 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file team.\-cpp.
+
+\hypertarget{class_team_a9eee662144e38bf78a062e006c8c3ceb}{\index{Team@{Team}!operator==@{operator==}}
+\index{operator==@{operator==}!Team@{Team}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Team}}]{t1, }
+\item[{{\bf Team}}]{t2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_team_a9eee662144e38bf78a062e006c8c3ceb}
+
+
+operator == Compares two \hyperlink{class_team}{Team} objects 
+
+\begin{DoxyReturn}{Returns}
+Whether two objects are equal
+\end{DoxyReturn}
+Two \hyperlink{class_team}{Team} objects are equal if they have the same name, capacity and pric for one ticket 
+
+Definition at line 86 of file team.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{team_8h}{team.\-h}\item 
+\hyperlink{team_8cpp}{team.\-cpp}\end{DoxyCompactItemize}

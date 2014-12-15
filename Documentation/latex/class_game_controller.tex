@@ -1,0 +1,209 @@
+\hypertarget{class_game_controller}{\section{Game\-Controller Class Reference}
+\label{class_game_controller}\index{Game\-Controller@{Game\-Controller}}
+}
+
+
+{\ttfamily \#include $<$Game\-Controller.\-h$>$}
+
+
+
+Inheritance diagram for Game\-Controller\-:
+
+
+Collaboration diagram for Game\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_controller_a7d72ff3f639acb68578e20fee3649b42}{Game\-Controller} ()
+\item 
+void \hyperlink{class_game_controller_a6bb98af3aa77930625e8bd207c79af06}{edit} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit Edits the content of object \end{DoxyCompactList}\item 
+void \hyperlink{class_game_controller_a47969d486d0f3e1a3a46db09653be507}{sort\-By\-Date} ()
+\item 
+void \hyperlink{class_game_controller_a6db50feecfb3f8244fd549027f52b6a1}{sort\-By\-Result} ()
+\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_game_controller_a285063010bded38aa3e2b4d7be9d914a}{search\-By\-Id} (int)
+\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_game_controller_a271685999fb6548823b147eedda38345}{search\-By\-Date} (string)
+\item 
+\hyperlink{class_game}{Game} $\ast$ \hyperlink{class_game_controller_ab6d352fa9f3a4ba5b9e72698e7919441}{search\-By\-Opponent} (string)
+\item 
+\hyperlink{class_game}{Game} \hyperlink{class_game_controller_af7cf01ef8ae8c809a72400ee250f0e2f}{get\-Game\-By\-Id} (int id)
+\item 
+xml\-\_\-node $\ast$ \hyperlink{class_game_controller_a839d19d81fc46c4fcb3b8c6eb5fd6cda}{serialize} (xml\-\_\-document$<$$>$ $\ast$doc)
+\begin{DoxyCompactList}\small\item\em serialize Creates the xml\-\_\-node object for further serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_game_controller_a5182b219041e94233912a3395c6c039d}{deserialize} (xml\-\_\-node$<$$>$ $\ast$)
+\begin{DoxyCompactList}\small\item\em deserialize Pass information from xml file and creates objects on the base of this information \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Game\-Controller.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_controller_a7d72ff3f639acb68578e20fee3649b42}{\index{Game\-Controller@{Game\-Controller}!Game\-Controller@{Game\-Controller}}
+\index{Game\-Controller@{Game\-Controller}!GameController@{Game\-Controller}}
+\subsubsection[{Game\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Controller\-::\-Game\-Controller (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_a7d72ff3f639acb68578e20fee3649b42}
+
+
+Definition at line 4 of file Game\-Controller.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_controller_a5182b219041e94233912a3395c6c039d}{\index{Game\-Controller@{Game\-Controller}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!GameController@{Game\-Controller}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Controller\-::deserialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-node$<$$>$ $\ast$}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_game_controller_a5182b219041e94233912a3395c6c039d}
+
+
+deserialize Pass information from xml file and creates objects on the base of this information 
+
+
+
+Implements \hyperlink{class_controller_a5a640056935508649724441454e0d996}{Controller$<$ Game $>$}.
+
+
+
+Definition at line 103 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a6bb98af3aa77930625e8bd207c79af06}{\index{Game\-Controller@{Game\-Controller}!edit@{edit}}
+\index{edit@{edit}!GameController@{Game\-Controller}}
+\subsubsection[{edit}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Controller\-::edit (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_game_controller_a6bb98af3aa77930625e8bd207c79af06}
+
+
+edit Edits the content of object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of object in collection \\
+\hline
+{\em field} & Field to modify \\
+\hline
+{\em value} & New value of field\\
+\hline
+\end{DoxyParams}
+Each controller class implements this method and realizes it because each class has it's own fields and allowable values for them 
+
+Implements \hyperlink{class_controller_ae0a60f517aa957a9b40787385e2f574d}{Controller$<$ Game $>$}.
+
+
+
+Definition at line 14 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_af7cf01ef8ae8c809a72400ee250f0e2f}{\index{Game\-Controller@{Game\-Controller}!get\-Game\-By\-Id@{get\-Game\-By\-Id}}
+\index{get\-Game\-By\-Id@{get\-Game\-By\-Id}!GameController@{Game\-Controller}}
+\subsubsection[{get\-Game\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} Game\-Controller\-::get\-Game\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_af7cf01ef8ae8c809a72400ee250f0e2f}
+
+
+Definition at line 73 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a271685999fb6548823b147eedda38345}{\index{Game\-Controller@{Game\-Controller}!search\-By\-Date@{search\-By\-Date}}
+\index{search\-By\-Date@{search\-By\-Date}!GameController@{Game\-Controller}}
+\subsubsection[{search\-By\-Date}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Game\-Controller\-::search\-By\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{date}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_a271685999fb6548823b147eedda38345}
+
+
+Definition at line 55 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a285063010bded38aa3e2b4d7be9d914a}{\index{Game\-Controller@{Game\-Controller}!search\-By\-Id@{search\-By\-Id}}
+\index{search\-By\-Id@{search\-By\-Id}!GameController@{Game\-Controller}}
+\subsubsection[{search\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Game\-Controller\-::search\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_a285063010bded38aa3e2b4d7be9d914a}
+
+
+Definition at line 47 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_ab6d352fa9f3a4ba5b9e72698e7919441}{\index{Game\-Controller@{Game\-Controller}!search\-By\-Opponent@{search\-By\-Opponent}}
+\index{search\-By\-Opponent@{search\-By\-Opponent}!GameController@{Game\-Controller}}
+\subsubsection[{search\-By\-Opponent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game} $\ast$ Game\-Controller\-::search\-By\-Opponent (
+\begin{DoxyParamCaption}
+\item[{string}]{opponent}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_ab6d352fa9f3a4ba5b9e72698e7919441}
+
+
+Definition at line 64 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a839d19d81fc46c4fcb3b8c6eb5fd6cda}{\index{Game\-Controller@{Game\-Controller}!serialize@{serialize}}
+\index{serialize@{serialize}!GameController@{Game\-Controller}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}xml\-\_\-node $\ast$ Game\-Controller\-::serialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-document$<$$>$ $\ast$}]{doc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_game_controller_a839d19d81fc46c4fcb3b8c6eb5fd6cda}
+
+
+serialize Creates the xml\-\_\-node object for further serialization 
+
+
+\begin{DoxyParams}{Parameters}
+{\em doc} & Reference to xml document \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+xml\-\_\-node, the content of collection 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_controller_ad64a54b0dae9862661873423e4623d12}{Controller$<$ Game $>$}.
+
+
+
+Definition at line 81 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a47969d486d0f3e1a3a46db09653be507}{\index{Game\-Controller@{Game\-Controller}!sort\-By\-Date@{sort\-By\-Date}}
+\index{sort\-By\-Date@{sort\-By\-Date}!GameController@{Game\-Controller}}
+\subsubsection[{sort\-By\-Date}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Controller\-::sort\-By\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_a47969d486d0f3e1a3a46db09653be507}
+
+
+Definition at line 37 of file Game\-Controller.\-cpp.
+
+\hypertarget{class_game_controller_a6db50feecfb3f8244fd549027f52b6a1}{\index{Game\-Controller@{Game\-Controller}!sort\-By\-Result@{sort\-By\-Result}}
+\index{sort\-By\-Result@{sort\-By\-Result}!GameController@{Game\-Controller}}
+\subsubsection[{sort\-By\-Result}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Controller\-::sort\-By\-Result (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_controller_a6db50feecfb3f8244fd549027f52b6a1}
+
+
+Definition at line 42 of file Game\-Controller.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_game_controller_8h}{Game\-Controller.\-h}\item 
+\hyperlink{_game_controller_8cpp}{Game\-Controller.\-cpp}\end{DoxyCompactItemize}

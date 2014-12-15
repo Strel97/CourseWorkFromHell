@@ -1,0 +1,267 @@
+\hypertarget{class_controller}{\section{Controller$<$ C\-Type $>$ Class Template Reference}
+\label{class_controller}\index{Controller$<$ C\-Type $>$@{Controller$<$ C\-Type $>$}}
+}
+
+
+{\ttfamily \#include $<$Controller.\-h$>$}
+
+
+
+Collaboration diagram for Controller$<$ C\-Type $>$\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_controller_a0f817aa1089f52e0290aa7a0edcebf97}{Controller} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_controller}{Controller} Creates empty controller. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_controller_a8c9dbb3d1687c8ef62b6d29f6991124f}{$\sim$\-Controller} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\-Controller Seek And Destroy!!! \end{DoxyCompactList}\item 
+void \hyperlink{class_controller_a56ad83e3295de8b9dbe11cbd74d5a468}{add} (C\-Type node)
+\begin{DoxyCompactList}\small\item\em add Adds element to the collection \end{DoxyCompactList}\item 
+void \hyperlink{class_controller_abb0469b161ecb5d2765e54568a08e5dc}{del} (C\-Type node)
+\begin{DoxyCompactList}\small\item\em del Deletes specified element from collection \end{DoxyCompactList}\item 
+void \hyperlink{class_controller_a60bee27ade39edf02479ca34ee6823ae}{del} (int id)
+\begin{DoxyCompactList}\small\item\em del Deletes element from collection by specified id \end{DoxyCompactList}\item 
+vector$<$ C\-Type $>$ \hyperlink{class_controller_a92fe74ba878f98ed1fc8272771680e90}{get\-Container} ()
+\begin{DoxyCompactList}\small\item\em get\-Container Returns the list of objects (or collection) \end{DoxyCompactList}\item 
+bool \hyperlink{class_controller_a102169af91cac5b2ebaec9c357580058}{validate\-I\-D} (int id)
+\begin{DoxyCompactList}\small\item\em validate\-I\-D Validates the value of I\-D \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_controller_ae0a60f517aa957a9b40787385e2f574d}{edit} (int id, string field, string value)=0
+\begin{DoxyCompactList}\small\item\em edit Edits the content of object \end{DoxyCompactList}\item 
+virtual xml\-\_\-node $\ast$ \hyperlink{class_controller_ad64a54b0dae9862661873423e4623d12}{serialize} (xml\-\_\-document$<$$>$ $\ast$doc)=0
+\begin{DoxyCompactList}\small\item\em serialize Creates the xml\-\_\-node object for further serialization \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_controller_a5a640056935508649724441454e0d996}{deserialize} (xml\-\_\-node$<$$>$ $\ast$)=0
+\begin{DoxyCompactList}\small\item\em deserialize Pass information from xml file and creates objects on the base of this information \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ C\-Type $>$ \hyperlink{class_controller_a35c624141b5dafd2314829c910db7f9b}{\-\_\-container}
+\begin{DoxyCompactList}\small\item\em \-\_\-container Collection of objects \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class C\-Type$>$class Controller$<$ C\-Type $>$}
+
+This template class represents the controller in M\-V\-C pattern. It has basic operations for adding and deleting element of any type to or from collection. 
+
+Definition at line 21 of file Controller.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_controller_a0f817aa1089f52e0290aa7a0edcebf97}{\index{Controller@{Controller}!Controller@{Controller}}
+\index{Controller@{Controller}!Controller@{Controller}}
+\subsubsection[{Controller}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ {\bf Controller}$<$ C\-Type $>$\-::{\bf Controller} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_a0f817aa1089f52e0290aa7a0edcebf97}
+
+
+\hyperlink{class_controller}{Controller} Creates empty controller. 
+
+
+
+Definition at line 27 of file Controller.\-h.
+
+\hypertarget{class_controller_a8c9dbb3d1687c8ef62b6d29f6991124f}{\index{Controller@{Controller}!$\sim$\-Controller@{$\sim$\-Controller}}
+\index{$\sim$\-Controller@{$\sim$\-Controller}!Controller@{Controller}}
+\subsubsection[{$\sim$\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ virtual {\bf Controller}$<$ C\-Type $>$\-::$\sim${\bf Controller} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_controller_a8c9dbb3d1687c8ef62b6d29f6991124f}
+
+
+$\sim$\-Controller Seek And Destroy!!! 
+
+
+
+Definition at line 35 of file Controller.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_controller_a56ad83e3295de8b9dbe11cbd74d5a468}{\index{Controller@{Controller}!add@{add}}
+\index{add@{add}!Controller@{Controller}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ void {\bf Controller}$<$ C\-Type $>$\-::add (
+\begin{DoxyParamCaption}
+\item[{C\-Type}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_a56ad83e3295de8b9dbe11cbd74d5a468}
+
+
+add Adds element to the collection 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Element to be added \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file Controller.\-h.
+
+\hypertarget{class_controller_abb0469b161ecb5d2765e54568a08e5dc}{\index{Controller@{Controller}!del@{del}}
+\index{del@{del}!Controller@{Controller}}
+\subsubsection[{del}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ void {\bf Controller}$<$ C\-Type $>$\-::del (
+\begin{DoxyParamCaption}
+\item[{C\-Type}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_abb0469b161ecb5d2765e54568a08e5dc}
+
+
+del Deletes specified element from collection 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Element info for deleting \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file Controller.\-h.
+
+\hypertarget{class_controller_a60bee27ade39edf02479ca34ee6823ae}{\index{Controller@{Controller}!del@{del}}
+\index{del@{del}!Controller@{Controller}}
+\subsubsection[{del}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ void {\bf Controller}$<$ C\-Type $>$\-::del (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_a60bee27ade39edf02479ca34ee6823ae}
+
+
+del Deletes element from collection by specified id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of element in collection \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 64 of file Controller.\-h.
+
+\hypertarget{class_controller_a5a640056935508649724441454e0d996}{\index{Controller@{Controller}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!Controller@{Controller}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ virtual void {\bf Controller}$<$ C\-Type $>$\-::deserialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-node$<$$>$ $\ast$}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_controller_a5a640056935508649724441454e0d996}
+
+
+deserialize Pass information from xml file and creates objects on the base of this information 
+
+
+
+Implemented in \hyperlink{class_game_controller_a5182b219041e94233912a3395c6c039d}{Game\-Controller}, \hyperlink{class_stadium_controller_af7e2ff3d41780e203e1bda88fdcd070a}{Stadium\-Controller}, and \hyperlink{class_player_controller_a93cec52c22ee44ed3ac8c9c8bbd96b02}{Player\-Controller}.
+
+\hypertarget{class_controller_ae0a60f517aa957a9b40787385e2f574d}{\index{Controller@{Controller}!edit@{edit}}
+\index{edit@{edit}!Controller@{Controller}}
+\subsubsection[{edit}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ virtual void {\bf Controller}$<$ C\-Type $>$\-::edit (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_controller_ae0a60f517aa957a9b40787385e2f574d}
+
+
+edit Edits the content of object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of object in collection \\
+\hline
+{\em field} & Field to modify \\
+\hline
+{\em value} & New value of field\\
+\hline
+\end{DoxyParams}
+Each controller class implements this method and realizes it because each class has it's own fields and allowable values for them 
+
+Implemented in \hyperlink{class_game_controller_a6bb98af3aa77930625e8bd207c79af06}{Game\-Controller}, \hyperlink{class_stadium_controller_a73c220035ff25a16e3662a0266784218}{Stadium\-Controller}, and \hyperlink{class_player_controller_aa31049f0ac0ef1a38b1334b01e3217a0}{Player\-Controller}.
+
+\hypertarget{class_controller_a92fe74ba878f98ed1fc8272771680e90}{\index{Controller@{Controller}!get\-Container@{get\-Container}}
+\index{get\-Container@{get\-Container}!Controller@{Controller}}
+\subsubsection[{get\-Container}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ vector$<$C\-Type$>$ {\bf Controller}$<$ C\-Type $>$\-::get\-Container (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_a92fe74ba878f98ed1fc8272771680e90}
+
+
+get\-Container Returns the list of objects (or collection) 
+
+\begin{DoxyReturn}{Returns}
+Collection of objects 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file Controller.\-h.
+
+\hypertarget{class_controller_ad64a54b0dae9862661873423e4623d12}{\index{Controller@{Controller}!serialize@{serialize}}
+\index{serialize@{serialize}!Controller@{Controller}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ virtual xml\-\_\-node$\ast$ {\bf Controller}$<$ C\-Type $>$\-::serialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-document$<$$>$ $\ast$}]{doc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_controller_ad64a54b0dae9862661873423e4623d12}
+
+
+serialize Creates the xml\-\_\-node object for further serialization 
+
+
+\begin{DoxyParams}{Parameters}
+{\em doc} & Reference to xml document \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+xml\-\_\-node, the content of collection 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_game_controller_a839d19d81fc46c4fcb3b8c6eb5fd6cda}{Game\-Controller}, \hyperlink{class_stadium_controller_a066f81b9560c8a7d92784ab85dd7a3b0}{Stadium\-Controller}, and \hyperlink{class_player_controller_acce83d1acdc1eec82210954e4d7a5322}{Player\-Controller}.
+
+\hypertarget{class_controller_a102169af91cac5b2ebaec9c357580058}{\index{Controller@{Controller}!validate\-I\-D@{validate\-I\-D}}
+\index{validate\-I\-D@{validate\-I\-D}!Controller@{Controller}}
+\subsubsection[{validate\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ bool {\bf Controller}$<$ C\-Type $>$\-::validate\-I\-D (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_controller_a102169af91cac5b2ebaec9c357580058}
+
+
+validate\-I\-D Validates the value of I\-D 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wheter id meets the following conditions
+\end{DoxyReturn}
+I\-D must be greater or equal to zero and less than collection size to predict out of range exception 
+
+Definition at line 87 of file Controller.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_controller_a35c624141b5dafd2314829c910db7f9b}{\index{Controller@{Controller}!\-\_\-container@{\-\_\-container}}
+\index{\-\_\-container@{\-\_\-container}!Controller@{Controller}}
+\subsubsection[{\-\_\-container}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C\-Type$>$ vector$<$C\-Type$>$ {\bf Controller}$<$ C\-Type $>$\-::\-\_\-container\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_controller_a35c624141b5dafd2314829c910db7f9b}
+
+
+\-\_\-container Collection of objects 
+
+
+
+Definition at line 120 of file Controller.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_controller_8h}{Controller.\-h}\end{DoxyCompactItemize}

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_controller" kind="class"><name>Controller</name>
+    <member refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" kind="variable"><name>_container</name></member>
+    <member refid="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" kind="function"><name>Controller</name></member>
+    <member refid="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" kind="function"><name>~Controller</name></member>
+    <member refid="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" kind="function"><name>add</name></member>
+    <member refid="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" kind="function"><name>del</name></member>
+    <member refid="class_controller_1a60bee27ade39edf02479ca34ee6823ae" kind="function"><name>del</name></member>
+    <member refid="class_controller_1a92fe74ba878f98ed1fc8272771680e90" kind="function"><name>getContainer</name></member>
+    <member refid="class_controller_1a102169af91cac5b2ebaec9c357580058" kind="function"><name>validateID</name></member>
+    <member refid="class_controller_1ae0a60f517aa957a9b40787385e2f574d" kind="function"><name>edit</name></member>
+    <member refid="class_controller_1ad64a54b0dae9862661873423e4623d12" kind="function"><name>serialize</name></member>
+    <member refid="class_controller_1a5a640056935508649724441454e0d996" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="class_data_base" kind="class"><name>DataBase</name>
+    <member refid="class_data_base_1a3d3162b90e9fd7d7863b5ea78eb36cbd" kind="variable"><name>_player_controll</name></member>
+    <member refid="class_data_base_1ac3f93244cb67a02e3bf09abcf2bc798d" kind="variable"><name>_game_controll</name></member>
+    <member refid="class_data_base_1a353c8e957da5cf781d0d0c8a33156bc7" kind="variable"><name>_stadium_controll</name></member>
+    <member refid="class_data_base_1a413a2628a5074fc2b89a450d03c0791f" kind="variable"><name>_team_controll</name></member>
+    <member refid="class_data_base_1a0b3291241e49d9b9634b3de61678a477" kind="function"><name>DataBase</name></member>
+    <member refid="class_data_base_1adf40fe9249bbce059d5f2cd2258e7d6f" kind="function"><name>~DataBase</name></member>
+    <member refid="class_data_base_1adb4b3e45b6999bd0dffda26a11beb4f9" kind="function"><name>addPlayer</name></member>
+    <member refid="class_data_base_1a9a11414e2bdb19b83e4c809a8d7d9ea2" kind="function"><name>delPlayer</name></member>
+    <member refid="class_data_base_1a1a4731ade06cc1a3db9d8fdc922bb2de" kind="function"><name>editPlayer</name></member>
+    <member refid="class_data_base_1a03fed8ac60602990cf664a909a264a2a" kind="function"><name>getPlayer</name></member>
+    <member refid="class_data_base_1ac96812e42a636dbed6f67e1dd5929583" kind="function"><name>getPlayer</name></member>
+    <member refid="class_data_base_1a75ff20bfd5026b449a100eb921d4782f" kind="function"><name>getAllPlayers</name></member>
+    <member refid="class_data_base_1a9ec33a7d1b80f0a2ac1ea4bc1cae0250" kind="function"><name>addGame</name></member>
+    <member refid="class_data_base_1ab8c99e8127da0e91f9c781df34354e95" kind="function"><name>delGame</name></member>
+    <member refid="class_data_base_1a34bfc02d1b00880b4e0e8649a72ced65" kind="function"><name>editGame</name></member>
+    <member refid="class_data_base_1aa8d315a9be22cdb1307bdcc9b7a2f582" kind="function"><name>getGame</name></member>
+    <member refid="class_data_base_1ad2a82229b013ff5a9c8c601c1dc31644" kind="function"><name>getGameByDate</name></member>
+    <member refid="class_data_base_1aded9581d3a3a49f2bcef9b85d47df91a" kind="function"><name>getGameByOpponent</name></member>
+    <member refid="class_data_base_1aefef256aaad12ee1be50641880fe02f3" kind="function"><name>getAllGames</name></member>
+    <member refid="class_data_base_1af298db6d84a93e352aa9915dfbaefd4a" kind="function"><name>sortGamesByDate</name></member>
+    <member refid="class_data_base_1a7ded6aadeece170243c9c65cc976704e" kind="function"><name>sortGamesByResult</name></member>
+    <member refid="class_data_base_1ab647a42c48cbaaa71446c4c6359c2594" kind="function"><name>addStadium</name></member>
+    <member refid="class_data_base_1a169759f8c5addb82ce8fbf5c33cfe4ac" kind="function"><name>delStadium</name></member>
+    <member refid="class_data_base_1ab245fb2247cf98e0fccfaf90d4f1e665" kind="function"><name>editStadium</name></member>
+    <member refid="class_data_base_1ac74f70e78835fe65bc511996cdec1271" kind="function"><name>getStadium</name></member>
+    <member refid="class_data_base_1a6b9befc23eec89afb2358edba78f8d5b" kind="function"><name>getStadium</name></member>
+    <member refid="class_data_base_1abbe9017e9a0b50e670e6a34114d34eaa" kind="function"><name>getAllStadiums</name></member>
+    <member refid="class_data_base_1a334b5c4d7bb70a95a1c21e2370c492fa" kind="function"><name>saveToFile</name></member>
+    <member refid="class_data_base_1aa3daa078a985299d3a9ecbee1bdc9f2d" kind="function"><name>loadFromFile</name></member>
+    <member refid="class_data_base_1a159f1697e0970519da41ef52051c3194" kind="function"><name>getDBFileName</name></member>
+  </compound>
+  <compound refid="class_date_comparer" kind="class"><name>DateComparer</name>
+    <member refid="class_date_comparer_1a9470e86015617d818f2c1d2fed75fd85" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_functions" kind="class"><name>Functions</name>
+    <member refid="class_functions_1a8674cb64c8c633231745386804dcf2f4" kind="function"><name>split</name></member>
+    <member refid="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" kind="function"><name>itoa</name></member>
+  </compound>
+  <compound refid="class_game" kind="class"><name>Game</name>
+    <member refid="class_game_1a3be5719b9c1a1526365bd01196cf2843" kind="friend"><name>DateComparer</name></member>
+    <member refid="class_game_1ab9fc9ef738552f9c39ffa393c0e27b5c" kind="friend"><name>ResultComparer</name></member>
+    <member refid="class_game_1a995e3a92879fd088c9e5c0f9cf5828d6" kind="friend"><name>operator==</name></member>
+    <member refid="class_game_1a41c0344e76853337b335ed0cb6df12ec" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="class_game_1af47c1a9d7def20a14fb7917f0a52d4fa" kind="variable"><name>_team</name></member>
+    <member refid="class_game_1a0e3bb2c36f628eab1c2a305462d7f09a" kind="variable"><name>_opponent</name></member>
+    <member refid="class_game_1aa1981458ef1e9d2e3daaa465e96c85a6" kind="variable"><name>_date</name></member>
+    <member refid="class_game_1ac119ed7f35b1c38be0382a04ae6aad0c" kind="variable"><name>_place</name></member>
+    <member refid="class_game_1ab9fbc204126da3932ca30b124fe0eee5" kind="variable"><name>_viewers</name></member>
+    <member refid="class_game_1a5eac1418b4f9f2d4ee8232eee742c992" kind="variable"><name>_result</name></member>
+    <member refid="class_game_1ad59df6562a58a614fda24622d3715b65" kind="function"><name>Game</name></member>
+    <member refid="class_game_1a6cd2361c92c3e0ad4c7a068d3b345d37" kind="function"><name>Game</name></member>
+    <member refid="class_game_1a599909ae61dafc383d9443162377060a" kind="function"><name>Game</name></member>
+    <member refid="class_game_1a85b937fc817b0cbbc09ee0d50c1c88d6" kind="function"><name>setTeam</name></member>
+    <member refid="class_game_1afce9509cf97e6770a01b371dba1b6bc0" kind="function"><name>setOpponent</name></member>
+    <member refid="class_game_1a69878d05e15dbd4c7f630a1e22c7cefe" kind="function"><name>setDate</name></member>
+    <member refid="class_game_1ab68d186027e5196b47cf1c7074b95fc0" kind="function"><name>setPlace</name></member>
+    <member refid="class_game_1a0f9a397e0d33e01f4f38d53b836bce93" kind="function"><name>setViewers</name></member>
+    <member refid="class_game_1adc319059775c5ec5c44bd67030586e63" kind="function"><name>setResult</name></member>
+    <member refid="class_game_1ad10459ff803e165bc47f1f64cbf36d3e" kind="function"><name>getTeam</name></member>
+    <member refid="class_game_1a4c2f082a0293189f8d6b2431dc77dbd3" kind="function"><name>getOpponent</name></member>
+    <member refid="class_game_1aa7575642514fb6365f59719f45d0544a" kind="function"><name>getDate</name></member>
+    <member refid="class_game_1a359c2b8115a6ff5a00840bea215cf70a" kind="function"><name>getPlace</name></member>
+    <member refid="class_game_1add770566ae16c0b50d92ff0048db5959" kind="function"><name>getViewers</name></member>
+    <member refid="class_game_1ac77104af065e2ace478c66a4388a5c17" kind="function"><name>getResult</name></member>
+    <member refid="class_game_1a2d5dd545601c7cfd7a44675430409cdf" kind="function"><name>validateDate</name></member>
+    <member refid="class_game_1ab82b7c4657c5db892f042e60ec4b0d8f" kind="function"><name>validateViewers</name></member>
+    <member refid="class_game_1ae4d1cc3fbd6a409bc885f7b09632ffa1" kind="function"><name>validateResult</name></member>
+    <member refid="class_game_1ad31cce3106dc7e299328ffb4b9c2406c" kind="function"><name>validateModification</name></member>
+  </compound>
+  <compound refid="class_game_controller" kind="class"><name>GameController</name>
+    <member refid="class_game_controller_1a7d72ff3f639acb68578e20fee3649b42" kind="function"><name>GameController</name></member>
+    <member refid="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06" kind="function"><name>edit</name></member>
+    <member refid="class_game_controller_1a47969d486d0f3e1a3a46db09653be507" kind="function"><name>sortByDate</name></member>
+    <member refid="class_game_controller_1a6db50feecfb3f8244fd549027f52b6a1" kind="function"><name>sortByResult</name></member>
+    <member refid="class_game_controller_1a285063010bded38aa3e2b4d7be9d914a" kind="function"><name>searchById</name></member>
+    <member refid="class_game_controller_1a271685999fb6548823b147eedda38345" kind="function"><name>searchByDate</name></member>
+    <member refid="class_game_controller_1ab6d352fa9f3a4ba5b9e72698e7919441" kind="function"><name>searchByOpponent</name></member>
+    <member refid="class_game_controller_1af7cf01ef8ae8c809a72400ee250f0e2f" kind="function"><name>getGameById</name></member>
+    <member refid="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda" kind="function"><name>serialize</name></member>
+    <member refid="class_game_controller_1a5182b219041e94233912a3395c6c039d" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="class_menu" kind="class"><name>Menu</name>
+    <member refid="class_menu_1ac4360af9b37286157f8b039220a240cb" kind="variable"><name>ErrDescription</name></member>
+    <member refid="class_menu_1a54c08a552d2877dd99b4a07c6881bf5b" kind="variable"><name>database</name></member>
+    <member refid="class_menu_1ad466dd83355124a6ed958430450bfe94" kind="function"><name>Menu</name></member>
+    <member refid="class_menu_1ae1ec62e738dda7faaaec850bd0b58ffe" kind="function"><name>start</name></member>
+    <member refid="class_menu_1ab219d3a7dc94afa5e7e1b914a718a60d" kind="function"><name>getCommand</name></member>
+    <member refid="class_menu_1a833d41a72b96f4eb4673c573078ea5a2" kind="function"><name>parseCommand</name></member>
+    <member refid="class_menu_1a640371f3713c4af92c4c84894a797720" kind="function"><name>showHelp</name></member>
+    <member refid="class_menu_1a02ffb64101a80d13616fbe306c005d73" kind="function"><name>addPlayer</name></member>
+    <member refid="class_menu_1a075f9557bb1a6f5c88008da898aef380" kind="function"><name>delPlayer</name></member>
+    <member refid="class_menu_1abde1a527a400f992ddcfcb2458f22447" kind="function"><name>modifyPlayer</name></member>
+    <member refid="class_menu_1a726a0749edb5bc20dbf017f7059a9fe4" kind="function"><name>showPlayer</name></member>
+    <member refid="class_menu_1a9dd2f29a484d18d73979e4c138b85f50" kind="function"><name>showAllPlayers</name></member>
+    <member refid="class_menu_1a03a1516dd60de0b50cd7559f80ddef85" kind="function"><name>searchPlayer</name></member>
+    <member refid="class_menu_1aa364242b613a8abe195cf551586a509a" kind="function"><name>addGame</name></member>
+    <member refid="class_menu_1a352d42071396d84dd91112e500e28f48" kind="function"><name>delGame</name></member>
+    <member refid="class_menu_1adb91c65527e7bf3dccd9c5ce76a2bfcc" kind="function"><name>modifyGame</name></member>
+    <member refid="class_menu_1a057158d6a62ae559e702a1aebab49e6a" kind="function"><name>setGameResult</name></member>
+    <member refid="class_menu_1a8903b069ab923805203351e4463992a8" kind="function"><name>showGame</name></member>
+    <member refid="class_menu_1afcf3b29f9cc3a8fbdea550c2fcf0cd8f" kind="function"><name>showAllGames</name></member>
+    <member refid="class_menu_1affd75dabc191d2775a74a2880f579374" kind="function"><name>sortGamesByDate</name></member>
+    <member refid="class_menu_1a0b49bfeab158452d2d5aaf22100e9352" kind="function"><name>sortGamesByResult</name></member>
+    <member refid="class_menu_1a312e44088f081f06cc9732bf9c0d3ed2" kind="function"><name>searchGameByDate</name></member>
+    <member refid="class_menu_1ab682e3e0d866d36aa74ad9bf3830d854" kind="function"><name>searchGameByOpponent</name></member>
+    <member refid="class_menu_1ae58f88aad53f1cddcc741a8da7dd357e" kind="function"><name>addStadium</name></member>
+    <member refid="class_menu_1a72ba7057cabf073c432cfe9861cd1f1f" kind="function"><name>delStadium</name></member>
+    <member refid="class_menu_1ab2b720b4f800ea05a9299004273c10c9" kind="function"><name>modifyStadium</name></member>
+    <member refid="class_menu_1a69ce02ff8da977e9f6468e8fe267f229" kind="function"><name>showStadium</name></member>
+    <member refid="class_menu_1a217c701397b83c2adcbc0a74cb616f2f" kind="function"><name>showAllStadiums</name></member>
+    <member refid="class_menu_1ad20e7df904036ce886b5a60a3f85e689" kind="function"><name>searchStadium</name></member>
+    <member refid="class_menu_1a531e7bc04eb27f9653fe2fac4012a9b3" kind="function"><name>saveDbToFile</name></member>
+    <member refid="class_menu_1ab8501abe0783d0664339a58967ae7d37" kind="function"><name>loadDbFromFile</name></member>
+    <member refid="class_menu_1a5b5dca5d4af1d569061ab22676262482" kind="function"><name>error</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1a0623ce55975b1d747dd0b8f1413bdba6" kind="variable"><name>_name</name></member>
+    <member refid="class_player_1acbe845c2bbabe03c153592324e1a98db" kind="variable"><name>_surname</name></member>
+    <member refid="class_player_1ad155205a1e5da3c3e940517373884ce4" kind="variable"><name>_birthday</name></member>
+    <member refid="class_player_1a86ba453a27bc9ccd97cde84cbbb8096a" kind="variable"><name>_status</name></member>
+    <member refid="class_player_1a5a04f4a7f534d8adc69f06cdb478ee2c" kind="variable"><name>_health</name></member>
+    <member refid="class_player_1ac68af0fc91e2d3caa7b2eff7fdea9543" kind="variable"><name>_salary</name></member>
+    <member refid="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kind="function"><name>Player</name></member>
+    <member refid="class_player_1aee48abd7fb6209cb806608881770b7f8" kind="function"><name>Player</name></member>
+    <member refid="class_player_1af9a6045fa96f736664c4eab4caa5e8e5" kind="function"><name>getName</name></member>
+    <member refid="class_player_1a00efbc816b6584e40040cb2ba8388b0b" kind="function"><name>getSurname</name></member>
+    <member refid="class_player_1ae3a352e2609c68d5edb8d73ef9e8392f" kind="function"><name>getBirthday</name></member>
+    <member refid="class_player_1a1226da7129b2cd61c5529d630cf38df8" kind="function"><name>getStatus</name></member>
+    <member refid="class_player_1a279a88a14ea16ec00142ca5340d36ae5" kind="function"><name>getHealth</name></member>
+    <member refid="class_player_1a4da3eb8caa9d3bf29ab0e7107247ad35" kind="function"><name>getSalary</name></member>
+    <member refid="class_player_1a8eaf43a2f2236b21d0101270ecca1483" kind="function"><name>setName</name></member>
+    <member refid="class_player_1a11039442924e73772e1e6e8e92b974a5" kind="function"><name>setSurname</name></member>
+    <member refid="class_player_1ac7136dd8416f8c52a5ea7ce7b9d3b30b" kind="function"><name>setBirthday</name></member>
+    <member refid="class_player_1a08cf2edf8cfd3bbeefd1befb397e6920" kind="function"><name>setStatus</name></member>
+    <member refid="class_player_1af052e51778a8d555094613b6d9fffa5a" kind="function"><name>setHealth</name></member>
+    <member refid="class_player_1a2f48d324e01aada508e7d0c55918bd64" kind="function"><name>setSalary</name></member>
+    <member refid="class_player_1abb1456b5bc804f27f80506ab3eced9cc" kind="function"><name>validateName</name></member>
+    <member refid="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" kind="function"><name>validateSurname</name></member>
+    <member refid="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" kind="function"><name>validateBirthday</name></member>
+    <member refid="class_player_1af26b9a23c75cee78b8e06a516a4d0720" kind="function"><name>validateStatus</name></member>
+    <member refid="class_player_1a04be7b253085529222ed5616772319f5" kind="function"><name>validateHealth</name></member>
+    <member refid="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" kind="function"><name>validateSalary</name></member>
+    <member refid="class_player_1ae71449232dae50d1eb03ea40a6e0d5c3" kind="function"><name>validateModification</name></member>
+    <member refid="class_player_1ad2250e213bec03e64b277c2dda362daa" kind="friend"><name>operator==</name></member>
+    <member refid="class_player_1a79571356003607b80edc6440c851e503" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1aa31049f0ac0ef1a38b1334b01e3217a0" kind="function"><name>edit</name></member>
+    <member refid="class_player_controller_1a6fddbc651a2a7fba34dea0e5a609444b" kind="function"><name>searchById</name></member>
+    <member refid="class_player_controller_1a06a3cea40d352a4f8f4ec71b2dc04469" kind="function"><name>searchByName</name></member>
+    <member refid="class_player_controller_1acce83d1acdc1eec82210954e4d7a5322" kind="function"><name>serialize</name></member>
+    <member refid="class_player_controller_1a93cec52c22ee44ed3ac8c9c8bbd96b02" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="class_result_comparer" kind="class"><name>ResultComparer</name>
+    <member refid="class_result_comparer_1aa636a751ef46992382d1aefe25447055" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_stadium" kind="class"><name>Stadium</name>
+    <member refid="class_stadium_1a9bdf557f8fea81cdaf4f487e7f311b46" kind="variable"><name>_name</name></member>
+    <member refid="class_stadium_1a21eff86fdacf8e87a13742afe81f885b" kind="variable"><name>_places</name></member>
+    <member refid="class_stadium_1a714b328a0ca68d5ef0490baded9da1ee" kind="variable"><name>_ticket_price</name></member>
+    <member refid="class_stadium_1a8010b88e0d78da9f5cff761067f1b0ed" kind="variable"><name>_games</name></member>
+    <member refid="class_stadium_1a590fc521914438820bf5ab2f27d2d749" kind="function"><name>Stadium</name></member>
+    <member refid="class_stadium_1a12f75b0989850194b734304a2fab3ccf" kind="function"><name>Stadium</name></member>
+    <member refid="class_stadium_1a5bcaff3a212c824de82c4985f1495b6a" kind="function"><name>setName</name></member>
+    <member refid="class_stadium_1a01331957387926db3554e72ea87366b5" kind="function"><name>setPlaces</name></member>
+    <member refid="class_stadium_1a32da99b03478f37d0ab983c2934e68d8" kind="function"><name>setTicketPrice</name></member>
+    <member refid="class_stadium_1a1fc6559711c96b45e5c6e03cda5e5806" kind="function"><name>getName</name></member>
+    <member refid="class_stadium_1aeaa0d2bb9cb57190582a670110b5409c" kind="function"><name>getPlaces</name></member>
+    <member refid="class_stadium_1a79956c14de1980a685000cae1fc4ae6a" kind="function"><name>getTicketPrice</name></member>
+    <member refid="class_stadium_1a1d50650f511946c37c5595de7596ad1a" kind="function"><name>addGame</name></member>
+    <member refid="class_stadium_1a7509d7bae6f4adf095801198d1860913" kind="function"><name>delGame</name></member>
+    <member refid="class_stadium_1a54f137ce795722af818e63f5aa10ee1b" kind="function"><name>validateName</name></member>
+    <member refid="class_stadium_1a7599de7fb2e47a9033843b3daf021b3b" kind="function"><name>validatePlaces</name></member>
+    <member refid="class_stadium_1a838f88701c34b79d69f32ca56ad187f6" kind="function"><name>validateTicketPrice</name></member>
+    <member refid="class_stadium_1aff6aa9a03327fc1b663e6c54984fe6bd" kind="function"><name>validateModification</name></member>
+    <member refid="class_stadium_1a4ebb6407c6202c2c67b4a518614eaff7" kind="friend"><name>operator==</name></member>
+    <member refid="class_stadium_1a6950907c6c5d1a74cedc504c427e5b3f" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="class_stadium_controller" kind="class"><name>StadiumController</name>
+    <member refid="class_stadium_controller_1a17fe39afd3d93dbbdaf1cef027cdefaa" kind="function"><name>StadiumController</name></member>
+    <member refid="class_stadium_controller_1a204dca10d15a0c911c7bbcce9aa648e1" kind="function"><name>~StadiumController</name></member>
+    <member refid="class_stadium_controller_1a73c220035ff25a16e3662a0266784218" kind="function"><name>edit</name></member>
+    <member refid="class_stadium_controller_1a04c54a2b7396d3ef5667185a2f86edc6" kind="function"><name>searchById</name></member>
+    <member refid="class_stadium_controller_1a1ef48e991575e837fd761d2eef0ce4a3" kind="function"><name>searchByName</name></member>
+    <member refid="class_stadium_controller_1a066f81b9560c8a7d92784ab85dd7a3b0" kind="function"><name>serialize</name></member>
+    <member refid="class_stadium_controller_1af7e2ff3d41780e203e1bda88fdcd070a" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="class_team" kind="class"><name>Team</name>
+    <member refid="class_team_1a29401fcb0e1934280c7566675b959c4a" kind="variable"><name>_name</name></member>
+    <member refid="class_team_1a985a11a7ffecb5c2fc3b39d456801b7d" kind="variable"><name>_team</name></member>
+    <member refid="class_team_1aada295895b747960576b69d8c87a54ba" kind="function"><name>Team</name></member>
+    <member refid="class_team_1a6209508aa24d5a1266fb95ce5e5e2651" kind="function"><name>Team</name></member>
+    <member refid="class_team_1abb6230026200657d6fff9df436835729" kind="function"><name>Team</name></member>
+    <member refid="class_team_1ab21736a411213da36d08210e570ecbeb" kind="function"><name>getName</name></member>
+    <member refid="class_team_1a840a65b79f7d718965831611e72b6ac2" kind="function"><name>setName</name></member>
+    <member refid="class_team_1a59c401173c3bd78e4ce802e0c56c9066" kind="function"><name>addPlayer</name></member>
+    <member refid="class_team_1ae7e10897ad329c6884b427d4405b85b0" kind="function"><name>delPlayer</name></member>
+    <member refid="class_team_1a0692cba8304a16a9e7130199d98dc20e" kind="function"><name>isFull</name></member>
+    <member refid="class_team_1a20b76437be05fcbe17b921cdc9972327" kind="function"><name>isEmpty</name></member>
+    <member refid="class_team_1adb9b80fa6c6f6c0eed5f7500523d7860" kind="function"><name>to_console</name></member>
+    <member refid="class_team_1a61e1d0f6f00634835b02168deb404ddd" kind="function"><name>validateName</name></member>
+    <member refid="class_team_1a9eee662144e38bf78a062e006c8c3ceb" kind="friend"><name>operator==</name></member>
+    <member refid="class_team_1a751cb895290fed5451f5af01114ca269" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="class_team_controller" kind="class"><name>TeamController</name>
+    <member refid="class_team_controller_1a9f3c356d1dba6afff2b8fa23a1f561eb" kind="variable"><name>_teams</name></member>
+    <member refid="class_team_controller_1a858742170e99738e931c5526d1c45770" kind="function"><name>TeamController</name></member>
+    <member refid="class_team_controller_1a876baf80fccce8bda8ad90069682ed6e" kind="function"><name>findByName</name></member>
+    <member refid="class_team_controller_1a82edb12c919e759adc5b6d96b19d34ba" kind="function"><name>serialize</name></member>
+    <member refid="class_team_controller_1a2d9851a9ce4d48f6c6255f6d20c5c4a6" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="namespacerapidxml" kind="namespace"><name>rapidxml</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_controller_8cpp" kind="file"><name>Controller.cpp</name>
+  </compound>
+  <compound refid="_controller_8h" kind="file"><name>Controller.h</name>
+  </compound>
+  <compound refid="_course_work_8cpp" kind="file"><name>CourseWork.cpp</name>
+    <member refid="_course_work_8cpp_1a353674c5af92be7fb389265cde4e5e03" kind="function"><name>_tmain</name></member>
+  </compound>
+  <compound refid="_data_base_8cpp" kind="file"><name>DataBase.cpp</name>
+  </compound>
+  <compound refid="_data_base_8h" kind="file"><name>DataBase.h</name>
+  </compound>
+  <compound refid="functions_8cpp" kind="file"><name>functions.cpp</name>
+  </compound>
+  <compound refid="functions_8h" kind="file"><name>functions.h</name>
+  </compound>
+  <compound refid="game_8cpp" kind="file"><name>game.cpp</name>
+    <member refid="game_8cpp_1a600cf7d8a96b19bc684bc952498b76e9" kind="function"><name>operator==</name></member>
+    <member refid="game_8cpp_1a41c0344e76853337b335ed0cb6df12ec" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="game_8h" kind="file"><name>game.h</name>
+    <member refid="game_8h_1aa7bd90ce8f7f8fff95fd8fa4c90c532f" kind="enum"><name>GameResults</name></member>
+    <member refid="game_8h_1aa7bd90ce8f7f8fff95fd8fa4c90c532fa843dff91ff0b0e5b98a110a512b2f531" kind="enumvalue"><name>WIN</name></member>
+    <member refid="game_8h_1aa7bd90ce8f7f8fff95fd8fa4c90c532fafa6a17124aaf95b93c339c823454df22" kind="enumvalue"><name>DEFEAT</name></member>
+    <member refid="game_8h_1aa7bd90ce8f7f8fff95fd8fa4c90c532fa61f3c57b6943c85413975507aede78cd" kind="enumvalue"><name>DRAW</name></member>
+    <member refid="game_8h_1aa7bd90ce8f7f8fff95fd8fa4c90c532fa7061410bee1b8852bafdc73f132b782d" kind="enumvalue"><name>NOT_PLAYED</name></member>
+  </compound>
+  <compound refid="_game_controller_8cpp" kind="file"><name>GameController.cpp</name>
+  </compound>
+  <compound refid="_game_controller_8h" kind="file"><name>GameController.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="menu_8cpp" kind="file"><name>menu.cpp</name>
+  </compound>
+  <compound refid="menu_8h" kind="file"><name>menu.h</name>
+    <member refid="menu_8h_1a9e44a91d65eb14a04525e3fa5ce1522b" kind="define"><name>ERR_INVALID_CMD</name></member>
+  </compound>
+  <compound refid="player_8cpp" kind="file"><name>player.cpp</name>
+    <member refid="player_8cpp_1acb70fb06d86823aa83941901a3440010" kind="function"><name>operator==</name></member>
+    <member refid="player_8cpp_1a79571356003607b80edc6440c851e503" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="player_8h" kind="file"><name>player.h</name>
+  </compound>
+  <compound refid="_player_controller_8cpp" kind="file"><name>PlayerController.cpp</name>
+  </compound>
+  <compound refid="_player_controller_8h" kind="file"><name>PlayerController.h</name>
+  </compound>
+  <compound refid="stadium_8cpp" kind="file"><name>stadium.cpp</name>
+    <member refid="stadium_8cpp_1a66a1d9a0dd6ee574da1f95fbd8a20d09" kind="function"><name>operator==</name></member>
+    <member refid="stadium_8cpp_1a6950907c6c5d1a74cedc504c427e5b3f" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="stadium_8h" kind="file"><name>stadium.h</name>
+  </compound>
+  <compound refid="_stadium_controller_8cpp" kind="file"><name>StadiumController.cpp</name>
+  </compound>
+  <compound refid="_stadium_controller_8h" kind="file"><name>StadiumController.h</name>
+  </compound>
+  <compound refid="team_8cpp" kind="file"><name>team.cpp</name>
+    <member refid="team_8cpp_1a214772cc5be0f2c424a55af1d5cc8887" kind="function"><name>operator==</name></member>
+    <member refid="team_8cpp_1a751cb895290fed5451f5af01114ca269" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="team_8h" kind="file"><name>team.h</name>
+    <member refid="team_8h_1a21736e4554bd6c316b5f7822d7678fa3" kind="define"><name>PLAYER_CNT</name></member>
+  </compound>
+  <compound refid="teamcontroller_8cpp" kind="file"><name>teamcontroller.cpp</name>
+  </compound>
+  <compound refid="teamcontroller_8h" kind="file"><name>teamcontroller.h</name>
+  </compound>
+</doxygenindex>

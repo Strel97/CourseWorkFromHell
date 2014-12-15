@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game" kind="class" prot="public">
+    <compoundname>Game</compoundname>
+    <includes refid="game_8h" local="no">game.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_game_1a3be5719b9c1a1526365bd01196cf2843" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class DateComparer</definition>
+        <argsstring></argsstring>
+        <name>DateComparer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="33" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_game_1ab9fc9ef738552f9c39ffa393c0e27b5c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ResultComparer</definition>
+        <argsstring></argsstring>
+        <name>ResultComparer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="34" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_game_1a995e3a92879fd088c9e5c0f9cf5828d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Game, Game)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_game" kindref="compound">Game</ref></type>
+          <defname>g1</defname>
+        </param>
+        <param>
+          <type><ref refid="class_game" kindref="compound">Game</ref></type>
+          <defname>g2</defname>
+        </param>
+        <briefdescription>
+<para>operator == Compares two <ref refid="class_game" kindref="compound">Game</ref> objects </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether two objects are equal</para></simplesect>
+Two <ref refid="class_game" kindref="compound">Game</ref> objects are equal if they have the same team, opponent team, date, place, viewers and result </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="151" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="126" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_game_1a41c0344e76853337b335ed0cb6df12ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Game &amp;game)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_game" kindref="compound">Game</ref> &amp;</type>
+          <declname>game</declname>
+        </param>
+        <briefdescription>
+<para>operator &lt;&lt; Outputs the information about object to stream </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output stream </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object for outputting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Output stream </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="159" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="141" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1af47c1a9d7def20a14fb7917f0a52d4fa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_team" kindref="compound">Team</ref></type>
+        <definition>Team Game::_team</definition>
+        <argsstring></argsstring>
+        <name>_team</name>
+        <briefdescription>
+<para>_team First team </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="165" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1a0e3bb2c36f628eab1c2a305462d7f09a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_team" kindref="compound">Team</ref></type>
+        <definition>Team Game::_opponent</definition>
+        <argsstring></argsstring>
+        <name>_opponent</name>
+        <briefdescription>
+<para>_opponent Opponent team </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="170" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1aa1981458ef1e9d2e3daaa465e96c85a6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Game::_date</definition>
+        <argsstring></argsstring>
+        <name>_date</name>
+        <briefdescription>
+<para>_date Date of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="175" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1ac119ed7f35b1c38be0382a04ae6aad0c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Game::_place</definition>
+        <argsstring></argsstring>
+        <name>_place</name>
+        <briefdescription>
+<para>_place Place of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="180" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1ab9fbc204126da3932ca30b124fe0eee5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game::_viewers</definition>
+        <argsstring></argsstring>
+        <name>_viewers</name>
+        <briefdescription>
+<para>_viewers The number of viewers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="185" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1a5eac1418b4f9f2d4ee8232eee742c992" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game::_result</definition>
+        <argsstring></argsstring>
+        <name>_result</name>
+        <briefdescription>
+<para>_result The result of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="190" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1ad59df6562a58a614fda24622d3715b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Game::Game</definition>
+        <argsstring>()</argsstring>
+        <name>Game</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="37" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a6cd2361c92c3e0ad4c7a068d3b345d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Game::Game</definition>
+        <argsstring>(string team, string opponent, string date, string place, int viewers)</argsstring>
+        <name>Game</name>
+        <param>
+          <type>string</type>
+          <declname>team</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>opponent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>place</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>viewers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="38" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="7" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a599909ae61dafc383d9443162377060a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Game::Game</definition>
+        <argsstring>(Team team, Team opponent, string date, string place, int viewers)</argsstring>
+        <name>Game</name>
+        <param>
+          <type><ref refid="class_team" kindref="compound">Team</ref></type>
+          <declname>team</declname>
+        </param>
+        <param>
+          <type><ref refid="class_team" kindref="compound">Team</ref></type>
+          <declname>opponent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>place</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>viewers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="39" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a85b937fc817b0cbbc09ee0d50c1c88d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setTeam</definition>
+        <argsstring>(Team)</argsstring>
+        <name>setTeam</name>
+        <param>
+          <type><ref refid="class_team" kindref="compound">Team</ref></type>
+          <defname>team</defname>
+        </param>
+        <briefdescription>
+<para>setTeam Changes the first team in game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="44" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1afce9509cf97e6770a01b371dba1b6bc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setOpponent</definition>
+        <argsstring>(Team)</argsstring>
+        <name>setOpponent</name>
+        <param>
+          <type><ref refid="class_team" kindref="compound">Team</ref></type>
+          <defname>opponent</defname>
+        </param>
+        <briefdescription>
+<para>setOpponent Changes the opponent team in game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="49" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a69878d05e15dbd4c7f630a1e22c7cefe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setDate</definition>
+        <argsstring>(string)</argsstring>
+        <name>setDate</name>
+        <param>
+          <type>string</type>
+          <defname>date</defname>
+        </param>
+        <briefdescription>
+<para>setDate Changes the date of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="54" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ab68d186027e5196b47cf1c7074b95fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setPlace</definition>
+        <argsstring>(string)</argsstring>
+        <name>setPlace</name>
+        <param>
+          <type>string</type>
+          <defname>place</defname>
+        </param>
+        <briefdescription>
+<para>setPlace Changes the place of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="59" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a0f9a397e0d33e01f4f38d53b836bce93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setViewers</definition>
+        <argsstring>(int)</argsstring>
+        <name>setViewers</name>
+        <param>
+          <type>int</type>
+          <defname>viewers</defname>
+        </param>
+        <briefdescription>
+<para>setViewers Changes the number of viewers in game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="64" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1adc319059775c5ec5c44bd67030586e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game::setResult</definition>
+        <argsstring>(int)</argsstring>
+        <name>setResult</name>
+        <param>
+          <type>int</type>
+          <defname>result</defname>
+        </param>
+        <briefdescription>
+<para>setResult Changes the result of game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="69" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ad10459ff803e165bc47f1f64cbf36d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_team" kindref="compound">Team</ref></type>
+        <definition>Team Game::getTeam</definition>
+        <argsstring>()</argsstring>
+        <name>getTeam</name>
+        <briefdescription>
+<para>getTeam Returns the first team </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First team </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="76" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a4c2f082a0293189f8d6b2431dc77dbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_team" kindref="compound">Team</ref></type>
+        <definition>Team Game::getOpponent</definition>
+        <argsstring>()</argsstring>
+        <name>getOpponent</name>
+        <briefdescription>
+<para>getOpponent Returns the opponent team </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Opponent team </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="82" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1aa7575642514fb6365f59719f45d0544a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Game::getDate</definition>
+        <argsstring>()</argsstring>
+        <name>getDate</name>
+        <briefdescription>
+<para>getDate Returns the date of game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Date of game </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="88" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1a359c2b8115a6ff5a00840bea215cf70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Game::getPlace</definition>
+        <argsstring>()</argsstring>
+        <name>getPlace</name>
+        <briefdescription>
+<para>getPlace Returns the place of game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Place of game </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="94" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1add770566ae16c0b50d92ff0048db5959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Game::getViewers</definition>
+        <argsstring>()</argsstring>
+        <name>getViewers</name>
+        <briefdescription>
+<para>getViewers Returns the number of viewers in game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of viewers </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="100" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ac77104af065e2ace478c66a4388a5c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Game::getResult</definition>
+        <argsstring>()</argsstring>
+        <name>getResult</name>
+        <briefdescription>
+<para>getResult Returns the result of game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Result of game </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="106" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1a2d5dd545601c7cfd7a44675430409cdf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Game::validateDate</definition>
+        <argsstring>(string)</argsstring>
+        <name>validateDate</name>
+        <param>
+          <type>string</type>
+          <defname>date</defname>
+        </param>
+        <briefdescription>
+<para>validateDate Validates the date of game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the date of game meets the following conditions</para></simplesect>
+Date string must satisfy the foolowing mask: XX.XX.XXXX where {day}.{month}.{year} For example: 12.12.1212 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="116" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ab82b7c4657c5db892f042e60ec4b0d8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Game::validateViewers</definition>
+        <argsstring>(int)</argsstring>
+        <name>validateViewers</name>
+        <param>
+          <type>int</type>
+          <defname>viewers</defname>
+        </param>
+        <briefdescription>
+<para>validateViewers Validates the number of viewers in game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the number of viewers meets the following conditions</para></simplesect>
+Viewers number must be greater than zero and less than stadium&apos;s capacity number </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="125" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ae4d1cc3fbd6a409bc885f7b09632ffa1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Game::validateResult</definition>
+        <argsstring>(int)</argsstring>
+        <name>validateResult</name>
+        <param>
+          <type>int</type>
+          <defname>result</defname>
+        </param>
+        <briefdescription>
+<para>validateResult Validates the result of game </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether the result of game meets the following conditions </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="131" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1ad31cce3106dc7e299328ffb4b9c2406c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Game::validateModification</definition>
+        <argsstring>(string field, string value)</argsstring>
+        <name>validateModification</name>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>validateModification Validates the field modification parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether this modification meets the following conditions</para></simplesect>
+Field must be one of the following strings: TEAM, OPPONENT, DATE, VIEWERS, PLACE, VIEWERS or RESULT Value must satisfy the conditions of value of corresponding field. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="142" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.cpp" bodystart="109" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_game" kindref="compound">Game</ref> class Describes football game. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class describes football game. It has the information about teams, date, place of game and amount of viewers. If game was already played, than it also contains the result. </para>    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" line="32" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/game.h" bodystart="31" bodyend="191"/>
+    <listofallmembers>
+      <member refid="class_game_1aa1981458ef1e9d2e3daaa465e96c85a6" prot="private" virt="non-virtual"><scope>Game</scope><name>_date</name></member>
+      <member refid="class_game_1a0e3bb2c36f628eab1c2a305462d7f09a" prot="private" virt="non-virtual"><scope>Game</scope><name>_opponent</name></member>
+      <member refid="class_game_1ac119ed7f35b1c38be0382a04ae6aad0c" prot="private" virt="non-virtual"><scope>Game</scope><name>_place</name></member>
+      <member refid="class_game_1a5eac1418b4f9f2d4ee8232eee742c992" prot="private" virt="non-virtual"><scope>Game</scope><name>_result</name></member>
+      <member refid="class_game_1af47c1a9d7def20a14fb7917f0a52d4fa" prot="private" virt="non-virtual"><scope>Game</scope><name>_team</name></member>
+      <member refid="class_game_1ab9fbc204126da3932ca30b124fe0eee5" prot="private" virt="non-virtual"><scope>Game</scope><name>_viewers</name></member>
+      <member refid="class_game_1a3be5719b9c1a1526365bd01196cf2843" prot="private" virt="non-virtual"><scope>Game</scope><name>DateComparer</name></member>
+      <member refid="class_game_1ad59df6562a58a614fda24622d3715b65" prot="public" virt="non-virtual"><scope>Game</scope><name>Game</name></member>
+      <member refid="class_game_1a6cd2361c92c3e0ad4c7a068d3b345d37" prot="public" virt="non-virtual"><scope>Game</scope><name>Game</name></member>
+      <member refid="class_game_1a599909ae61dafc383d9443162377060a" prot="public" virt="non-virtual"><scope>Game</scope><name>Game</name></member>
+      <member refid="class_game_1aa7575642514fb6365f59719f45d0544a" prot="public" virt="non-virtual"><scope>Game</scope><name>getDate</name></member>
+      <member refid="class_game_1a4c2f082a0293189f8d6b2431dc77dbd3" prot="public" virt="non-virtual"><scope>Game</scope><name>getOpponent</name></member>
+      <member refid="class_game_1a359c2b8115a6ff5a00840bea215cf70a" prot="public" virt="non-virtual"><scope>Game</scope><name>getPlace</name></member>
+      <member refid="class_game_1ac77104af065e2ace478c66a4388a5c17" prot="public" virt="non-virtual"><scope>Game</scope><name>getResult</name></member>
+      <member refid="class_game_1ad10459ff803e165bc47f1f64cbf36d3e" prot="public" virt="non-virtual"><scope>Game</scope><name>getTeam</name></member>
+      <member refid="class_game_1add770566ae16c0b50d92ff0048db5959" prot="public" virt="non-virtual"><scope>Game</scope><name>getViewers</name></member>
+      <member refid="class_game_1a41c0344e76853337b335ed0cb6df12ec" prot="public" virt="non-virtual"><scope>Game</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_game_1a995e3a92879fd088c9e5c0f9cf5828d6" prot="public" virt="non-virtual"><scope>Game</scope><name>operator==</name></member>
+      <member refid="class_game_1ab9fc9ef738552f9c39ffa393c0e27b5c" prot="private" virt="non-virtual"><scope>Game</scope><name>ResultComparer</name></member>
+      <member refid="class_game_1a69878d05e15dbd4c7f630a1e22c7cefe" prot="public" virt="non-virtual"><scope>Game</scope><name>setDate</name></member>
+      <member refid="class_game_1afce9509cf97e6770a01b371dba1b6bc0" prot="public" virt="non-virtual"><scope>Game</scope><name>setOpponent</name></member>
+      <member refid="class_game_1ab68d186027e5196b47cf1c7074b95fc0" prot="public" virt="non-virtual"><scope>Game</scope><name>setPlace</name></member>
+      <member refid="class_game_1adc319059775c5ec5c44bd67030586e63" prot="public" virt="non-virtual"><scope>Game</scope><name>setResult</name></member>
+      <member refid="class_game_1a85b937fc817b0cbbc09ee0d50c1c88d6" prot="public" virt="non-virtual"><scope>Game</scope><name>setTeam</name></member>
+      <member refid="class_game_1a0f9a397e0d33e01f4f38d53b836bce93" prot="public" virt="non-virtual"><scope>Game</scope><name>setViewers</name></member>
+      <member refid="class_game_1a2d5dd545601c7cfd7a44675430409cdf" prot="public" virt="non-virtual"><scope>Game</scope><name>validateDate</name></member>
+      <member refid="class_game_1ad31cce3106dc7e299328ffb4b9c2406c" prot="public" virt="non-virtual"><scope>Game</scope><name>validateModification</name></member>
+      <member refid="class_game_1ae4d1cc3fbd6a409bc885f7b09632ffa1" prot="public" virt="non-virtual"><scope>Game</scope><name>validateResult</name></member>
+      <member refid="class_game_1ab82b7c4657c5db892f042e60ec4b0d8f" prot="public" virt="non-virtual"><scope>Game</scope><name>validateViewers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

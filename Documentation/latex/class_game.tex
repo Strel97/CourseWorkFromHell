@@ -1,0 +1,469 @@
+\hypertarget{class_game}{\section{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+}
+
+
+The \hyperlink{class_game}{Game} class Describes football game.  
+
+
+
+
+{\ttfamily \#include $<$game.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game} ()
+\item 
+\hyperlink{class_game_a6cd2361c92c3e0ad4c7a068d3b345d37}{Game} (string team, string opponent, string date, string place, int viewers)
+\item 
+\hyperlink{class_game_a599909ae61dafc383d9443162377060a}{Game} (\hyperlink{class_team}{Team} team, \hyperlink{class_team}{Team} opponent, string date, string place, int viewers)
+\item 
+void \hyperlink{class_game_a85b937fc817b0cbbc09ee0d50c1c88d6}{set\-Team} (\hyperlink{class_team}{Team})
+\begin{DoxyCompactList}\small\item\em set\-Team Changes the first team in game \end{DoxyCompactList}\item 
+void \hyperlink{class_game_afce9509cf97e6770a01b371dba1b6bc0}{set\-Opponent} (\hyperlink{class_team}{Team})
+\begin{DoxyCompactList}\small\item\em set\-Opponent Changes the opponent team in game \end{DoxyCompactList}\item 
+void \hyperlink{class_game_a69878d05e15dbd4c7f630a1e22c7cefe}{set\-Date} (string)
+\begin{DoxyCompactList}\small\item\em set\-Date Changes the date of game \end{DoxyCompactList}\item 
+void \hyperlink{class_game_ab68d186027e5196b47cf1c7074b95fc0}{set\-Place} (string)
+\begin{DoxyCompactList}\small\item\em set\-Place Changes the place of game \end{DoxyCompactList}\item 
+void \hyperlink{class_game_a0f9a397e0d33e01f4f38d53b836bce93}{set\-Viewers} (int)
+\begin{DoxyCompactList}\small\item\em set\-Viewers Changes the number of viewers in game \end{DoxyCompactList}\item 
+void \hyperlink{class_game_adc319059775c5ec5c44bd67030586e63}{set\-Result} (int)
+\begin{DoxyCompactList}\small\item\em set\-Result Changes the result of game \end{DoxyCompactList}\item 
+\hyperlink{class_team}{Team} \hyperlink{class_game_ad10459ff803e165bc47f1f64cbf36d3e}{get\-Team} ()
+\begin{DoxyCompactList}\small\item\em get\-Team Returns the first team \end{DoxyCompactList}\item 
+\hyperlink{class_team}{Team} \hyperlink{class_game_a4c2f082a0293189f8d6b2431dc77dbd3}{get\-Opponent} ()
+\begin{DoxyCompactList}\small\item\em get\-Opponent Returns the opponent team \end{DoxyCompactList}\item 
+string \hyperlink{class_game_aa7575642514fb6365f59719f45d0544a}{get\-Date} ()
+\begin{DoxyCompactList}\small\item\em get\-Date Returns the date of game \end{DoxyCompactList}\item 
+string \hyperlink{class_game_a359c2b8115a6ff5a00840bea215cf70a}{get\-Place} ()
+\begin{DoxyCompactList}\small\item\em get\-Place Returns the place of game \end{DoxyCompactList}\item 
+int \hyperlink{class_game_add770566ae16c0b50d92ff0048db5959}{get\-Viewers} ()
+\begin{DoxyCompactList}\small\item\em get\-Viewers Returns the number of viewers in game \end{DoxyCompactList}\item 
+int \hyperlink{class_game_ac77104af065e2ace478c66a4388a5c17}{get\-Result} ()
+\begin{DoxyCompactList}\small\item\em get\-Result Returns the result of game \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_game_a2d5dd545601c7cfd7a44675430409cdf}{validate\-Date} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Date Validates the date of game \end{DoxyCompactList}\item 
+static bool \hyperlink{class_game_ab82b7c4657c5db892f042e60ec4b0d8f}{validate\-Viewers} (int)
+\begin{DoxyCompactList}\small\item\em validate\-Viewers Validates the number of viewers in game \end{DoxyCompactList}\item 
+static bool \hyperlink{class_game_ae4d1cc3fbd6a409bc885f7b09632ffa1}{validate\-Result} (int)
+\begin{DoxyCompactList}\small\item\em validate\-Result Validates the result of game \end{DoxyCompactList}\item 
+static bool \hyperlink{class_game_ad31cce3106dc7e299328ffb4b9c2406c}{validate\-Modification} (string field, string value)
+\begin{DoxyCompactList}\small\item\em validate\-Modification Validates the field modification parameters \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_game_a3be5719b9c1a1526365bd01196cf2843}{Date\-Comparer}
+\item 
+class \hyperlink{class_game_ab9fc9ef738552f9c39ffa393c0e27b5c}{Result\-Comparer}
+\item 
+bool \hyperlink{class_game_a995e3a92879fd088c9e5c0f9cf5828d6}{operator==} (\hyperlink{class_game}{Game}, \hyperlink{class_game}{Game})
+\begin{DoxyCompactList}\small\item\em operator == Compares two \hyperlink{class_game}{Game} objects \end{DoxyCompactList}\item 
+ostream \& \hyperlink{class_game_a41c0344e76853337b335ed0cb6df12ec}{operator$<$$<$} (ostream \&os, const \hyperlink{class_game}{Game} \&game)
+\begin{DoxyCompactList}\small\item\em operator $<$$<$ Outputs the information about object to stream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_game}{Game} class Describes football game. 
+
+This class describes football game. It has the information about teams, date, place of game and amount of viewers. If game was already played, than it also contains the result. 
+
+Definition at line 31 of file game.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}{\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\subsubsection[{Game}]{\setlength{\rightskip}{0pt plus 5cm}Game\-::\-Game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_ad59df6562a58a614fda24622d3715b65}
+
+
+Definition at line 3 of file game.\-cpp.
+
+\hypertarget{class_game_a6cd2361c92c3e0ad4c7a068d3b345d37}{\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\subsubsection[{Game}]{\setlength{\rightskip}{0pt plus 5cm}Game\-::\-Game (
+\begin{DoxyParamCaption}
+\item[{string}]{team, }
+\item[{string}]{opponent, }
+\item[{string}]{date, }
+\item[{string}]{place, }
+\item[{int}]{viewers}
+\end{DoxyParamCaption}
+)}}\label{class_game_a6cd2361c92c3e0ad4c7a068d3b345d37}
+
+
+Definition at line 7 of file game.\-cpp.
+
+\hypertarget{class_game_a599909ae61dafc383d9443162377060a}{\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\subsubsection[{Game}]{\setlength{\rightskip}{0pt plus 5cm}Game\-::\-Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Team}}]{team, }
+\item[{{\bf Team}}]{opponent, }
+\item[{string}]{date, }
+\item[{string}]{place, }
+\item[{int}]{viewers}
+\end{DoxyParamCaption}
+)}}\label{class_game_a599909ae61dafc383d9443162377060a}
+
+
+Definition at line 15 of file game.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_aa7575642514fb6365f59719f45d0544a}{\index{Game@{Game}!get\-Date@{get\-Date}}
+\index{get\-Date@{get\-Date}!Game@{Game}}
+\subsubsection[{get\-Date}]{\setlength{\rightskip}{0pt plus 5cm}string Game\-::get\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_aa7575642514fb6365f59719f45d0544a}
+
+
+get\-Date Returns the date of game 
+
+\begin{DoxyReturn}{Returns}
+Date of game 
+\end{DoxyReturn}
+
+
+Definition at line 73 of file game.\-cpp.
+
+\hypertarget{class_game_a4c2f082a0293189f8d6b2431dc77dbd3}{\index{Game@{Game}!get\-Opponent@{get\-Opponent}}
+\index{get\-Opponent@{get\-Opponent}!Game@{Game}}
+\subsubsection[{get\-Opponent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Team} Game\-::get\-Opponent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_a4c2f082a0293189f8d6b2431dc77dbd3}
+
+
+get\-Opponent Returns the opponent team 
+
+\begin{DoxyReturn}{Returns}
+Opponent team 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file game.\-cpp.
+
+\hypertarget{class_game_a359c2b8115a6ff5a00840bea215cf70a}{\index{Game@{Game}!get\-Place@{get\-Place}}
+\index{get\-Place@{get\-Place}!Game@{Game}}
+\subsubsection[{get\-Place}]{\setlength{\rightskip}{0pt plus 5cm}string Game\-::get\-Place (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_a359c2b8115a6ff5a00840bea215cf70a}
+
+
+get\-Place Returns the place of game 
+
+\begin{DoxyReturn}{Returns}
+Place of game 
+\end{DoxyReturn}
+
+
+Definition at line 78 of file game.\-cpp.
+
+\hypertarget{class_game_ac77104af065e2ace478c66a4388a5c17}{\index{Game@{Game}!get\-Result@{get\-Result}}
+\index{get\-Result@{get\-Result}!Game@{Game}}
+\subsubsection[{get\-Result}]{\setlength{\rightskip}{0pt plus 5cm}int Game\-::get\-Result (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_ac77104af065e2ace478c66a4388a5c17}
+
+
+get\-Result Returns the result of game 
+
+\begin{DoxyReturn}{Returns}
+Result of game 
+\end{DoxyReturn}
+
+
+Definition at line 88 of file game.\-cpp.
+
+\hypertarget{class_game_ad10459ff803e165bc47f1f64cbf36d3e}{\index{Game@{Game}!get\-Team@{get\-Team}}
+\index{get\-Team@{get\-Team}!Game@{Game}}
+\subsubsection[{get\-Team}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Team} Game\-::get\-Team (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_ad10459ff803e165bc47f1f64cbf36d3e}
+
+
+get\-Team Returns the first team 
+
+\begin{DoxyReturn}{Returns}
+First team 
+\end{DoxyReturn}
+
+
+Definition at line 63 of file game.\-cpp.
+
+\hypertarget{class_game_add770566ae16c0b50d92ff0048db5959}{\index{Game@{Game}!get\-Viewers@{get\-Viewers}}
+\index{get\-Viewers@{get\-Viewers}!Game@{Game}}
+\subsubsection[{get\-Viewers}]{\setlength{\rightskip}{0pt plus 5cm}int Game\-::get\-Viewers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_add770566ae16c0b50d92ff0048db5959}
+
+
+get\-Viewers Returns the number of viewers in game 
+
+\begin{DoxyReturn}{Returns}
+The number of viewers 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file game.\-cpp.
+
+\hypertarget{class_game_a69878d05e15dbd4c7f630a1e22c7cefe}{\index{Game@{Game}!set\-Date@{set\-Date}}
+\index{set\-Date@{set\-Date}!Game@{Game}}
+\subsubsection[{set\-Date}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{date}
+\end{DoxyParamCaption}
+)}}\label{class_game_a69878d05e15dbd4c7f630a1e22c7cefe}
+
+
+set\-Date Changes the date of game 
+
+
+
+Definition at line 37 of file game.\-cpp.
+
+\hypertarget{class_game_afce9509cf97e6770a01b371dba1b6bc0}{\index{Game@{Game}!set\-Opponent@{set\-Opponent}}
+\index{set\-Opponent@{set\-Opponent}!Game@{Game}}
+\subsubsection[{set\-Opponent}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Opponent (
+\begin{DoxyParamCaption}
+\item[{{\bf Team}}]{opponent}
+\end{DoxyParamCaption}
+)}}\label{class_game_afce9509cf97e6770a01b371dba1b6bc0}
+
+
+set\-Opponent Changes the opponent team in game 
+
+
+
+Definition at line 32 of file game.\-cpp.
+
+\hypertarget{class_game_ab68d186027e5196b47cf1c7074b95fc0}{\index{Game@{Game}!set\-Place@{set\-Place}}
+\index{set\-Place@{set\-Place}!Game@{Game}}
+\subsubsection[{set\-Place}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Place (
+\begin{DoxyParamCaption}
+\item[{string}]{place}
+\end{DoxyParamCaption}
+)}}\label{class_game_ab68d186027e5196b47cf1c7074b95fc0}
+
+
+set\-Place Changes the place of game 
+
+
+
+Definition at line 42 of file game.\-cpp.
+
+\hypertarget{class_game_adc319059775c5ec5c44bd67030586e63}{\index{Game@{Game}!set\-Result@{set\-Result}}
+\index{set\-Result@{set\-Result}!Game@{Game}}
+\subsubsection[{set\-Result}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Result (
+\begin{DoxyParamCaption}
+\item[{int}]{result}
+\end{DoxyParamCaption}
+)}}\label{class_game_adc319059775c5ec5c44bd67030586e63}
+
+
+set\-Result Changes the result of game 
+
+
+
+Definition at line 52 of file game.\-cpp.
+
+\hypertarget{class_game_a85b937fc817b0cbbc09ee0d50c1c88d6}{\index{Game@{Game}!set\-Team@{set\-Team}}
+\index{set\-Team@{set\-Team}!Game@{Game}}
+\subsubsection[{set\-Team}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Team (
+\begin{DoxyParamCaption}
+\item[{{\bf Team}}]{team}
+\end{DoxyParamCaption}
+)}}\label{class_game_a85b937fc817b0cbbc09ee0d50c1c88d6}
+
+
+set\-Team Changes the first team in game 
+
+
+
+Definition at line 27 of file game.\-cpp.
+
+\hypertarget{class_game_a0f9a397e0d33e01f4f38d53b836bce93}{\index{Game@{Game}!set\-Viewers@{set\-Viewers}}
+\index{set\-Viewers@{set\-Viewers}!Game@{Game}}
+\subsubsection[{set\-Viewers}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-::set\-Viewers (
+\begin{DoxyParamCaption}
+\item[{int}]{viewers}
+\end{DoxyParamCaption}
+)}}\label{class_game_a0f9a397e0d33e01f4f38d53b836bce93}
+
+
+set\-Viewers Changes the number of viewers in game 
+
+
+
+Definition at line 47 of file game.\-cpp.
+
+\hypertarget{class_game_a2d5dd545601c7cfd7a44675430409cdf}{\index{Game@{Game}!validate\-Date@{validate\-Date}}
+\index{validate\-Date@{validate\-Date}!Game@{Game}}
+\subsubsection[{validate\-Date}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-::validate\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{date}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_game_a2d5dd545601c7cfd7a44675430409cdf}
+
+
+validate\-Date Validates the date of game 
+
+\begin{DoxyReturn}{Returns}
+Whether the date of game meets the following conditions
+\end{DoxyReturn}
+Date string must satisfy the foolowing mask\-: X\-X.\-X\-X.\-X\-X\-X\-X where \{day\}.\{month\}.\{year\} For example\-: 12.\-12.\-1212 
+
+Definition at line 94 of file game.\-cpp.
+
+\hypertarget{class_game_ad31cce3106dc7e299328ffb4b9c2406c}{\index{Game@{Game}!validate\-Modification@{validate\-Modification}}
+\index{validate\-Modification@{validate\-Modification}!Game@{Game}}
+\subsubsection[{validate\-Modification}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-::validate\-Modification (
+\begin{DoxyParamCaption}
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_game_ad31cce3106dc7e299328ffb4b9c2406c}
+
+
+validate\-Modification Validates the field modification parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & The name of field \\
+\hline
+{\em value} & The new value of field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether this modification meets the following conditions
+\end{DoxyReturn}
+Field must be one of the following strings\-: T\-E\-A\-M, O\-P\-P\-O\-N\-E\-N\-T, D\-A\-T\-E, V\-I\-E\-W\-E\-R\-S, P\-L\-A\-C\-E, V\-I\-E\-W\-E\-R\-S or R\-E\-S\-U\-L\-T Value must satisfy the conditions of value of corresponding field. 
+
+Definition at line 109 of file game.\-cpp.
+
+\hypertarget{class_game_ae4d1cc3fbd6a409bc885f7b09632ffa1}{\index{Game@{Game}!validate\-Result@{validate\-Result}}
+\index{validate\-Result@{validate\-Result}!Game@{Game}}
+\subsubsection[{validate\-Result}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-::validate\-Result (
+\begin{DoxyParamCaption}
+\item[{int}]{result}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_game_ae4d1cc3fbd6a409bc885f7b09632ffa1}
+
+
+validate\-Result Validates the result of game 
+
+\begin{DoxyReturn}{Returns}
+Whether the result of game meets the following conditions 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file game.\-cpp.
+
+\hypertarget{class_game_ab82b7c4657c5db892f042e60ec4b0d8f}{\index{Game@{Game}!validate\-Viewers@{validate\-Viewers}}
+\index{validate\-Viewers@{validate\-Viewers}!Game@{Game}}
+\subsubsection[{validate\-Viewers}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-::validate\-Viewers (
+\begin{DoxyParamCaption}
+\item[{int}]{viewers}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_game_ab82b7c4657c5db892f042e60ec4b0d8f}
+
+
+validate\-Viewers Validates the number of viewers in game 
+
+\begin{DoxyReturn}{Returns}
+Whether the number of viewers meets the following conditions
+\end{DoxyReturn}
+Viewers number must be greater than zero and less than stadium's capacity number 
+
+Definition at line 99 of file game.\-cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_game_a3be5719b9c1a1526365bd01196cf2843}{\index{Game@{Game}!Date\-Comparer@{Date\-Comparer}}
+\index{Date\-Comparer@{Date\-Comparer}!Game@{Game}}
+\subsubsection[{Date\-Comparer}]{\setlength{\rightskip}{0pt plus 5cm}friend class {\bf Date\-Comparer}\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_game_a3be5719b9c1a1526365bd01196cf2843}
+
+
+Definition at line 33 of file game.\-h.
+
+\hypertarget{class_game_a41c0344e76853337b335ed0cb6df12ec}{\index{Game@{Game}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Game@{Game}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Game} \&}]{game}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_game_a41c0344e76853337b335ed0cb6df12ec}
+
+
+operator $<$$<$ Outputs the information about object to stream 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream \\
+\hline
+{\em player} & Object for outputting \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Output stream 
+\end{DoxyReturn}
+
+
+Definition at line 141 of file game.\-cpp.
+
+\hypertarget{class_game_a995e3a92879fd088c9e5c0f9cf5828d6}{\index{Game@{Game}!operator==@{operator==}}
+\index{operator==@{operator==}!Game@{Game}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Game}}]{g1, }
+\item[{{\bf Game}}]{g2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_game_a995e3a92879fd088c9e5c0f9cf5828d6}
+
+
+operator == Compares two \hyperlink{class_game}{Game} objects 
+
+\begin{DoxyReturn}{Returns}
+Whether two objects are equal
+\end{DoxyReturn}
+Two \hyperlink{class_game}{Game} objects are equal if they have the same team, opponent team, date, place, viewers and result 
+
+Definition at line 126 of file game.\-cpp.
+
+\hypertarget{class_game_ab9fc9ef738552f9c39ffa393c0e27b5c}{\index{Game@{Game}!Result\-Comparer@{Result\-Comparer}}
+\index{Result\-Comparer@{Result\-Comparer}!Game@{Game}}
+\subsubsection[{Result\-Comparer}]{\setlength{\rightskip}{0pt plus 5cm}friend class {\bf Result\-Comparer}\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_game_ab9fc9ef738552f9c39ffa393c0e27b5c}
+
+
+Definition at line 34 of file game.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{game_8h}{game.\-h}\item 
+\hyperlink{game_8cpp}{game.\-cpp}\end{DoxyCompactItemize}

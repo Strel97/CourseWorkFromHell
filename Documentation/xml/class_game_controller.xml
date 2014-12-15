@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_controller" kind="class" prot="public">
+    <compoundname>GameController</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller&lt; Game &gt;</basecompoundref>
+    <includes refid="_game_controller_8h" local="no">GameController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_controller_1a7d72ff3f639acb68578e20fee3649b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GameController::GameController</definition>
+        <argsstring>()</argsstring>
+        <name>GameController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="15" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="4" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GameController::edit</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>edit</name>
+        <reimplements refid="class_controller_1ae0a60f517aa957a9b40787385e2f574d">edit</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>edit Edits the content of object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of object in collection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Each controller class implements this method and realizes it because each class has it&apos;s own fields and allowable values for them </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="17" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="14" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a47969d486d0f3e1a3a46db09653be507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameController::sortByDate</definition>
+        <argsstring>()</argsstring>
+        <name>sortByDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="19" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a6db50feecfb3f8244fd549027f52b6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameController::sortByResult</definition>
+        <argsstring>()</argsstring>
+        <name>sortByResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="20" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a285063010bded38aa3e2b4d7be9d914a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * GameController::searchById</definition>
+        <argsstring>(int)</argsstring>
+        <name>searchById</name>
+        <param>
+          <type>int</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="22" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a271685999fb6548823b147eedda38345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * GameController::searchByDate</definition>
+        <argsstring>(string)</argsstring>
+        <name>searchByDate</name>
+        <param>
+          <type>string</type>
+          <defname>date</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="23" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1ab6d352fa9f3a4ba5b9e72698e7919441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * GameController::searchByOpponent</definition>
+        <argsstring>(string)</argsstring>
+        <name>searchByOpponent</name>
+        <param>
+          <type>string</type>
+          <defname>opponent</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="24" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1af7cf01ef8ae8c809a72400ee250f0e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref></type>
+        <definition>Game GameController::getGameById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getGameById</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="25" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>xml_node *</type>
+        <definition>xml_node * GameController::serialize</definition>
+        <argsstring>(xml_document&lt;&gt; *doc)</argsstring>
+        <name>serialize</name>
+        <reimplements refid="class_controller_1ad64a54b0dae9862661873423e4623d12">serialize</reimplements>
+        <param>
+          <type>xml_document&lt;&gt; *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>serialize Creates the xml_node object for further serialization </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to xml document </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>xml_node, the content of collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="27" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="81" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a5182b219041e94233912a3395c6c039d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GameController::deserialize</definition>
+        <argsstring>(xml_node&lt;&gt; *)</argsstring>
+        <name>deserialize</name>
+        <reimplements refid="class_controller_1a5a640056935508649724441454e0d996">deserialize</reimplements>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+        </param>
+        <briefdescription>
+<para>deserialize Pass information from xml file and creates objects on the base of this information </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="28" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.cpp" bodystart="103" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>Controller&lt; Game &gt;</label>
+        <link refid="class_controller"/>
+      </node>
+      <node id="49">
+        <label>GameController</label>
+        <link refid="class_game_controller"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>vector&lt; Game &gt;</label>
+      </node>
+      <node id="52">
+        <label>Controller&lt; Game &gt;</label>
+        <link refid="class_controller"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>_container</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>GameController</label>
+        <link refid="class_game_controller"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" line="13" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/GameController.h" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" prot="protected" virt="non-virtual"><scope>GameController</scope><name>_container</name></member>
+      <member refid="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" prot="public" virt="non-virtual"><scope>GameController</scope><name>add</name></member>
+      <member refid="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" prot="public" virt="non-virtual"><scope>GameController</scope><name>Controller</name></member>
+      <member refid="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" prot="public" virt="non-virtual"><scope>GameController</scope><name>del</name></member>
+      <member refid="class_controller_1a60bee27ade39edf02479ca34ee6823ae" prot="public" virt="non-virtual"><scope>GameController</scope><name>del</name></member>
+      <member refid="class_game_controller_1a5182b219041e94233912a3395c6c039d" prot="public" virt="virtual"><scope>GameController</scope><name>deserialize</name></member>
+      <member refid="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06" prot="public" virt="virtual"><scope>GameController</scope><name>edit</name></member>
+      <member refid="class_game_controller_1a7d72ff3f639acb68578e20fee3649b42" prot="public" virt="non-virtual"><scope>GameController</scope><name>GameController</name></member>
+      <member refid="class_controller_1a92fe74ba878f98ed1fc8272771680e90" prot="public" virt="non-virtual"><scope>GameController</scope><name>getContainer</name></member>
+      <member refid="class_game_controller_1af7cf01ef8ae8c809a72400ee250f0e2f" prot="public" virt="non-virtual"><scope>GameController</scope><name>getGameById</name></member>
+      <member refid="class_game_controller_1a271685999fb6548823b147eedda38345" prot="public" virt="non-virtual"><scope>GameController</scope><name>searchByDate</name></member>
+      <member refid="class_game_controller_1a285063010bded38aa3e2b4d7be9d914a" prot="public" virt="non-virtual"><scope>GameController</scope><name>searchById</name></member>
+      <member refid="class_game_controller_1ab6d352fa9f3a4ba5b9e72698e7919441" prot="public" virt="non-virtual"><scope>GameController</scope><name>searchByOpponent</name></member>
+      <member refid="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda" prot="public" virt="virtual"><scope>GameController</scope><name>serialize</name></member>
+      <member refid="class_game_controller_1a47969d486d0f3e1a3a46db09653be507" prot="public" virt="non-virtual"><scope>GameController</scope><name>sortByDate</name></member>
+      <member refid="class_game_controller_1a6db50feecfb3f8244fd549027f52b6a1" prot="public" virt="non-virtual"><scope>GameController</scope><name>sortByResult</name></member>
+      <member refid="class_controller_1a102169af91cac5b2ebaec9c357580058" prot="public" virt="non-virtual"><scope>GameController</scope><name>validateID</name></member>
+      <member refid="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" prot="public" virt="virtual"><scope>GameController</scope><name>~Controller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

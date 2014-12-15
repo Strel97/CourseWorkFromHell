@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_controller" kind="class" prot="public" abstract="yes">
+    <compoundname>Controller</compoundname>
+    <includes refid="_controller_8h" local="no">Controller.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>CType</declname>
+        <defname>CType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_controller_1a35c624141b5dafd2314829c910db7f9b" prot="protected" static="no" mutable="no">
+        <type>vector&lt; CType &gt;</type>
+        <definition>vector&lt;CType&gt; Controller&lt; CType &gt;::_container</definition>
+        <argsstring></argsstring>
+        <name>_container</name>
+        <briefdescription>
+<para>_container Collection of objects </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="120" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Controller&lt; CType &gt;::Controller</definition>
+        <argsstring>()</argsstring>
+        <name>Controller</name>
+        <briefdescription>
+<para><ref refid="class_controller" kindref="compound">Controller</ref> Creates empty controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="27" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Controller&lt; CType &gt;::~Controller</definition>
+        <argsstring>()</argsstring>
+        <name>~Controller</name>
+        <briefdescription>
+<para>~Controller Seek And Destroy!!! </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="35" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controller&lt; CType &gt;::add</definition>
+        <argsstring>(CType node)</argsstring>
+        <name>add</name>
+        <param>
+          <type>CType</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>add Adds element to the collection </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element to be added </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="44" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controller&lt; CType &gt;::del</definition>
+        <argsstring>(CType node)</argsstring>
+        <name>del</name>
+        <param>
+          <type>CType</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>del Deletes specified element from collection </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element info for deleting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="53" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a60bee27ade39edf02479ca34ee6823ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controller&lt; CType &gt;::del</definition>
+        <argsstring>(int id)</argsstring>
+        <name>del</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>del Deletes element from collection by specified id </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of element in collection </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="64" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a92fe74ba878f98ed1fc8272771680e90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; CType &gt;</type>
+        <definition>vector&lt;CType&gt; Controller&lt; CType &gt;::getContainer</definition>
+        <argsstring>()</argsstring>
+        <name>getContainer</name>
+        <briefdescription>
+<para>getContainer Returns the list of objects (or collection) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Collection of objects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="74" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a102169af91cac5b2ebaec9c357580058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Controller&lt; CType &gt;::validateID</definition>
+        <argsstring>(int id)</argsstring>
+        <name>validateID</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>validateID Validates the value of ID </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Wheter id meets the following conditions</para></simplesect>
+ID must be greater or equal to zero and less than collection size to predict out of range exception </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="87" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1ae0a60f517aa957a9b40787385e2f574d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Controller&lt; CType &gt;::edit</definition>
+        <argsstring>(int id, string field, string value)=0</argsstring>
+        <name>edit</name>
+        <reimplementedby refid="class_player_controller_1aa31049f0ac0ef1a38b1334b01e3217a0">edit</reimplementedby>
+        <reimplementedby refid="class_stadium_controller_1a73c220035ff25a16e3662a0266784218">edit</reimplementedby>
+        <reimplementedby refid="class_game_controller_1a6bb98af3aa77930625e8bd207c79af06">edit</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>edit Edits the content of object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of object in collection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Each controller class implements this method and realizes it because each class has it&apos;s own fields and allowable values for them </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1ad64a54b0dae9862661873423e4623d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>xml_node *</type>
+        <definition>virtual xml_node* Controller&lt; CType &gt;::serialize</definition>
+        <argsstring>(xml_document&lt;&gt; *doc)=0</argsstring>
+        <name>serialize</name>
+        <reimplementedby refid="class_player_controller_1acce83d1acdc1eec82210954e4d7a5322">serialize</reimplementedby>
+        <reimplementedby refid="class_stadium_controller_1a066f81b9560c8a7d92784ab85dd7a3b0">serialize</reimplementedby>
+        <reimplementedby refid="class_game_controller_1a839d19d81fc46c4fcb3b8c6eb5fd6cda">serialize</reimplementedby>
+        <param>
+          <type>xml_document&lt;&gt; *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>serialize Creates the xml_node object for further serialization </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to xml document </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>xml_node, the content of collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_controller_1a5a640056935508649724441454e0d996" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Controller&lt; CType &gt;::deserialize</definition>
+        <argsstring>(xml_node&lt;&gt; *)=0</argsstring>
+        <name>deserialize</name>
+        <reimplementedby refid="class_player_controller_1a93cec52c22ee44ed3ac8c9c8bbd96b02">deserialize</reimplementedby>
+        <reimplementedby refid="class_stadium_controller_1af7e2ff3d41780e203e1bda88fdcd070a">deserialize</reimplementedby>
+        <reimplementedby refid="class_game_controller_1a5182b219041e94233912a3395c6c039d">deserialize</reimplementedby>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+        </param>
+        <briefdescription>
+<para>deserialize Pass information from xml file and creates objects on the base of this information </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="114" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This template class represents the controller in MVC pattern. It has basic operations for adding and deleting element of any type to or from collection. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="39">
+        <label>Controller&lt; CType &gt;</label>
+        <link refid="class_controller"/>
+        <childnode refid="40" relation="usage">
+          <edgelabel>_container</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>vector&lt; CType &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" line="22" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/Controller.h" bodystart="21" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_controller_1a35c624141b5dafd2314829c910db7f9b" prot="protected" virt="non-virtual"><scope>Controller</scope><name>_container</name></member>
+      <member refid="class_controller_1a56ad83e3295de8b9dbe11cbd74d5a468" prot="public" virt="non-virtual"><scope>Controller</scope><name>add</name></member>
+      <member refid="class_controller_1a0f817aa1089f52e0290aa7a0edcebf97" prot="public" virt="non-virtual"><scope>Controller</scope><name>Controller</name></member>
+      <member refid="class_controller_1abb0469b161ecb5d2765e54568a08e5dc" prot="public" virt="non-virtual"><scope>Controller</scope><name>del</name></member>
+      <member refid="class_controller_1a60bee27ade39edf02479ca34ee6823ae" prot="public" virt="non-virtual"><scope>Controller</scope><name>del</name></member>
+      <member refid="class_controller_1a5a640056935508649724441454e0d996" prot="public" virt="pure-virtual"><scope>Controller</scope><name>deserialize</name></member>
+      <member refid="class_controller_1ae0a60f517aa957a9b40787385e2f574d" prot="public" virt="pure-virtual"><scope>Controller</scope><name>edit</name></member>
+      <member refid="class_controller_1a92fe74ba878f98ed1fc8272771680e90" prot="public" virt="non-virtual"><scope>Controller</scope><name>getContainer</name></member>
+      <member refid="class_controller_1ad64a54b0dae9862661873423e4623d12" prot="public" virt="pure-virtual"><scope>Controller</scope><name>serialize</name></member>
+      <member refid="class_controller_1a102169af91cac5b2ebaec9c357580058" prot="public" virt="non-virtual"><scope>Controller</scope><name>validateID</name></member>
+      <member refid="class_controller_1a8c9dbb3d1687c8ef62b6d29f6991124f" prot="public" virt="virtual"><scope>Controller</scope><name>~Controller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

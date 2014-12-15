@@ -1,0 +1,141 @@
+\hypertarget{class_player_controller}{\section{Player\-Controller Class Reference}
+\label{class_player_controller}\index{Player\-Controller@{Player\-Controller}}
+}
+
+
+{\ttfamily \#include $<$Player\-Controller.\-h$>$}
+
+
+
+Inheritance diagram for Player\-Controller\-:
+
+
+Collaboration diagram for Player\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_player_controller_aa31049f0ac0ef1a38b1334b01e3217a0}{edit} (int id, string field, string value)
+\begin{DoxyCompactList}\small\item\em edit Edits the content of object \end{DoxyCompactList}\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{class_player_controller_a6fddbc651a2a7fba34dea0e5a609444b}{search\-By\-Id} (int)
+\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{class_player_controller_a06a3cea40d352a4f8f4ec71b2dc04469}{search\-By\-Name} (string)
+\item 
+xml\-\_\-node $\ast$ \hyperlink{class_player_controller_acce83d1acdc1eec82210954e4d7a5322}{serialize} (xml\-\_\-document$<$$>$ $\ast$doc)
+\begin{DoxyCompactList}\small\item\em serialize Creates the xml\-\_\-node object for further serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_player_controller_a93cec52c22ee44ed3ac8c9c8bbd96b02}{deserialize} (xml\-\_\-node$<$$>$ $\ast$)
+\begin{DoxyCompactList}\small\item\em deserialize Pass information from xml file and creates objects on the base of this information \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Player\-Controller.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_player_controller_a93cec52c22ee44ed3ac8c9c8bbd96b02}{\index{Player\-Controller@{Player\-Controller}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!PlayerController@{Player\-Controller}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-Controller\-::deserialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-node$<$$>$ $\ast$}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_player_controller_a93cec52c22ee44ed3ac8c9c8bbd96b02}
+
+
+deserialize Pass information from xml file and creates objects on the base of this information 
+
+
+
+Implements \hyperlink{class_controller_a5a640056935508649724441454e0d996}{Controller$<$ Player $>$}.
+
+
+
+Definition at line 66 of file Player\-Controller.\-cpp.
+
+\hypertarget{class_player_controller_aa31049f0ac0ef1a38b1334b01e3217a0}{\index{Player\-Controller@{Player\-Controller}!edit@{edit}}
+\index{edit@{edit}!PlayerController@{Player\-Controller}}
+\subsubsection[{edit}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-Controller\-::edit (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_player_controller_aa31049f0ac0ef1a38b1334b01e3217a0}
+
+
+edit Edits the content of object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & I\-D of object in collection \\
+\hline
+{\em field} & Field to modify \\
+\hline
+{\em value} & New value of field\\
+\hline
+\end{DoxyParams}
+Each controller class implements this method and realizes it because each class has it's own fields and allowable values for them 
+
+Implements \hyperlink{class_controller_ae0a60f517aa957a9b40787385e2f574d}{Controller$<$ Player $>$}.
+
+
+
+Definition at line 4 of file Player\-Controller.\-cpp.
+
+\hypertarget{class_player_controller_a6fddbc651a2a7fba34dea0e5a609444b}{\index{Player\-Controller@{Player\-Controller}!search\-By\-Id@{search\-By\-Id}}
+\index{search\-By\-Id@{search\-By\-Id}!PlayerController@{Player\-Controller}}
+\subsubsection[{search\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player} $\ast$ Player\-Controller\-::search\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_player_controller_a6fddbc651a2a7fba34dea0e5a609444b}
+
+
+Definition at line 27 of file Player\-Controller.\-cpp.
+
+\hypertarget{class_player_controller_a06a3cea40d352a4f8f4ec71b2dc04469}{\index{Player\-Controller@{Player\-Controller}!search\-By\-Name@{search\-By\-Name}}
+\index{search\-By\-Name@{search\-By\-Name}!PlayerController@{Player\-Controller}}
+\subsubsection[{search\-By\-Name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player} $\ast$ Player\-Controller\-::search\-By\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_player_controller_a06a3cea40d352a4f8f4ec71b2dc04469}
+
+
+Definition at line 35 of file Player\-Controller.\-cpp.
+
+\hypertarget{class_player_controller_acce83d1acdc1eec82210954e4d7a5322}{\index{Player\-Controller@{Player\-Controller}!serialize@{serialize}}
+\index{serialize@{serialize}!PlayerController@{Player\-Controller}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}xml\-\_\-node $\ast$ Player\-Controller\-::serialize (
+\begin{DoxyParamCaption}
+\item[{xml\-\_\-document$<$$>$ $\ast$}]{doc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_player_controller_acce83d1acdc1eec82210954e4d7a5322}
+
+
+serialize Creates the xml\-\_\-node object for further serialization 
+
+
+\begin{DoxyParams}{Parameters}
+{\em doc} & Reference to xml document \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+xml\-\_\-node, the content of collection 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_controller_ad64a54b0dae9862661873423e4623d12}{Controller$<$ Player $>$}.
+
+
+
+Definition at line 44 of file Player\-Controller.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_player_controller_8h}{Player\-Controller.\-h}\item 
+\hyperlink{_player_controller_8cpp}{Player\-Controller.\-cpp}\end{DoxyCompactItemize}

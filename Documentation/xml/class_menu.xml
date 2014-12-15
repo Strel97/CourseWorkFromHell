@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_menu" kind="class" prot="public">
+    <compoundname>Menu</compoundname>
+    <includes refid="menu_8h" local="no">menu.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_menu_1ac4360af9b37286157f8b039220a240cb" prot="private" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Menu::ErrDescription</definition>
+        <argsstring></argsstring>
+        <name>ErrDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="61" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_menu_1a54c08a552d2877dd99b4a07c6881bf5b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_base" kindref="compound">DataBase</ref></type>
+        <definition>DataBase Menu::database</definition>
+        <argsstring></argsstring>
+        <name>database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="62" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_menu_1ad466dd83355124a6ed958430450bfe94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Menu::Menu</definition>
+        <argsstring>()</argsstring>
+        <name>Menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="23" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ae1ec62e738dda7faaaec850bd0b58ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="25" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="8" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ab219d3a7dc94afa5e7e1b914a718a60d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Menu::getCommand</definition>
+        <argsstring>()</argsstring>
+        <name>getCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="26" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a833d41a72b96f4eb4673c573078ea5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::parseCommand</definition>
+        <argsstring>(string cmd)</argsstring>
+        <name>parseCommand</name>
+        <param>
+          <type>string</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="27" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="29" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a640371f3713c4af92c4c84894a797720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showHelp</definition>
+        <argsstring>()</argsstring>
+        <name>showHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="28" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="94" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a02ffb64101a80d13616fbe306c005d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::addPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>addPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="30" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="142" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a075f9557bb1a6f5c88008da898aef380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::delPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>delPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="31" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="193" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1abde1a527a400f992ddcfcb2458f22447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::modifyPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>modifyPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="32" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="206" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a726a0749edb5bc20dbf017f7059a9fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>showPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="33" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="228" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a9dd2f29a484d18d73979e4c138b85f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showAllPlayers</definition>
+        <argsstring>()</argsstring>
+        <name>showAllPlayers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="34" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="241" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a03a1516dd60de0b50cd7559f80ddef85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::searchPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>searchPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="35" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="254" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1aa364242b613a8abe195cf551586a509a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::addGame</definition>
+        <argsstring>()</argsstring>
+        <name>addGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="37" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="272" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a352d42071396d84dd91112e500e28f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::delGame</definition>
+        <argsstring>()</argsstring>
+        <name>delGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="38" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="316" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1adb91c65527e7bf3dccd9c5ce76a2bfcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::modifyGame</definition>
+        <argsstring>()</argsstring>
+        <name>modifyGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="39" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="329" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a057158d6a62ae559e702a1aebab49e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::setGameResult</definition>
+        <argsstring>()</argsstring>
+        <name>setGameResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="40" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="351" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a8903b069ab923805203351e4463992a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showGame</definition>
+        <argsstring>()</argsstring>
+        <name>showGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="41" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="371" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1afcf3b29f9cc3a8fbdea550c2fcf0cd8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showAllGames</definition>
+        <argsstring>()</argsstring>
+        <name>showAllGames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="42" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="384" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1affd75dabc191d2775a74a2880f579374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::sortGamesByDate</definition>
+        <argsstring>()</argsstring>
+        <name>sortGamesByDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="43" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="397" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a0b49bfeab158452d2d5aaf22100e9352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::sortGamesByResult</definition>
+        <argsstring>()</argsstring>
+        <name>sortGamesByResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="44" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="404" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a312e44088f081f06cc9732bf9c0d3ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::searchGameByDate</definition>
+        <argsstring>()</argsstring>
+        <name>searchGameByDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="45" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="411" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ab682e3e0d866d36aa74ad9bf3830d854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::searchGameByOpponent</definition>
+        <argsstring>()</argsstring>
+        <name>searchGameByOpponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="46" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="427" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ae58f88aad53f1cddcc741a8da7dd357e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::addStadium</definition>
+        <argsstring>()</argsstring>
+        <name>addStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="48" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="446" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a72ba7057cabf073c432cfe9861cd1f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::delStadium</definition>
+        <argsstring>()</argsstring>
+        <name>delStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="49" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="476" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ab2b720b4f800ea05a9299004273c10c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::modifyStadium</definition>
+        <argsstring>()</argsstring>
+        <name>modifyStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="50" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="489" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a69ce02ff8da977e9f6468e8fe267f229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showStadium</definition>
+        <argsstring>()</argsstring>
+        <name>showStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="51" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="511" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a217c701397b83c2adcbc0a74cb616f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::showAllStadiums</definition>
+        <argsstring>()</argsstring>
+        <name>showAllStadiums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="52" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="524" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ad20e7df904036ce886b5a60a3f85e689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::searchStadium</definition>
+        <argsstring>()</argsstring>
+        <name>searchStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="53" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="535" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a531e7bc04eb27f9653fe2fac4012a9b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::saveDbToFile</definition>
+        <argsstring>()</argsstring>
+        <name>saveDbToFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="55" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="553" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1ab8501abe0783d0664339a58967ae7d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::loadDbFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadDbFromFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="56" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="558" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a5b5dca5d4af1d569061ab22676262482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu::error</definition>
+        <argsstring>(int code)</argsstring>
+        <name>error</name>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="58" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.cpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" line="21" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/menu.h" bodystart="20" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_menu_1aa364242b613a8abe195cf551586a509a" prot="public" virt="non-virtual"><scope>Menu</scope><name>addGame</name></member>
+      <member refid="class_menu_1a02ffb64101a80d13616fbe306c005d73" prot="public" virt="non-virtual"><scope>Menu</scope><name>addPlayer</name></member>
+      <member refid="class_menu_1ae58f88aad53f1cddcc741a8da7dd357e" prot="public" virt="non-virtual"><scope>Menu</scope><name>addStadium</name></member>
+      <member refid="class_menu_1a54c08a552d2877dd99b4a07c6881bf5b" prot="private" virt="non-virtual"><scope>Menu</scope><name>database</name></member>
+      <member refid="class_menu_1a352d42071396d84dd91112e500e28f48" prot="public" virt="non-virtual"><scope>Menu</scope><name>delGame</name></member>
+      <member refid="class_menu_1a075f9557bb1a6f5c88008da898aef380" prot="public" virt="non-virtual"><scope>Menu</scope><name>delPlayer</name></member>
+      <member refid="class_menu_1a72ba7057cabf073c432cfe9861cd1f1f" prot="public" virt="non-virtual"><scope>Menu</scope><name>delStadium</name></member>
+      <member refid="class_menu_1ac4360af9b37286157f8b039220a240cb" prot="private" virt="non-virtual"><scope>Menu</scope><name>ErrDescription</name></member>
+      <member refid="class_menu_1a5b5dca5d4af1d569061ab22676262482" prot="public" virt="non-virtual"><scope>Menu</scope><name>error</name></member>
+      <member refid="class_menu_1ab219d3a7dc94afa5e7e1b914a718a60d" prot="public" virt="non-virtual"><scope>Menu</scope><name>getCommand</name></member>
+      <member refid="class_menu_1ab8501abe0783d0664339a58967ae7d37" prot="public" virt="non-virtual"><scope>Menu</scope><name>loadDbFromFile</name></member>
+      <member refid="class_menu_1ad466dd83355124a6ed958430450bfe94" prot="public" virt="non-virtual"><scope>Menu</scope><name>Menu</name></member>
+      <member refid="class_menu_1adb91c65527e7bf3dccd9c5ce76a2bfcc" prot="public" virt="non-virtual"><scope>Menu</scope><name>modifyGame</name></member>
+      <member refid="class_menu_1abde1a527a400f992ddcfcb2458f22447" prot="public" virt="non-virtual"><scope>Menu</scope><name>modifyPlayer</name></member>
+      <member refid="class_menu_1ab2b720b4f800ea05a9299004273c10c9" prot="public" virt="non-virtual"><scope>Menu</scope><name>modifyStadium</name></member>
+      <member refid="class_menu_1a833d41a72b96f4eb4673c573078ea5a2" prot="public" virt="non-virtual"><scope>Menu</scope><name>parseCommand</name></member>
+      <member refid="class_menu_1a531e7bc04eb27f9653fe2fac4012a9b3" prot="public" virt="non-virtual"><scope>Menu</scope><name>saveDbToFile</name></member>
+      <member refid="class_menu_1a312e44088f081f06cc9732bf9c0d3ed2" prot="public" virt="non-virtual"><scope>Menu</scope><name>searchGameByDate</name></member>
+      <member refid="class_menu_1ab682e3e0d866d36aa74ad9bf3830d854" prot="public" virt="non-virtual"><scope>Menu</scope><name>searchGameByOpponent</name></member>
+      <member refid="class_menu_1a03a1516dd60de0b50cd7559f80ddef85" prot="public" virt="non-virtual"><scope>Menu</scope><name>searchPlayer</name></member>
+      <member refid="class_menu_1ad20e7df904036ce886b5a60a3f85e689" prot="public" virt="non-virtual"><scope>Menu</scope><name>searchStadium</name></member>
+      <member refid="class_menu_1a057158d6a62ae559e702a1aebab49e6a" prot="public" virt="non-virtual"><scope>Menu</scope><name>setGameResult</name></member>
+      <member refid="class_menu_1afcf3b29f9cc3a8fbdea550c2fcf0cd8f" prot="public" virt="non-virtual"><scope>Menu</scope><name>showAllGames</name></member>
+      <member refid="class_menu_1a9dd2f29a484d18d73979e4c138b85f50" prot="public" virt="non-virtual"><scope>Menu</scope><name>showAllPlayers</name></member>
+      <member refid="class_menu_1a217c701397b83c2adcbc0a74cb616f2f" prot="public" virt="non-virtual"><scope>Menu</scope><name>showAllStadiums</name></member>
+      <member refid="class_menu_1a8903b069ab923805203351e4463992a8" prot="public" virt="non-virtual"><scope>Menu</scope><name>showGame</name></member>
+      <member refid="class_menu_1a640371f3713c4af92c4c84894a797720" prot="public" virt="non-virtual"><scope>Menu</scope><name>showHelp</name></member>
+      <member refid="class_menu_1a726a0749edb5bc20dbf017f7059a9fe4" prot="public" virt="non-virtual"><scope>Menu</scope><name>showPlayer</name></member>
+      <member refid="class_menu_1a69ce02ff8da977e9f6468e8fe267f229" prot="public" virt="non-virtual"><scope>Menu</scope><name>showStadium</name></member>
+      <member refid="class_menu_1affd75dabc191d2775a74a2880f579374" prot="public" virt="non-virtual"><scope>Menu</scope><name>sortGamesByDate</name></member>
+      <member refid="class_menu_1a0b49bfeab158452d2d5aaf22100e9352" prot="public" virt="non-virtual"><scope>Menu</scope><name>sortGamesByResult</name></member>
+      <member refid="class_menu_1ae1ec62e738dda7faaaec850bd0b58ffe" prot="public" virt="non-virtual"><scope>Menu</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

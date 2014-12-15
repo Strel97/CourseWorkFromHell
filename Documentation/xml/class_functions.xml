@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_functions" kind="class" prot="public">
+    <compoundname>Functions</compoundname>
+    <includes refid="functions_8h" local="no">functions.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_functions_1a8674cb64c8c633231745386804dcf2f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt; string &gt; Functions::split</definition>
+        <argsstring>(string str, char delim)</argsstring>
+        <name>split</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>delim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.h" line="13" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.cpp" bodystart="3" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Functions::itoa</definition>
+        <argsstring>(int value)</argsstring>
+        <name>itoa</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.h" line="14" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.h" line="11" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/functions.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_functions_1a0390121f2b3fbf6a9344af8cb8d8b526" prot="public" virt="non-virtual"><scope>Functions</scope><name>itoa</name></member>
+      <member refid="class_functions_1a8674cb64c8c633231745386804dcf2f4" prot="public" virt="non-virtual"><scope>Functions</scope><name>split</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

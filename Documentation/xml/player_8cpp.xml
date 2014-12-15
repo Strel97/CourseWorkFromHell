@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="player_8cpp" kind="file">
+    <compoundname>player.cpp</compoundname>
+    <includes refid="player_8h" local="yes">player.h</includes>
+    <incdepgraph>
+      <node id="793">
+        <label>iomanip</label>
+      </node>
+      <node id="794">
+        <label>string</label>
+      </node>
+      <node id="790">
+        <label>player.cpp</label>
+        <link refid="player.cpp"/>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>QRegExp</label>
+      </node>
+      <node id="798">
+        <label>vector</label>
+      </node>
+      <node id="797">
+        <label>functions.h</label>
+        <link refid="functions_8h"/>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="798" relation="include">
+        </childnode>
+      </node>
+      <node id="796">
+        <label>QString</label>
+      </node>
+      <node id="792">
+        <label>iostream</label>
+      </node>
+      <node id="791">
+        <label>player.h</label>
+        <link refid="player_8h"/>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="797" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="player_8cpp_1acb70fb06d86823aa83941901a3440010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Player p1, Player p2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Whether two objects are equal</para></simplesect>
+Two <ref refid="class_player" kindref="compound">Player</ref> objects are equal if they have the same name, surname, birthday, status, health and salary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" line="156" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="156" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="player_8cpp_1a79571356003607b80edc6440c851e503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Player &amp;player)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output stream </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object for outputting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Output stream </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" line="172" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp" bodystart="172" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="player_8h" kindref="compound">player.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>CODE<sp/>ERRORS<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>It<sp/>works!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>Constructors<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" refkind="member"><highlight class="normal"><ref refid="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kindref="member">Player::Player</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_player_1aee48abd7fb6209cb806608881770b7f8" refkind="member"><highlight class="normal"><ref refid="class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kindref="member">Player::Player</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>surname,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>birthday,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>status,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>health,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>salary)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>_name(name),<sp/>_surname(surname),<sp/>_birthday(birthday),<sp/>_status(status),<sp/>_health(health),<sp/>_salary(salary)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">Player::Player(int<sp/>id,<sp/>string<sp/>name,<sp/>string<sp/>surname,<sp/>string<sp/>birthday,<sp/>string<sp/>status,<sp/>string<sp/>health,<sp/>int<sp/>salary)</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/>:<sp/>_id(id),<sp/>_name(name),<sp/>_surname(surname),<sp/>_birthday(birthday),<sp/>_status(status),<sp/>_health(health),<sp/>_salary(salary)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>====================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>Getters<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">int<sp/>Player::getID()</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>_id;</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_player_1af9a6045fa96f736664c4eab4caa5e8e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_player_1af9a6045fa96f736664c4eab4caa5e8e5" kindref="member">Player::getName</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_name;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_player_1a00efbc816b6584e40040cb2ba8388b0b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_player_1a00efbc816b6584e40040cb2ba8388b0b" kindref="member">Player::getSurname</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_surname;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_player_1ae3a352e2609c68d5edb8d73ef9e8392f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae3a352e2609c68d5edb8d73ef9e8392f" kindref="member">Player::getBirthday</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_birthday;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_player_1a1226da7129b2cd61c5529d630cf38df8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_player_1a1226da7129b2cd61c5529d630cf38df8" kindref="member">Player::getStatus</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_status;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_player_1a279a88a14ea16ec00142ca5340d36ae5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_player_1a279a88a14ea16ec00142ca5340d36ae5" kindref="member">Player::getHealth</ref>()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_health;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_player_1a4da3eb8caa9d3bf29ab0e7107247ad35" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_player_1a4da3eb8caa9d3bf29ab0e7107247ad35" kindref="member">Player::getSalary</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_salary;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===============</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>Setters<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">/*void<sp/>Player::setID(int<sp/>id)</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/>_id<sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_player_1a8eaf43a2f2236b21d0101270ecca1483" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1a8eaf43a2f2236b21d0101270ecca1483" kindref="member">Player::setName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="class_player_1a11039442924e73772e1e6e8e92b974a5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1a11039442924e73772e1e6e8e92b974a5" kindref="member">Player::setSurname</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>surname)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>_surname<sp/>=<sp/>surname;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="class_player_1ac7136dd8416f8c52a5ea7ce7b9d3b30b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1ac7136dd8416f8c52a5ea7ce7b9d3b30b" kindref="member">Player::setBirthday</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>birthday)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>_birthday<sp/>=<sp/>birthday;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_player_1a08cf2edf8cfd3bbeefd1befb397e6920" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1a08cf2edf8cfd3bbeefd1befb397e6920" kindref="member">Player::setStatus</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>status)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>_status<sp/>=<sp/>status;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="class_player_1af052e51778a8d555094613b6d9fffa5a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1af052e51778a8d555094613b6d9fffa5a" kindref="member">Player::setHealth</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>health)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>_health<sp/>=<sp/>health;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_player_1a2f48d324e01aada508e7d0c55918bd64" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1a2f48d324e01aada508e7d0c55918bd64" kindref="member">Player::setSalary</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>salary)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>_salary<sp/>=<sp/>salary;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===============</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>Methods<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="class_player_1abb1456b5bc804f27f80506ab3eced9cc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1abb1456b5bc804f27f80506ab3eced9cc" kindref="member">Player::validateName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRegExp(</highlight><highlight class="stringliteral">&quot;^[A-Z][a-z]+$&quot;</highlight><highlight class="normal">).exactMatch(QString::fromStdString(name));</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" kindref="member">Player::validateSurname</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>surname)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRegExp(</highlight><highlight class="stringliteral">&quot;^[A-Z][a-z]+$&quot;</highlight><highlight class="normal">).exactMatch(QString::fromStdString(surname));</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" kindref="member">Player::validateBirthday</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>birthday)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRegExp(</highlight><highlight class="stringliteral">&quot;[0-9]{2}.[0-9]{2}.[0-9]{4}&quot;</highlight><highlight class="normal">).exactMatch(QString::fromStdString(birthday));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="class_player_1af26b9a23c75cee78b8e06a516a4d0720" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1af26b9a23c75cee78b8e06a516a4d0720" kindref="member">Player::validateStatus</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>status)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRegExp(</highlight><highlight class="stringliteral">&quot;(ATTACK)|(DEFENCE)|(GOALKEEPER)&quot;</highlight><highlight class="normal">).exactMatch(QString::fromStdString(status));</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="class_player_1a04be7b253085529222ed5616772319f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1a04be7b253085529222ed5616772319f5" kindref="member">Player::validateHealth</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>health)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRegExp(</highlight><highlight class="stringliteral">&quot;(HEALTHY)|(SICK)&quot;</highlight><highlight class="normal">).exactMatch(QString::fromStdString(health));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" kindref="member">Player::validateSalary</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>salary)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(salary<sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(salary<sp/>&lt;<sp/>10000);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="class_player_1ae71449232dae50d1eb03ea40a6e0d5c3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae71449232dae50d1eb03ea40a6e0d5c3" kindref="member">Player::validateModification</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>field,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;NAME&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1abb1456b5bc804f27f80506ab3eced9cc" kindref="member">validateName</ref>(value);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;SURNAME&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1a24d1dcb787aed938a56c2576f0dc8d54" kindref="member">validateSurname</ref>(value);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;BIRTHDAY&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1aaf2f62f9d3d1f2bece5258ae6c8dd1c6" kindref="member">validateBirthday</ref>(value);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;STATUS&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1af26b9a23c75cee78b8e06a516a4d0720" kindref="member">validateStatus</ref>(value);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HEALTH&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1a04be7b253085529222ed5616772319f5" kindref="member">validateHealth</ref>(value);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(field<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;SALARY&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1aa3bd122182accc2ca31eb7e01ec0cd7c" kindref="member">validateSalary</ref>(stoi(value));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===============</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//<sp/>===<sp/>Operators<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="player_8cpp_1acb70fb06d86823aa83941901a3440010" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="player_8cpp_1acb70fb06d86823aa83941901a3440010" kindref="member">operator== </ref>(<ref refid="class_player" kindref="compound">Player</ref><sp/>p1,<sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>p2)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>((&amp;p1<sp/>!=<sp/>0)<sp/>&amp;&amp;<sp/>(&amp;p2<sp/>!=<sp/>0))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((p1._name<sp/>==<sp/>p2._name)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(p1._surname<sp/>==<sp/>p2._surname)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(p1._birthday<sp/>==<sp/>p2._birthday)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(p1._status<sp/>==<sp/>p2._status)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(p1._health<sp/>==<sp/>p2._health)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(p1._salary<sp/>==<sp/>p2._salary))</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="player_8cpp_1a79571356003607b80edc6440c851e503" refkind="member"><highlight class="normal">ostream&amp;<sp/><ref refid="player_8cpp_1a79571356003607b80edc6440c851e503" kindref="member">operator&lt;&lt;</ref>(ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>player)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/>player._name<sp/>&lt;&lt;<sp/>setw(9)<sp/>&lt;&lt;<sp/>player._surname<sp/>&lt;&lt;<sp/>setw(16)<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>player._birthday<sp/>&lt;&lt;<sp/>setw(12)<sp/>&lt;&lt;<sp/>player._status<sp/>&lt;&lt;<sp/>setw(12)<sp/>&lt;&lt;<sp/>player._health<sp/>&lt;&lt;<sp/>setw(12)<sp/>&lt;&lt;<sp/>player._salary<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/player.cpp"/>
+  </compounddef>
+</doxygen>

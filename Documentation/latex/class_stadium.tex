@@ -1,0 +1,355 @@
+\hypertarget{class_stadium}{\section{Stadium Class Reference}
+\label{class_stadium}\index{Stadium@{Stadium}}
+}
+
+
+The \hyperlink{class_stadium}{Stadium} class Describes the stadium.  
+
+
+
+
+{\ttfamily \#include $<$stadium.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_stadium_a590fc521914438820bf5ab2f27d2d749}{Stadium} ()
+\item 
+\hyperlink{class_stadium_a12f75b0989850194b734304a2fab3ccf}{Stadium} (string name, int places, int ticket\-\_\-price)
+\item 
+void \hyperlink{class_stadium_a5bcaff3a212c824de82c4985f1495b6a}{set\-Name} (string)
+\begin{DoxyCompactList}\small\item\em set\-Name Changes the stadium's name \end{DoxyCompactList}\item 
+void \hyperlink{class_stadium_a01331957387926db3554e72ea87366b5}{set\-Places} (int)
+\begin{DoxyCompactList}\small\item\em set\-Places Changes the capacity of stadium \end{DoxyCompactList}\item 
+void \hyperlink{class_stadium_a32da99b03478f37d0ab983c2934e68d8}{set\-Ticket\-Price} (int)
+\begin{DoxyCompactList}\small\item\em set\-Ticket\-Price Changes the price for one ticket \end{DoxyCompactList}\item 
+string \hyperlink{class_stadium_a1fc6559711c96b45e5c6e03cda5e5806}{get\-Name} ()
+\begin{DoxyCompactList}\small\item\em get\-Name Returns the name of stadium \end{DoxyCompactList}\item 
+int \hyperlink{class_stadium_aeaa0d2bb9cb57190582a670110b5409c}{get\-Places} ()
+\begin{DoxyCompactList}\small\item\em get\-Places Returns the capacity of stadium \end{DoxyCompactList}\item 
+int \hyperlink{class_stadium_a79956c14de1980a685000cae1fc4ae6a}{get\-Ticket\-Price} ()
+\begin{DoxyCompactList}\small\item\em get\-Ticket\-Price Returns the price for one ticket \end{DoxyCompactList}\item 
+void \hyperlink{class_stadium_a1d50650f511946c37c5595de7596ad1a}{add\-Game} (\hyperlink{class_game}{Game})
+\begin{DoxyCompactList}\small\item\em add\-Game Adds game to the list of games \end{DoxyCompactList}\item 
+void \hyperlink{class_stadium_a7509d7bae6f4adf095801198d1860913}{del\-Game} (\hyperlink{class_game}{Game})
+\begin{DoxyCompactList}\small\item\em del\-Game Deletes game from the list of games \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_stadium_a54f137ce795722af818e63f5aa10ee1b}{validate\-Name} (string)
+\begin{DoxyCompactList}\small\item\em validate\-Name Validates name \end{DoxyCompactList}\item 
+static bool \hyperlink{class_stadium_a7599de7fb2e47a9033843b3daf021b3b}{validate\-Places} (int)
+\begin{DoxyCompactList}\small\item\em validate\-Places Validates capacity of stadium \end{DoxyCompactList}\item 
+static bool \hyperlink{class_stadium_a838f88701c34b79d69f32ca56ad187f6}{validate\-Ticket\-Price} (int)
+\begin{DoxyCompactList}\small\item\em validate\-Ticket\-Price Validates ticket price \end{DoxyCompactList}\item 
+static bool \hyperlink{class_stadium_aff6aa9a03327fc1b663e6c54984fe6bd}{validate\-Modification} (string field, string value)
+\begin{DoxyCompactList}\small\item\em validate\-Modification Validates the field modification parameters \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_stadium_a4ebb6407c6202c2c67b4a518614eaff7}{operator==} (\hyperlink{class_stadium}{Stadium}, \hyperlink{class_stadium}{Stadium})
+\begin{DoxyCompactList}\small\item\em operator == Compares two \hyperlink{class_stadium}{Stadium} objects \end{DoxyCompactList}\item 
+ostream \& \hyperlink{class_stadium_a6950907c6c5d1a74cedc504c427e5b3f}{operator$<$$<$} (ostream \&os, const \hyperlink{class_stadium}{Stadium} \&stadium)
+\begin{DoxyCompactList}\small\item\em operator $<$$<$ Outputs the information about object to stream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_stadium}{Stadium} class Describes the stadium. 
+
+It contains information about capacity of stadium, price for one ticket and the list of games to be played here 
+
+Definition at line 22 of file stadium.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_stadium_a590fc521914438820bf5ab2f27d2d749}{\index{Stadium@{Stadium}!Stadium@{Stadium}}
+\index{Stadium@{Stadium}!Stadium@{Stadium}}
+\subsubsection[{Stadium}]{\setlength{\rightskip}{0pt plus 5cm}Stadium\-::\-Stadium (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a590fc521914438820bf5ab2f27d2d749}
+
+
+Definition at line 3 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a12f75b0989850194b734304a2fab3ccf}{\index{Stadium@{Stadium}!Stadium@{Stadium}}
+\index{Stadium@{Stadium}!Stadium@{Stadium}}
+\subsubsection[{Stadium}]{\setlength{\rightskip}{0pt plus 5cm}Stadium\-::\-Stadium (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{int}]{places, }
+\item[{int}]{ticket\-\_\-price}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a12f75b0989850194b734304a2fab3ccf}
+
+
+Definition at line 8 of file stadium.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_stadium_a1d50650f511946c37c5595de7596ad1a}{\index{Stadium@{Stadium}!add\-Game@{add\-Game}}
+\index{add\-Game@{add\-Game}!Stadium@{Stadium}}
+\subsubsection[{add\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-::add\-Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Game}}]{game}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a1d50650f511946c37c5595de7596ad1a}
+
+
+add\-Game Adds game to the list of games 
+
+
+
+Definition at line 74 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a7509d7bae6f4adf095801198d1860913}{\index{Stadium@{Stadium}!del\-Game@{del\-Game}}
+\index{del\-Game@{del\-Game}!Stadium@{Stadium}}
+\subsubsection[{del\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-::del\-Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Game}}]{game}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a7509d7bae6f4adf095801198d1860913}
+
+
+del\-Game Deletes game from the list of games 
+
+
+
+Definition at line 79 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a1fc6559711c96b45e5c6e03cda5e5806}{\index{Stadium@{Stadium}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!Stadium@{Stadium}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Stadium\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a1fc6559711c96b45e5c6e03cda5e5806}
+
+
+get\-Name Returns the name of stadium 
+
+\begin{DoxyReturn}{Returns}
+The name of stadium 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_aeaa0d2bb9cb57190582a670110b5409c}{\index{Stadium@{Stadium}!get\-Places@{get\-Places}}
+\index{get\-Places@{get\-Places}!Stadium@{Stadium}}
+\subsubsection[{get\-Places}]{\setlength{\rightskip}{0pt plus 5cm}int Stadium\-::get\-Places (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_aeaa0d2bb9cb57190582a670110b5409c}
+
+
+get\-Places Returns the capacity of stadium 
+
+\begin{DoxyReturn}{Returns}
+The capacity of stadium 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a79956c14de1980a685000cae1fc4ae6a}{\index{Stadium@{Stadium}!get\-Ticket\-Price@{get\-Ticket\-Price}}
+\index{get\-Ticket\-Price@{get\-Ticket\-Price}!Stadium@{Stadium}}
+\subsubsection[{get\-Ticket\-Price}]{\setlength{\rightskip}{0pt plus 5cm}int Stadium\-::get\-Ticket\-Price (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a79956c14de1980a685000cae1fc4ae6a}
+
+
+get\-Ticket\-Price Returns the price for one ticket 
+
+\begin{DoxyReturn}{Returns}
+The price for one ticket 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a5bcaff3a212c824de82c4985f1495b6a}{\index{Stadium@{Stadium}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!Stadium@{Stadium}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a5bcaff3a212c824de82c4985f1495b6a}
+
+
+set\-Name Changes the stadium's name 
+
+
+
+Definition at line 15 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a01331957387926db3554e72ea87366b5}{\index{Stadium@{Stadium}!set\-Places@{set\-Places}}
+\index{set\-Places@{set\-Places}!Stadium@{Stadium}}
+\subsubsection[{set\-Places}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-::set\-Places (
+\begin{DoxyParamCaption}
+\item[{int}]{places}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a01331957387926db3554e72ea87366b5}
+
+
+set\-Places Changes the capacity of stadium 
+
+
+
+Definition at line 20 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a32da99b03478f37d0ab983c2934e68d8}{\index{Stadium@{Stadium}!set\-Ticket\-Price@{set\-Ticket\-Price}}
+\index{set\-Ticket\-Price@{set\-Ticket\-Price}!Stadium@{Stadium}}
+\subsubsection[{set\-Ticket\-Price}]{\setlength{\rightskip}{0pt plus 5cm}void Stadium\-::set\-Ticket\-Price (
+\begin{DoxyParamCaption}
+\item[{int}]{ticket\-\_\-price}
+\end{DoxyParamCaption}
+)}}\label{class_stadium_a32da99b03478f37d0ab983c2934e68d8}
+
+
+set\-Ticket\-Price Changes the price for one ticket 
+
+
+
+Definition at line 25 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_aff6aa9a03327fc1b663e6c54984fe6bd}{\index{Stadium@{Stadium}!validate\-Modification@{validate\-Modification}}
+\index{validate\-Modification@{validate\-Modification}!Stadium@{Stadium}}
+\subsubsection[{validate\-Modification}]{\setlength{\rightskip}{0pt plus 5cm}bool Stadium\-::validate\-Modification (
+\begin{DoxyParamCaption}
+\item[{string}]{field, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_stadium_aff6aa9a03327fc1b663e6c54984fe6bd}
+
+
+validate\-Modification Validates the field modification parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & The name of field \\
+\hline
+{\em value} & The new value of field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether this modification meets the following conditions
+\end{DoxyReturn}
+Field must be one of the following strings\-: N\-A\-M\-E, P\-L\-A\-C\-E\-S, T\-I\-C\-K\-E\-T\-\_\-\-P\-R\-I\-C\-E Value must satisfy the conditions of value of corresponding field. 
+
+Definition at line 62 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a54f137ce795722af818e63f5aa10ee1b}{\index{Stadium@{Stadium}!validate\-Name@{validate\-Name}}
+\index{validate\-Name@{validate\-Name}!Stadium@{Stadium}}
+\subsubsection[{validate\-Name}]{\setlength{\rightskip}{0pt plus 5cm}bool Stadium\-::validate\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_stadium_a54f137ce795722af818e63f5aa10ee1b}
+
+
+validate\-Name Validates name 
+
+\begin{DoxyReturn}{Returns}
+Whether the name meets the following conditions
+\end{DoxyReturn}
+First character of name must be captilized and other must be in lower case. Name must contain only letters. 
+
+Definition at line 47 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a7599de7fb2e47a9033843b3daf021b3b}{\index{Stadium@{Stadium}!validate\-Places@{validate\-Places}}
+\index{validate\-Places@{validate\-Places}!Stadium@{Stadium}}
+\subsubsection[{validate\-Places}]{\setlength{\rightskip}{0pt plus 5cm}bool Stadium\-::validate\-Places (
+\begin{DoxyParamCaption}
+\item[{int}]{places}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_stadium_a7599de7fb2e47a9033843b3daf021b3b}
+
+
+validate\-Places Validates capacity of stadium 
+
+\begin{DoxyReturn}{Returns}
+Whether the capacity meets the following conditions
+\end{DoxyReturn}
+Capacity must be greater than zero 
+
+Definition at line 52 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a838f88701c34b79d69f32ca56ad187f6}{\index{Stadium@{Stadium}!validate\-Ticket\-Price@{validate\-Ticket\-Price}}
+\index{validate\-Ticket\-Price@{validate\-Ticket\-Price}!Stadium@{Stadium}}
+\subsubsection[{validate\-Ticket\-Price}]{\setlength{\rightskip}{0pt plus 5cm}bool Stadium\-::validate\-Ticket\-Price (
+\begin{DoxyParamCaption}
+\item[{int}]{ticket\-\_\-price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_stadium_a838f88701c34b79d69f32ca56ad187f6}
+
+
+validate\-Ticket\-Price Validates ticket price 
+
+\begin{DoxyReturn}{Returns}
+Whether the ticket price meets the following conditions
+\end{DoxyReturn}
+Ticket price must be greater than zero 
+
+Definition at line 57 of file stadium.\-cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_stadium_a6950907c6c5d1a74cedc504c427e5b3f}{\index{Stadium@{Stadium}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Stadium@{Stadium}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Stadium} \&}]{stadium}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_stadium_a6950907c6c5d1a74cedc504c427e5b3f}
+
+
+operator $<$$<$ Outputs the information about object to stream 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream \\
+\hline
+{\em player} & Object for outputting \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Output stream 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file stadium.\-cpp.
+
+\hypertarget{class_stadium_a4ebb6407c6202c2c67b4a518614eaff7}{\index{Stadium@{Stadium}!operator==@{operator==}}
+\index{operator==@{operator==}!Stadium@{Stadium}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Stadium}}]{p1, }
+\item[{{\bf Stadium}}]{p2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_stadium_a4ebb6407c6202c2c67b4a518614eaff7}
+
+
+operator == Compares two \hyperlink{class_stadium}{Stadium} objects 
+
+\begin{DoxyReturn}{Returns}
+Whether two objects are equal
+\end{DoxyReturn}
+Two \hyperlink{class_stadium}{Stadium} objects are equal if they have the same name, capacity and pric for one ticket 
+
+Definition at line 87 of file stadium.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stadium_8h}{stadium.\-h}\item 
+\hyperlink{stadium_8cpp}{stadium.\-cpp}\end{DoxyCompactItemize}

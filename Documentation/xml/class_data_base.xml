@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_data_base" kind="class" prot="public">
+    <compoundname>DataBase</compoundname>
+    <includes refid="_data_base_8h" local="no">DataBase.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_base_1a3d3162b90e9fd7d7863b5ea78eb36cbd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController DataBase::_player_controll</definition>
+        <argsstring></argsstring>
+        <name>_player_controll</name>
+        <briefdescription>
+<para>_player_controll <ref refid="class_controller" kindref="compound">Controller</ref> class for players manipulations </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="206" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_base_1ac3f93244cb67a02e3bf09abcf2bc798d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_controller" kindref="compound">GameController</ref></type>
+        <definition>GameController DataBase::_game_controll</definition>
+        <argsstring></argsstring>
+        <name>_game_controll</name>
+        <briefdescription>
+<para>_game_controll <ref refid="class_controller" kindref="compound">Controller</ref> class for games manipulations </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="211" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_base_1a353c8e957da5cf781d0d0c8a33156bc7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stadium_controller" kindref="compound">StadiumController</ref></type>
+        <definition>StadiumController DataBase::_stadium_controll</definition>
+        <argsstring></argsstring>
+        <name>_stadium_controll</name>
+        <briefdescription>
+<para>_stadium_controll <ref refid="class_controller" kindref="compound">Controller</ref> class for stadiums manipulations </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="216" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_base_1a413a2628a5074fc2b89a450d03c0791f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_team_controller" kindref="compound">TeamController</ref></type>
+        <definition>TeamController DataBase::_team_controll</definition>
+        <argsstring></argsstring>
+        <name>_team_controll</name>
+        <briefdescription>
+<para>_team_controll <ref refid="class_controller" kindref="compound">Controller</ref> class for teams manipulations </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="221" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_base_1a0b3291241e49d9b9634b3de61678a477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DataBase::DataBase</definition>
+        <argsstring>(void)</argsstring>
+        <name>DataBase</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="31" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1adf40fe9249bbce059d5f2cd2258e7d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DataBase::~DataBase</definition>
+        <argsstring>(void)</argsstring>
+        <name>~DataBase</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="32" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1adb4b3e45b6999bd0dffda26a11beb4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::addPlayer</definition>
+        <argsstring>(Player)</argsstring>
+        <name>addPlayer</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <defname>player</defname>
+        </param>
+        <briefdescription>
+<para>addPlayer Adds new <ref refid="class_player" kindref="compound">Player</ref> to database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="38" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a9a11414e2bdb19b83e4c809a8d7d9ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::delPlayer</definition>
+        <argsstring>(int id)</argsstring>
+        <name>delPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>delPlayer Deletes existing <ref refid="class_player" kindref="compound">Player</ref> from database </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of player in DB </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="44" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a1a4731ade06cc1a3db9d8fdc922bb2de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::editPlayer</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>editPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>editPlayer Changes information about <ref refid="class_player" kindref="compound">Player</ref> in DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of player in DB </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to change </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="52" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a03fed8ac60602990cf664a909a264a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player * DataBase::getPlayer</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>getPlayer Searches and returns player from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of player in DB </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_player" kindref="compound">Player</ref> object</para></simplesect>
+It searches player by specified id in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="61" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ac96812e42a636dbed6f67e1dd5929583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_player" kindref="compound">Player</ref> *</type>
+        <definition>Player * DataBase::getPlayer</definition>
+        <argsstring>(string name)</argsstring>
+        <name>getPlayer</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>getPlayer Searches and returns player from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of player in DB </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_player" kindref="compound">Player</ref> object</para></simplesect>
+It searches player by specified name in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="70" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a75ff20bfd5026b449a100eb921d4782f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_player" kindref="compound">Player</ref> &gt;</type>
+        <definition>vector&lt; Player &gt; DataBase::getAllPlayers</definition>
+        <argsstring>()</argsstring>
+        <name>getAllPlayers</name>
+        <briefdescription>
+<para>getAllPlayers Returns all players from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Players list </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="76" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a9ec33a7d1b80f0a2ac1ea4bc1cae0250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::addGame</definition>
+        <argsstring>(Game)</argsstring>
+        <name>addGame</name>
+        <param>
+          <type><ref refid="class_game" kindref="compound">Game</ref></type>
+          <defname>game</defname>
+        </param>
+        <briefdescription>
+<para>addGame Adds new <ref refid="class_game" kindref="compound">Game</ref> to database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="82" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="46" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ab8c99e8127da0e91f9c781df34354e95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::delGame</definition>
+        <argsstring>(int)</argsstring>
+        <name>delGame</name>
+        <param>
+          <type>int</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+<para>delGame Deletes existing <ref refid="class_game" kindref="compound">Game</ref> from database by specified id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="88" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a34bfc02d1b00880b4e0e8649a72ced65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::editGame</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>editGame</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>editGame Changes information about <ref refid="class_game" kindref="compound">Game</ref> in DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of game in DB </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to change </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="96" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1aa8d315a9be22cdb1307bdcc9b7a2f582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * DataBase::getGame</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getGame</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>getGame Searches and returns game from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of game in DB </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_game" kindref="compound">Game</ref> object</para></simplesect>
+It searches game by specified id in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="105" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ad2a82229b013ff5a9c8c601c1dc31644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * DataBase::getGameByDate</definition>
+        <argsstring>(string date)</argsstring>
+        <name>getGameByDate</name>
+        <param>
+          <type>string</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>getGameByDate Searches and returns game from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Date of game </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_game" kindref="compound">Game</ref> object</para></simplesect>
+It searches game by specified date in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="114" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1aded9581d3a3a49f2bcef9b85d47df91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_game" kindref="compound">Game</ref> *</type>
+        <definition>Game * DataBase::getGameByOpponent</definition>
+        <argsstring>(string opponent)</argsstring>
+        <name>getGameByOpponent</name>
+        <param>
+          <type>string</type>
+          <declname>opponent</declname>
+        </param>
+        <briefdescription>
+<para>getGameByOpponent Searches and returns game from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opponent team name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_game" kindref="compound">Game</ref> object</para></simplesect>
+It searches game by specified opponent teamname in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="123" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1aefef256aaad12ee1be50641880fe02f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_game" kindref="compound">Game</ref> &gt;</type>
+        <definition>vector&lt; Game &gt; DataBase::getAllGames</definition>
+        <argsstring>()</argsstring>
+        <name>getAllGames</name>
+        <briefdescription>
+<para>getAllGames Returns the list of all games from db </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List of all games </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="129" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1af298db6d84a93e352aa9915dfbaefd4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::sortGamesByDate</definition>
+        <argsstring>()</argsstring>
+        <name>sortGamesByDate</name>
+        <briefdescription>
+<para>sortGamesByDate Sortes games by date in db </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="134" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a7ded6aadeece170243c9c65cc976704e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::sortGamesByResult</definition>
+        <argsstring>()</argsstring>
+        <name>sortGamesByResult</name>
+        <briefdescription>
+<para>sortGamesByResult Sortes game by result in db </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="139" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ab647a42c48cbaaa71446c4c6359c2594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::addStadium</definition>
+        <argsstring>(Stadium)</argsstring>
+        <name>addStadium</name>
+        <param>
+          <type><ref refid="class_stadium" kindref="compound">Stadium</ref></type>
+          <defname>stadium</defname>
+        </param>
+        <briefdescription>
+<para>addStadium Adds new <ref refid="class_stadium" kindref="compound">Stadium</ref> to database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="145" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a169759f8c5addb82ce8fbf5c33cfe4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::delStadium</definition>
+        <argsstring>(int id)</argsstring>
+        <name>delStadium</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>delStadium Deletes existing <ref refid="class_stadium" kindref="compound">Stadium</ref> from database </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of stadium to delete </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="151" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ab245fb2247cf98e0fccfaf90d4f1e665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::editStadium</definition>
+        <argsstring>(int id, string field, string value)</argsstring>
+        <name>editStadium</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>editStadium Changes information about <ref refid="class_stadium" kindref="compound">Stadium</ref> in DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of stadium in DB </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Field to change </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="159" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ac74f70e78835fe65bc511996cdec1271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stadium" kindref="compound">Stadium</ref> *</type>
+        <definition>Stadium * DataBase::getStadium</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getStadium</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>getStadium Searches and returns stadium from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of stadium in DB </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_stadium" kindref="compound">Stadium</ref> object</para></simplesect>
+It searches stadium by specified id in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="168" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a6b9befc23eec89afb2358edba78f8d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stadium" kindref="compound">Stadium</ref> *</type>
+        <definition>Stadium * DataBase::getStadium</definition>
+        <argsstring>(string name)</argsstring>
+        <name>getStadium</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>getStadium Searches and returns stadium from DB </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of stadium </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to <ref refid="class_stadium" kindref="compound">Stadium</ref> object</para></simplesect>
+It searches stadium by specified name in DB </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="177" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1abbe9017e9a0b50e670e6a34114d34eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_stadium" kindref="compound">Stadium</ref> &gt;</type>
+        <definition>vector&lt; Stadium &gt; DataBase::getAllStadiums</definition>
+        <argsstring>()</argsstring>
+        <name>getAllStadiums</name>
+        <briefdescription>
+<para>getAllStadiums Returns the list of all stadiums from db </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List of all stadiums </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="183" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a334b5c4d7bb70a95a1c21e2370c492fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::saveToFile</definition>
+        <argsstring>()</argsstring>
+        <name>saveToFile</name>
+        <briefdescription>
+<para>saveToFile Serializes the whole database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="189" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="138" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1aa3daa078a985299d3a9ecbee1bdc9f2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::loadFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadFromFile</name>
+        <briefdescription>
+<para>loadFromFile Deserializes database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="194" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="162" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a159f1697e0970519da41ef52051c3194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string DataBase::getDBFileName</definition>
+        <argsstring>()</argsstring>
+        <name>getDBFileName</name>
+        <briefdescription>
+<para>getDBFileName Returns database name </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>DB name </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="200" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.cpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_data_base" kindref="compound">DataBase</ref> class Imitates the work of <ref refid="class_data_base" kindref="compound">DataBase</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class contains methods for players, teams, stadiums and games managing </para>    </detaileddescription>
+    <location file="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" line="29" column="1" bodyfile="/home/strel/GitHub/CourseWorkFromHell/CourseWork/DataBase.h" bodystart="28" bodyend="222"/>
+    <listofallmembers>
+      <member refid="class_data_base_1ac3f93244cb67a02e3bf09abcf2bc798d" prot="private" virt="non-virtual"><scope>DataBase</scope><name>_game_controll</name></member>
+      <member refid="class_data_base_1a3d3162b90e9fd7d7863b5ea78eb36cbd" prot="private" virt="non-virtual"><scope>DataBase</scope><name>_player_controll</name></member>
+      <member refid="class_data_base_1a353c8e957da5cf781d0d0c8a33156bc7" prot="private" virt="non-virtual"><scope>DataBase</scope><name>_stadium_controll</name></member>
+      <member refid="class_data_base_1a413a2628a5074fc2b89a450d03c0791f" prot="private" virt="non-virtual"><scope>DataBase</scope><name>_team_controll</name></member>
+      <member refid="class_data_base_1a9ec33a7d1b80f0a2ac1ea4bc1cae0250" prot="public" virt="non-virtual"><scope>DataBase</scope><name>addGame</name></member>
+      <member refid="class_data_base_1adb4b3e45b6999bd0dffda26a11beb4f9" prot="public" virt="non-virtual"><scope>DataBase</scope><name>addPlayer</name></member>
+      <member refid="class_data_base_1ab647a42c48cbaaa71446c4c6359c2594" prot="public" virt="non-virtual"><scope>DataBase</scope><name>addStadium</name></member>
+      <member refid="class_data_base_1a0b3291241e49d9b9634b3de61678a477" prot="public" virt="non-virtual"><scope>DataBase</scope><name>DataBase</name></member>
+      <member refid="class_data_base_1ab8c99e8127da0e91f9c781df34354e95" prot="public" virt="non-virtual"><scope>DataBase</scope><name>delGame</name></member>
+      <member refid="class_data_base_1a9a11414e2bdb19b83e4c809a8d7d9ea2" prot="public" virt="non-virtual"><scope>DataBase</scope><name>delPlayer</name></member>
+      <member refid="class_data_base_1a169759f8c5addb82ce8fbf5c33cfe4ac" prot="public" virt="non-virtual"><scope>DataBase</scope><name>delStadium</name></member>
+      <member refid="class_data_base_1a34bfc02d1b00880b4e0e8649a72ced65" prot="public" virt="non-virtual"><scope>DataBase</scope><name>editGame</name></member>
+      <member refid="class_data_base_1a1a4731ade06cc1a3db9d8fdc922bb2de" prot="public" virt="non-virtual"><scope>DataBase</scope><name>editPlayer</name></member>
+      <member refid="class_data_base_1ab245fb2247cf98e0fccfaf90d4f1e665" prot="public" virt="non-virtual"><scope>DataBase</scope><name>editStadium</name></member>
+      <member refid="class_data_base_1aefef256aaad12ee1be50641880fe02f3" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getAllGames</name></member>
+      <member refid="class_data_base_1a75ff20bfd5026b449a100eb921d4782f" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getAllPlayers</name></member>
+      <member refid="class_data_base_1abbe9017e9a0b50e670e6a34114d34eaa" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getAllStadiums</name></member>
+      <member refid="class_data_base_1a159f1697e0970519da41ef52051c3194" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getDBFileName</name></member>
+      <member refid="class_data_base_1aa8d315a9be22cdb1307bdcc9b7a2f582" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getGame</name></member>
+      <member refid="class_data_base_1ad2a82229b013ff5a9c8c601c1dc31644" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getGameByDate</name></member>
+      <member refid="class_data_base_1aded9581d3a3a49f2bcef9b85d47df91a" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getGameByOpponent</name></member>
+      <member refid="class_data_base_1a03fed8ac60602990cf664a909a264a2a" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getPlayer</name></member>
+      <member refid="class_data_base_1ac96812e42a636dbed6f67e1dd5929583" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getPlayer</name></member>
+      <member refid="class_data_base_1ac74f70e78835fe65bc511996cdec1271" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getStadium</name></member>
+      <member refid="class_data_base_1a6b9befc23eec89afb2358edba78f8d5b" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getStadium</name></member>
+      <member refid="class_data_base_1aa3daa078a985299d3a9ecbee1bdc9f2d" prot="public" virt="non-virtual"><scope>DataBase</scope><name>loadFromFile</name></member>
+      <member refid="class_data_base_1a334b5c4d7bb70a95a1c21e2370c492fa" prot="public" virt="non-virtual"><scope>DataBase</scope><name>saveToFile</name></member>
+      <member refid="class_data_base_1af298db6d84a93e352aa9915dfbaefd4a" prot="public" virt="non-virtual"><scope>DataBase</scope><name>sortGamesByDate</name></member>
+      <member refid="class_data_base_1a7ded6aadeece170243c9c65cc976704e" prot="public" virt="non-virtual"><scope>DataBase</scope><name>sortGamesByResult</name></member>
+      <member refid="class_data_base_1adf40fe9249bbce059d5f2cd2258e7d6f" prot="public" virt="non-virtual"><scope>DataBase</scope><name>~DataBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
